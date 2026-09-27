@@ -1,7 +1,7 @@
 {
   "notes": "Permanent archive of NAAIM Exposure Index readings collected from the public NAAIM table. The monitor shows only the last 12 months. Do not delete rows when they age off the table.",
   "source": "https://index.naaim.org/embeddable/table",
-  "updatedAt": "2026-09-27T19:58:06.377Z",
+  "updatedAt": "2026-09-27T21:10:25.491Z",
   "readings": [
     {
       "date": "2023-12-27",

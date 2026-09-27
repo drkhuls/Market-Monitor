@@ -1,7 +1,7 @@
 {
   "notes": "Permanent archive of the AAII Investor Sentiment Survey. Readings come from the official sentiment.xls file on AAII.com. The chart block is the weekly bar chart copied from the survey page. Do not delete old weeks.",
   "source": "https://www.aaii.com/files/surveys/sentiment.xls",
-  "updatedAt": "2026-09-27T19:58:06.110Z",
+  "updatedAt": "2026-09-27T21:10:25.196Z",
   "readings": [
     {
       "date": "1987-07-24",
