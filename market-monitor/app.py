@@ -450,7 +450,7 @@ def render_sidebar(watchlist: list[str]) -> list[str]:
     st.sidebar.caption("Add, replace, or remove tickers. Changes are saved locally.")
 
     quotes = fetch_watchlist_quotes(tuple(watchlist))
-    st.sidebar.dataframe(style_watchlist(quotes), use_container_width=True, height=320)
+    st.sidebar.dataframe(style_watchlist(quotes), width="stretch", height=320)
 
     st.sidebar.subheader("Add ticker")
     with st.sidebar.form("add_ticker_form", clear_on_submit=True):
@@ -729,7 +729,7 @@ def main() -> None:
         with column:
             try:
                 frame = fetch_history(symbol, period)
-                st.plotly_chart(tradingview_candles(frame, symbol), use_container_width=True)
+                st.plotly_chart(tradingview_candles(frame, symbol), width="stretch")
             except Exception as exc:
                 st.error(f"Could not draw {symbol}: {exc}")
 
