@@ -1,0 +1,155 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-ink: #14202b;
+  --color-muted: #5c6b7a;
+  --color-line: #e1e6ee;
+  --color-up: #0e8a3d;
+  --color-down: #d01212;
+  --font-sans: var(--font-plex);
+}
+
+body {
+  background: #eef2f6;
+  color: var(--color-ink);
+  font-family: var(--font-plex), "IBM Plex Sans", sans-serif;
+}
+
+.aaii {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1a1a1a;
+}
+
+.aaii-card {
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid rgba(14, 42, 67, 0.12);
+  padding: 1.3rem;
+  margin-bottom: 1.3rem;
+  box-shadow: 0 1px 2px rgba(20, 32, 43, 0.04);
+}
+
+.aaii-card > h3 {
+  font-size: 12px;
+  font-weight: 700;
+  color: #5f6b7a;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 0 0 0.9rem;
+}
+
+.aaii-chart {
+  overflow-x: auto;
+}
+
+.aaii-week {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.aaii-week-head {
+  align-items: flex-end;
+}
+
+.aaii-date {
+  display: flex;
+  align-items: center;
+  width: 168px;
+  flex-shrink: 0;
+  font-weight: 700;
+  font-size: 14px;
+  color: #1a1a1a;
+  line-height: 1.2;
+}
+
+.aaii-datebars {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  min-width: 0;
+}
+
+.aaii-bars {
+  display: flex;
+  flex: 1;
+  min-width: 0;
+  align-items: stretch;
+}
+
+.aaii-bar {
+  padding: 0.75rem;
+  color: #fff;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.aaii-bull {
+  background: green;
+}
+
+.aaii-neut {
+  background: #999;
+}
+
+.aaii-bear {
+  background: red;
+}
+
+.aaii-legend {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: -2px;
+}
+
+.aaii-votes {
+  flex: 1;
+  min-width: 0;
+  font-size: 14px;
+  color: #1a1a1a;
+}
+
+.aaii-votes p {
+  margin: 0 0 0.5rem;
+  font-weight: 600;
+}
+
+.aaii-key {
+  margin-right: 14px;
+  white-space: nowrap;
+}
+
+.aaii-ending {
+  display: flex;
+  align-items: center;
+  margin-left: 0.5rem;
+  font-size: 14px;
+  color: #5f6b7a;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+@media (max-width: 720px) {
+  .aaii-week,
+  .aaii-datebars {
+    min-width: 560px;
+  }
+
+  .aaii-date {
+    width: 132px;
+    font-size: 13px;
+  }
+
+  .aaii-bar {
+    font-size: 12px;
+    padding: 0.65rem 0.4rem;
+  }
+}
