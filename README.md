@@ -1,8 +1,18 @@
 # Market Monitor
 
-SPY and QQQ, the NAAIM Exposure Index, and the AAII Investor Sentiment Survey on one desk.
+The full monitor is the Streamlit app in `market-monitor/`. It keeps the original watchlist, EMA trend signals, and NAAIM badge, and adds the one-year NAAIM table, the AAII survey bars, and charts that open on three months.
 
-Charts open on the last three months, with empty space to the right of the latest candle so the most recent price is not jammed against the edge. The AAII block uses the same green, gray, and red bars as the survey page on AAII.com. The NAAIM table shows the last 12 months in a compact type size. Every week we have collected stays in a file after it ages off that table.
+```bash
+cd market-monitor
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+See `market-monitor/README.md` for what is stored and how the Thursday AAII check works.
+
+A second desk in this folder shows SPY, QQQ, NAAIM, and AAII without the watchlist. Charts open on the last three months, with empty space to the right of the latest candle. The AAII block uses the same green, gray, and red bars as the survey page on AAII.com. The NAAIM table shows the last 12 months. Every week that has been collected stays in a file after it ages off that table.
 
 ## Run
 
