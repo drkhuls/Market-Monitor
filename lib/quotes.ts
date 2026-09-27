@@ -10,9 +10,10 @@ type YahooChart = {
     result?: Array<{
       meta?: {
         regularMarketPrice?: number;
-        previousClose?: number;
-        chartPreviousClose?: number;
         regularMarketTime?: number;
+        regularMarketChangePercent?: number;
+        fulldayChange?: number;
+        fulldayChangePercent?: number;
       };
       timestamp?: number[];
       indicators?: {
@@ -71,13 +72,17 @@ export async function fetchQuote(symbol: string): Promise<Quote> {
   }
   if (candles.length < 2) throw new Error(`Not enough candles for ${symbol}`);
 
-  const price = result.meta?.regularMarketPrice ?? candles[candles.length - 1].close;
-  const previousClose =
-    result.meta?.previousClose ??
-    result.meta?.chartPreviousClose ??
-    candles[candles.length - 2].close;
-  const change = price - previousClose;
-  const changePercent = previousClose ? (change / previousClose) * 100 : 0;
+  const last = candles[candles.length - 1];
+  const prior = candles[candles.length - 2];
+  const price = result.meta?.regularMarketPrice ?? last.close;
+  const change =
+    typeof result.meta?.fulldayChange === "number" ? result.meta.fulldayChange : price - prior.close;
+  const changePercent =
+    typeof result.meta?.regularMarketChangePercent === "number"
+      ? result.meta.regularMarketChangePercent
+      : prior.close
+        ? ((price - prior.close) / prior.close) * 100
+        : 0;
   const asOf = result.meta?.regularMarketTime
     ? new Date(result.meta.regularMarketTime * 1000).toISOString()
     : new Date().toISOString();
