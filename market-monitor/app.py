@@ -11,6 +11,7 @@ import streamlit as st
 import yfinance as yf
 
 from aaii import aaii_view, ensure_poller, refresh_aaii
+from breadth import load_breadth
 from naaim import (
     STOCKCHARTS_CHART as STOCKCHARTS_CHART_URL,
     backfill_naaim_history,
@@ -466,6 +467,86 @@ def inject_css() -> None:
                 }
                 .naaim-scroll { max-height: 50vh; }
             }
+            .breadth-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 16px;
+                margin: 8px 0 18px;
+            }
+            .breadth-card {
+                background: #fff;
+                border: 1px solid #e5e7eb;
+                border-radius: 12px;
+                padding: 16px 18px;
+            }
+            .breadth-card h3 {
+                margin: 0;
+                font-size: 1.05rem;
+                font-weight: 650;
+            }
+            .breadth-note { color: #6b7280; font-size: 0.8rem; margin: 6px 0 12px; }
+            .ma-row { margin-bottom: 12px; }
+            .ma-head {
+                display: flex;
+                justify-content: space-between;
+                font-size: 0.95rem;
+                margin-bottom: 4px;
+            }
+            .ma-value { font-variant-numeric: tabular-nums; font-weight: 700; }
+            .ma-value.washed { color: #1d4ed8; }
+            .ma-value.stretched { color: #b91c1c; }
+            .ma-track {
+                height: 10px;
+                background: #eef2f7;
+                border-radius: 999px;
+                overflow: hidden;
+            }
+            .ma-fill { height: 100%; background: #3b82f6; border-radius: 999px; }
+            .hl-chart {
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                gap: 8px;
+                align-items: end;
+            }
+            .hl-plot {
+                height: 150px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            .hl-up, .hl-down {
+                width: 70%;
+                margin: 0 auto;
+                min-height: 2px;
+            }
+            .hl-up { background: #2dd4bf; border-radius: 4px 4px 0 0; }
+            .hl-down { background: #fb7185; border-radius: 0 0 4px 4px; }
+            .hl-axis { height: 1px; background: #d1d5db; }
+            .hl-count {
+                text-align: center;
+                font-size: 12px;
+                font-variant-numeric: tabular-nums;
+                line-height: 1.2;
+            }
+            .hl-count.up { color: #0f766e; }
+            .hl-count.down { color: #be123c; }
+            .hl-label { text-align: center; font-weight: 700; margin-top: 4px; }
+            .hl-net { text-align: center; font-size: 12px; color: #6b7280; }
+            .hl-legend { margin-top: 10px; font-size: 12px; color: #4b5563; }
+            .hl-swatch {
+                display: inline-block;
+                width: 10px;
+                height: 10px;
+                border-radius: 2px;
+                margin: 0 4px 0 10px;
+                vertical-align: -1px;
+            }
+            .hl-swatch.up { background: #2dd4bf; margin-left: 0; }
+            .hl-swatch.down { background: #fb7185; }
+            @media (max-width: 768px) {
+                .breadth-grid { grid-template-columns: 1fr; }
+                .hl-plot { height: 120px; }
+            }
         </style>
         """,
         unsafe_allow_html=True,
@@ -591,6 +672,72 @@ def render_sidebar(watchlist: list[str]) -> list[str]:
         st.rerun()
 
     return watchlist
+
+
+@st.cache_data(ttl=900, show_spinner=False)
+def cached_breadth() -> dict:
+    return load_breadth()
+
+
+def render_breadth() -> None:
+    try:
+        payload = cached_breadth()
+    except Exception as exc:
+        st.warning(f"Breadth data is unavailable right now: {exc}")
+        return
+    averages = payload["averages"]
+    highs = payload["highsLows"]
+    scale = max(max(row["highs"], row["lows"]) for row in highs) or 1
+    columns = []
+    for row in highs:
+        up = max(2, round(row["highs"] / scale * 70))
+        down = max(2, round(row["lows"] / scale * 70))
+        net = row["net"]
+        net_text = f"{net:+d}"
+        columns.append(
+            "<div>"
+            f"<div class='hl-count up'>{row['highs']}</div>"
+            "<div class='hl-plot'>"
+            f"<div class='hl-up' style='height:{up}px'></div>"
+            "<div class='hl-axis'></div>"
+            f"<div class='hl-down' style='height:{down}px'></div>"
+            "</div>"
+            f"<div class='hl-count down'>{row['lows']}</div>"
+            f"<div class='hl-label'>{html.escape(row['period'])}</div>"
+            f"<div class='hl-net'>net {net_text}</div>"
+            "</div>"
+        )
+    ma_rows = []
+    for row in averages:
+        ma_rows.append(
+            "<div class='ma-row'>"
+            "<div class='ma-head'>"
+            f"<span>{html.escape(row['label'])}</span>"
+            f"<span class='ma-value {html.escape(row['tone'])}'>{row['value']:.0f}%</span>"
+            "</div>"
+            f"<div class='ma-track'><div class='ma-fill' style='width:{min(row['value'], 100):.1f}%'></div></div>"
+            "</div>"
+        )
+    st.markdown(
+        f"""
+        <div class="breadth-grid">
+          <div class="breadth-card">
+            <h3>Above moving averages</h3>
+            <div class="breadth-note">{html.escape(payload.get("note") or "")}</div>
+            {"".join(ma_rows)}
+          </div>
+          <div class="breadth-card">
+            <h3>New highs and lows</h3>
+            <div class="breadth-note">S&amp;P 500 stocks at a new high or new low for each window. Not a calendar.</div>
+            <div class="hl-chart">{"".join(columns)}</div>
+            <div class="hl-legend"><span class="hl-swatch up"></span>New highs<span class="hl-swatch down"></span>New lows</div>
+          </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+    if payload.get("error"):
+        st.caption(f"Showing the last saved breadth reading. Latest fetch note: {payload['error']}")
 
 
 def render_naaim() -> None:
@@ -756,24 +903,29 @@ def main() -> None:
     render_sidebar(watchlist)
 
     st.title("Market Monitor")
-    st.caption("Daily trend check for SPY and QQQ, plus NAAIM, AAII sentiment, and a live watchlist.")
-
-    period_label = st.radio("Chart range", list(CHART_PERIODS.keys()), index=1, horizontal=True)
-    period = CHART_PERIODS[period_label]
+    st.caption("Daily trend check for SPY and QQQ, plus breadth, NAAIM, AAII sentiment, and a live watchlist.")
 
     st.subheader("Trend signals")
     cols = st.columns(2)
     for column, (symbol, title) in zip(cols, TREND_SYMBOLS):
         with column:
             try:
-                frame = fetch_history(symbol, period)
+                frame = fetch_history(symbol, "3mo")
                 signal_card(title, frame)
             except Exception as exc:
                 st.error(f"Could not load {title} ({symbol}): {exc}")
 
+    st.subheader("Market breadth")
+    render_breadth()
+
+    st.subheader("NAAIM exposure")
+    render_naaim()
+    render_aaii()
+
     st.subheader("SPY and QQQ charts")
     st.caption("White TradingView-style candles with 10 EMA in red and 20 EMA in blue. Charts open on 3 months.")
-
+    period_label = st.radio("Chart range", list(CHART_PERIODS.keys()), index=1, horizontal=True)
+    period = CHART_PERIODS[period_label]
     left, right = st.columns(2)
     for column, symbol in zip((left, right), ("SPY", "QQQ")):
         with column:
@@ -782,10 +934,6 @@ def main() -> None:
                 st.plotly_chart(tradingview_candles(frame, symbol), width="stretch")
             except Exception as exc:
                 st.error(f"Could not draw {symbol}: {exc}")
-
-    st.subheader("NAAIM exposure")
-    render_naaim()
-    render_aaii()
 
 
 if __name__ == "__main__":
