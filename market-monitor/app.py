@@ -410,6 +410,12 @@ def inject_css() -> None:
             .aaii-votes { flex: 1; min-width: 0; font-size: 14px; }
             .aaii-votes p { margin: 0 0 0.5rem; font-weight: 600; }
             .aaii-key { margin-right: 14px; white-space: nowrap; }
+            .aaii-track {
+                display: flex;
+                flex: 1;
+                align-items: center;
+                min-width: 0;
+            }
             .aaii-ending {
                 display: flex;
                 align-items: center;
@@ -417,6 +423,48 @@ def inject_css() -> None:
                 font-size: 14px;
                 color: #5f6b7a;
                 white-space: nowrap;
+            }
+            @media (max-width: 768px) {
+                .aaii-card { padding: 0.85rem 0.75rem; }
+                .aaii-chart { overflow-x: auto; }
+                .aaii-week-head {
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: 0.35rem;
+                }
+                .aaii-datebars {
+                    flex-direction: column;
+                    align-items: stretch;
+                    gap: 0.3rem;
+                }
+                .aaii-date {
+                    width: auto;
+                    font-size: 13px;
+                }
+                .aaii-track {
+                    flex-direction: column;
+                    align-items: stretch;
+                    width: 100%;
+                }
+                .aaii-bars { width: 100%; }
+                .aaii-bar {
+                    flex-shrink: 0;
+                    min-width: 2.8rem;
+                    padding: 0.5rem 0.12rem;
+                    font-size: 11px;
+                    justify-content: center;
+                }
+                .aaii-votes { width: 100%; }
+                .aaii-key {
+                    display: inline-flex;
+                    align-items: center;
+                    margin: 0 10px 4px 0;
+                }
+                .aaii-ending {
+                    margin: 0.3rem 0 0;
+                    white-space: normal;
+                }
+                .naaim-scroll { max-height: 50vh; }
             }
         </style>
         """,
@@ -591,20 +639,21 @@ def render_naaim_table() -> None:
             f"<td class='{tone}'>{change_html}</td>"
             "</tr>"
         )
-    st.markdown(
-        f"""
-        <div class="naaim-scroll">
-            <table class="naaim-table">
-                <thead><tr><th>Week</th><th>Exposure</th><th>Change</th></tr></thead>
-                <tbody>{"".join(body)}</tbody>
-            </table>
-        </div>
-        <div class="signal-meta" style="margin-top:6px;">
-            Last 12 months · {len(rows)} weeks on screen · older weeks stay in the archive
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
+    with st.expander(f"Weekly history · {len(rows)} weeks", expanded=False):
+        st.markdown(
+            f"""
+            <div class="naaim-scroll">
+                <table class="naaim-table">
+                    <thead><tr><th>Week</th><th>Exposure</th><th>Change</th></tr></thead>
+                    <tbody>{"".join(body)}</tbody>
+                </table>
+            </div>
+            <div class="signal-meta" style="margin-top:6px;">
+                Last 12 months · {len(rows)} weeks · older weeks stay in the archive
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
 
 
 def _pct1(value: float) -> str:
@@ -641,9 +690,10 @@ def render_aaii() -> None:
     ):
         item = highs[key]
         high_rows.append(
-            "<div class='aaii-week'><div class='aaii-datebars'>"
-            f"<div class='aaii-date'>{label}</div><div class='aaii-bars'>"
-            f"{_bar(tone, item['value'])}"
+            "<div class='aaii-week aaii-high'><div class='aaii-datebars'>"
+            f"<div class='aaii-date'>{label}</div>"
+            "<div class='aaii-track'>"
+            f"<div class='aaii-bars'>{_bar(tone, item['value'])}</div>"
             f"<div class='aaii-ending'>Week Ending {html.escape(str(item['weekEnding']))}</div>"
             "</div></div></div>"
         )
