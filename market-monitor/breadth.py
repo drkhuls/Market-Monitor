@@ -56,11 +56,9 @@ _GOOD_FRIDAY = {
 
 
 def ma_bar_color(value: float) -> str:
-    """Blue from 25% through 75%, black above 75%, red below 25%."""
-    if value < 25:
+    """Blue from 25% through 75%. Red below 25% and above 75%."""
+    if value < 25 or value > 75:
         return "#dc2626"
-    if value > 75:
-        return "#111827"
     return "#3b82f6"
 
 

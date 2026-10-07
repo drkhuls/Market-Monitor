@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-10-07T04:20:02.381737+00:00",
+  "updatedAt": "2026-10-07T04:45:36.902892+00:00",
   "averages": [
     {
       "label": "5-day",
       "value": 75.1,
-      "color": "#111827",
+      "color": "#dc2626",
       "symbol": "INDEX:S5FD"
     },
     {

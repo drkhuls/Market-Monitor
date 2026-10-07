@@ -11,7 +11,7 @@ import streamlit as st
 import yfinance as yf
 
 from aaii import aaii_view, ensure_poller, refresh_aaii
-from breadth import calendar_days, holiday_set, load_breadth, load_net_highs
+from breadth import calendar_days, holiday_set, load_breadth, load_net_highs, ma_bar_color
 from naaim import (
     STOCKCHARTS_CHART as STOCKCHARTS_CHART_URL,
     backfill_naaim_history,
@@ -548,17 +548,19 @@ def inject_css() -> None:
                 color: #111827;
             }
             .sector-board {
-                background: #151c27;
+                background: #fff;
+                border: 1px solid #e5e7eb;
                 border-radius: 12px;
                 padding: 18px 18px 8px;
                 margin: 8px 0 18px;
-                color: #f8fafc;
+                color: #111827;
             }
             .sector-board h3 {
                 margin: 8px 0 12px;
                 font-size: 15px;
                 letter-spacing: 0.04em;
                 font-weight: 750;
+                color: #111827;
             }
             .sector-block + .sector-block { margin-top: 22px; }
             .sector-line {
@@ -568,7 +570,7 @@ def inject_css() -> None:
                 gap: 8px;
                 margin: 5px 0;
             }
-            .sector-name { font-size: 13px; color: #e5e7eb; }
+            .sector-name { font-size: 13px; color: #111827; }
             .sector-plot { position: relative; height: 18px; }
             .sector-bar {
                 position: absolute;
@@ -583,7 +585,7 @@ def inject_css() -> None:
                 top: 0;
                 font-size: 12px;
                 line-height: 18px;
-                color: #f1f5f9;
+                color: #111827;
                 font-variant-numeric: tabular-nums;
                 white-space: nowrap;
             }
@@ -591,7 +593,7 @@ def inject_css() -> None:
                 display: flex;
                 justify-content: space-between;
                 margin: 4px 0 0 176px;
-                color: #94a3b8;
+                color: #6b7280;
                 font-size: 11px;
             }
             .st-key-hl_today button {
@@ -789,7 +791,7 @@ def render_breadth() -> None:
     if payload:
         ma_rows = []
         for row in payload["averages"]:
-            color = row.get("color") or "#3b82f6"
+            color = ma_bar_color(float(row["value"]))
             ma_rows.append(
                 "<div class='ma-row'>"
                 "<div class='ma-head'>"
@@ -905,14 +907,14 @@ def render_sectors() -> None:
         rows = []
         for row in period["rows"]:
             change = float(row["change"])
-            width = min(86.0, max(0.8, abs(change) / scale * 86.0))
+            width = min(78.0, max(0.8, abs(change) / scale * 78.0))
             color = _sector_color(change, scale)
             rows.append(
                 "<div class='sector-line'>"
                 f"<div class='sector-name'>{html.escape(row['name'])}</div>"
                 "<div class='sector-plot'>"
                 f"<div class='sector-bar' style='width:{width:.1f}%;background:{color}'></div>"
-                f"<div class='sector-val' style='left:{width + 1.2:.1f}%'>{change:+.2f}</div>"
+                f"<div class='sector-val' style='left:{width + 1.2:.1f}%'>{change:+.2f}%</div>"
                 "</div>"
                 "</div>"
             )

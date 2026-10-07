@@ -4,7 +4,7 @@ Daily trend check for SPY and QQQ, a live watchlist, market breadth, industry le
 
 Prices for SPY, QQQ, the watchlist, and the sector ETFs come from Yahoo Finance. The latest daily bar is the current session, so the 1-day industry chart moves through the day. Yahoo is usually about 15 minutes behind the tape.
 
-The percent of S&P 500 stocks above the 5, 20, 50, and 200 day averages comes from TradingView. Bars are blue from 25% through 75%, black above 75%, and red below 25%.
+The percent of S&P 500 stocks above the 5, 20, 50, and 200 day averages comes from TradingView. Bars are blue from 25% through 75%, and red below 25% or above 75%.
 
 The calendar is US net new 52-week highs: stocks at a 52-week high minus stocks at a 52-week low. Positive days are green and negative days are red. Market holidays on weekdays are marked closed. Every session stays in `data/highs-lows.json`.
 
