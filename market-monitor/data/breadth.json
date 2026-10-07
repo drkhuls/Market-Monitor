@@ -1,56 +1,29 @@
 {
-  "updatedAt": "2026-10-06T05:31:03.903984+00:00",
+  "updatedAt": "2026-10-07T04:20:02.381737+00:00",
   "averages": [
     {
       "label": "5-day",
-      "value": 68.0,
-      "tone": "mixed",
+      "value": 75.1,
+      "color": "#111827",
       "symbol": "INDEX:S5FD"
     },
     {
       "label": "20-day",
-      "value": 34.8,
-      "tone": "mixed",
+      "value": 43.4,
+      "color": "#3b82f6",
       "symbol": "INDEX:S5TW"
     },
     {
       "label": "50-day",
-      "value": 26.8,
-      "tone": "washed",
+      "value": 29.5,
+      "color": "#3b82f6",
       "symbol": "INDEX:S5FI"
     },
     {
       "label": "200-day",
-      "value": 43.5,
-      "tone": "mixed",
+      "value": 46.8,
+      "color": "#3b82f6",
       "symbol": "INDEX:S5TH"
     }
-  ],
-  "highsLows": [
-    {
-      "period": "5D",
-      "highs": 139,
-      "lows": 105,
-      "net": 34
-    },
-    {
-      "period": "1M",
-      "highs": 40,
-      "lows": 79,
-      "net": -39
-    },
-    {
-      "period": "3M",
-      "highs": 16,
-      "lows": 54,
-      "net": -38
-    },
-    {
-      "period": "1Y",
-      "highs": 13,
-      "lows": 20,
-      "net": -7
-    }
-  ],
-  "note": "S&P 500. A 10-day breadth index is not published, so the short window is the 5-day and 20-day readings. Under 30% is washed out. Over 70% is stretched."
+  ]
 }

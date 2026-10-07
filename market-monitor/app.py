@@ -11,7 +11,7 @@ import streamlit as st
 import yfinance as yf
 
 from aaii import aaii_view, ensure_poller, refresh_aaii
-from breadth import load_breadth
+from breadth import calendar_days, holiday_set, load_breadth, load_net_highs
 from naaim import (
     STOCKCHARTS_CHART as STOCKCHARTS_CHART_URL,
     backfill_naaim_history,
@@ -21,6 +21,7 @@ from naaim import (
     refresh_sentiment,
     save_sentiment_reading,
 )
+from sectors import load_sectors
 
 DATA_DIR = Path(__file__).resolve().parent / "data"
 WATCHLIST_PATH = DATA_DIR / "watchlist.json"
@@ -467,24 +468,24 @@ def inject_css() -> None:
                 }
                 .naaim-scroll { max-height: 50vh; }
             }
-            .breadth-grid {
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                gap: 16px;
-                margin: 8px 0 18px;
-            }
-            .breadth-card {
+            .breadth-card, .cal-card {
                 background: #fff;
                 border: 1px solid #e5e7eb;
                 border-radius: 12px;
                 padding: 16px 18px;
+                margin: 8px 0 16px;
             }
-            .breadth-card h3 {
+            .breadth-card { max-width: 640px; }
+            .breadth-card h3, .cal-title {
                 margin: 0;
-                font-size: 1.05rem;
-                font-weight: 650;
+                font-size: 1.15rem;
+                font-weight: 700;
             }
-            .breadth-note { color: #6b7280; font-size: 0.8rem; margin: 6px 0 12px; }
+            .cal-kicker {
+                color: #6b7280;
+                font-size: 0.8rem;
+                margin: 4px 0 12px;
+            }
             .ma-row { margin-bottom: 12px; }
             .ma-head {
                 display: flex;
@@ -493,59 +494,122 @@ def inject_css() -> None:
                 margin-bottom: 4px;
             }
             .ma-value { font-variant-numeric: tabular-nums; font-weight: 700; }
-            .ma-value.washed { color: #1d4ed8; }
-            .ma-value.stretched { color: #b91c1c; }
             .ma-track {
                 height: 10px;
                 background: #eef2f7;
                 border-radius: 999px;
                 overflow: hidden;
             }
-            .ma-fill { height: 100%; background: #3b82f6; border-radius: 999px; }
-            .hl-chart {
+            .ma-fill { height: 100%; border-radius: 999px; }
+            .cal-grid {
                 display: grid;
-                grid-template-columns: repeat(4, 1fr);
-                gap: 8px;
-                align-items: end;
+                grid-template-columns: repeat(7, 1fr);
+                border-top: 1px solid #e5e7eb;
+                border-left: 1px solid #e5e7eb;
             }
-            .hl-plot {
-                height: 150px;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
+            .cal-dow, .cal-cell {
+                border-right: 1px solid #e5e7eb;
+                border-bottom: 1px solid #e5e7eb;
+                min-width: 0;
             }
-            .hl-up, .hl-down {
-                width: 70%;
-                margin: 0 auto;
-                min-height: 2px;
-            }
-            .hl-up { background: #2dd4bf; border-radius: 4px 4px 0 0; }
-            .hl-down { background: #fb7185; border-radius: 0 0 4px 4px; }
-            .hl-axis { height: 1px; background: #d1d5db; }
-            .hl-count {
+            .cal-dow {
+                padding: 8px 6px;
                 text-align: center;
-                font-size: 12px;
+                color: #9ca3af;
+                font-size: 13px;
+                background: #fff;
+            }
+            .cal-dow.weekend, .cal-cell.weekend { background: #f3f4f6; }
+            .cal-dow.sat, .cal-cell.sat { border-left: 2px solid #111827; }
+            .cal-cell {
+                min-height: 78px;
+                padding: 6px 8px 8px;
+                position: relative;
+            }
+            .cal-cell.today { box-shadow: inset 0 0 0 2px #2563eb; }
+            .cal-day { color: #6b7280; font-size: 13px; }
+            .cal-net {
+                margin-top: 14px;
+                text-align: center;
+                font-size: 18px;
+                font-weight: 650;
                 font-variant-numeric: tabular-nums;
-                line-height: 1.2;
+                line-height: 1.1;
             }
-            .hl-count.up { color: #0f766e; }
-            .hl-count.down { color: #be123c; }
-            .hl-label { text-align: center; font-weight: 700; margin-top: 4px; }
-            .hl-net { text-align: center; font-size: 12px; color: #6b7280; }
-            .hl-legend { margin-top: 10px; font-size: 12px; color: #4b5563; }
-            .hl-swatch {
-                display: inline-block;
-                width: 10px;
-                height: 10px;
+            .cal-net.pos { color: #15803d; }
+            .cal-net.neg { color: #dc2626; }
+            .cal-net.flat { color: #4b5563; }
+            .cal-closed {
+                margin-top: 16px;
+                text-align: center;
+                font-family: Georgia, "Times New Roman", serif;
+                font-style: italic;
+                font-size: 16px;
+                color: #111827;
+            }
+            .sector-board {
+                background: #151c27;
+                border-radius: 12px;
+                padding: 18px 18px 8px;
+                margin: 8px 0 18px;
+                color: #f8fafc;
+            }
+            .sector-board h3 {
+                margin: 8px 0 12px;
+                font-size: 15px;
+                letter-spacing: 0.04em;
+                font-weight: 750;
+            }
+            .sector-block + .sector-block { margin-top: 22px; }
+            .sector-line {
+                display: grid;
+                grid-template-columns: 168px 1fr;
+                align-items: center;
+                gap: 8px;
+                margin: 5px 0;
+            }
+            .sector-name { font-size: 13px; color: #e5e7eb; }
+            .sector-plot { position: relative; height: 18px; }
+            .sector-bar {
+                position: absolute;
+                left: 0;
+                top: 2px;
+                height: 14px;
                 border-radius: 2px;
-                margin: 0 4px 0 10px;
-                vertical-align: -1px;
+                min-width: 2px;
             }
-            .hl-swatch.up { background: #2dd4bf; margin-left: 0; }
-            .hl-swatch.down { background: #fb7185; }
+            .sector-val {
+                position: absolute;
+                top: 0;
+                font-size: 12px;
+                line-height: 18px;
+                color: #f1f5f9;
+                font-variant-numeric: tabular-nums;
+                white-space: nowrap;
+            }
+            .sector-axis {
+                display: flex;
+                justify-content: space-between;
+                margin: 4px 0 0 176px;
+                color: #94a3b8;
+                font-size: 11px;
+            }
+            .st-key-hl_today button {
+                background: transparent;
+                border-color: transparent;
+                color: #e11d48;
+            }
+            .st-key-hl_today button p { color: #e11d48; font-weight: 650; }
             @media (max-width: 768px) {
-                .breadth-grid { grid-template-columns: 1fr; }
-                .hl-plot { height: 120px; }
+                .breadth-card { max-width: none; }
+                .cal-cell { min-height: 52px; padding: 3px; }
+                .cal-net { font-size: 11px; margin-top: 8px; }
+                .cal-closed { font-size: 11px; margin-top: 8px; }
+                .cal-day, .cal-dow { font-size: 10px; }
+                .sector-line { grid-template-columns: 108px 1fr; }
+                .sector-name { font-size: 11px; }
+                .sector-axis { margin-left: 116px; }
+                .sector-val { font-size: 10px; }
             }
         </style>
         """,
@@ -679,65 +743,192 @@ def cached_breadth() -> dict:
     return load_breadth()
 
 
+@st.cache_data(ttl=900, show_spinner=False)
+def cached_net_highs() -> dict:
+    return load_net_highs()
+
+
+@st.cache_data(ttl=180, show_spinner=False)
+def cached_sectors() -> dict:
+    return load_sectors()
+
+
+def _shift_month(month_start: date, delta: int) -> date:
+    year = month_start.year
+    month = month_start.month + delta
+    while month < 1:
+        month += 12
+        year -= 1
+    while month > 12:
+        month -= 12
+        year += 1
+    return date(year, month, 1)
+
+
+def _sector_color(value: float, scale: float) -> str:
+    if abs(value) < 0.12:
+        return "#6b7280"
+
+    def mix(start: tuple[int, int, int], end: tuple[int, int, int], amount: float) -> str:
+        amount = max(0.0, min(1.0, amount))
+        parts = [round(start[i] + (end[i] - start[i]) * amount) for i in range(3)]
+        return "#{:02x}{:02x}{:02x}".format(*parts)
+
+    amount = 0.4 + 0.6 * (abs(value) / scale if scale else 1.0)
+    if value > 0:
+        return mix((22, 101, 52), (34, 197, 94), amount)
+    return mix((127, 29, 29), (239, 68, 68), amount)
+
+
 def render_breadth() -> None:
     try:
         payload = cached_breadth()
     except Exception as exc:
         st.warning(f"Breadth data is unavailable right now: {exc}")
+        payload = None
+    if payload:
+        ma_rows = []
+        for row in payload["averages"]:
+            color = row.get("color") or "#3b82f6"
+            ma_rows.append(
+                "<div class='ma-row'>"
+                "<div class='ma-head'>"
+                f"<span>{html.escape(row['label'])}</span>"
+                f"<span class='ma-value' style='color:{color}'>{row['value']:.1f}%</span>"
+                "</div>"
+                f"<div class='ma-track'><div class='ma-fill' style='width:{min(row['value'], 100):.1f}%;background:{color}'></div></div>"
+                "</div>"
+            )
+        st.markdown(
+            f"""
+            <div class="breadth-card">
+              <h3>Number of stocks above moving average</h3>
+              {"".join(ma_rows)}
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+        if payload.get("error"):
+            st.caption(f"Showing the last saved breadth reading. Latest fetch note: {payload['error']}")
+    render_highs_calendar()
+
+
+def render_highs_calendar() -> None:
+    try:
+        payload = cached_net_highs()
+    except Exception as exc:
+        st.warning(f"Net new highs are unavailable right now: {exc}")
         return
-    averages = payload["averages"]
-    highs = payload["highsLows"]
-    scale = max(max(row["highs"], row["lows"]) for row in highs) or 1
-    columns = []
-    for row in highs:
-        up = max(2, round(row["highs"] / scale * 70))
-        down = max(2, round(row["lows"] / scale * 70))
-        net = row["net"]
-        net_text = f"{net:+d}"
-        columns.append(
-            "<div>"
-            f"<div class='hl-count up'>{row['highs']}</div>"
-            "<div class='hl-plot'>"
-            f"<div class='hl-up' style='height:{up}px'></div>"
-            "<div class='hl-axis'></div>"
-            f"<div class='hl-down' style='height:{down}px'></div>"
-            "</div>"
-            f"<div class='hl-count down'>{row['lows']}</div>"
-            f"<div class='hl-label'>{html.escape(row['period'])}</div>"
-            f"<div class='hl-net'>net {net_text}</div>"
-            "</div>"
-        )
-    ma_rows = []
-    for row in averages:
-        ma_rows.append(
-            "<div class='ma-row'>"
-            "<div class='ma-head'>"
-            f"<span>{html.escape(row['label'])}</span>"
-            f"<span class='ma-value {html.escape(row['tone'])}'>{row['value']:.0f}%</span>"
-            "</div>"
-            f"<div class='ma-track'><div class='ma-fill' style='width:{min(row['value'], 100):.1f}%'></div></div>"
-            "</div>"
-        )
+    by_date = {}
+    for row in payload.get("days") or []:
+        if row.get("date") is not None and row.get("net") is not None:
+            by_date[row["date"]] = int(row["net"])
+    today = date.today()
+    if "hl_month" not in st.session_state:
+        st.session_state.hl_month = today.replace(day=1)
+    month_start = st.session_state.hl_month
+    prev_col, title_col, today_col, next_col = st.columns([1, 4, 1, 1])
+    with prev_col:
+        if st.button("Previous", key="hl_prev", width="stretch"):
+            st.session_state.hl_month = _shift_month(month_start, -1)
+            st.rerun()
+    with today_col:
+        if st.button("Today", key="hl_today", width="stretch"):
+            st.session_state.hl_month = today.replace(day=1)
+            st.rerun()
+    with next_col:
+        if st.button("Next", key="hl_next", width="stretch"):
+            st.session_state.hl_month = _shift_month(month_start, 1)
+            st.rerun()
+    holidays = holiday_set(month_start.year)
+    cells = []
+    for day in calendar_days(month_start.year, month_start.month):
+        weekend = day.weekday() >= 5
+        classes = ["cal-cell"]
+        if weekend:
+            classes.append("weekend")
+        if day.weekday() == 5:
+            classes.append("sat")
+        if day == today:
+            classes.append("today")
+        if day.month != month_start.month:
+            cells.append(f"<div class='{' '.join(classes)}'></div>")
+            continue
+        body = f"<div class='cal-day'>{day.day}</div>"
+        key = day.isoformat()
+        if key in by_date:
+            net = by_date[key]
+            tone = "pos" if net > 0 else "neg" if net < 0 else "flat"
+            text = f"{net:+d}" if net > 0 else str(net)
+            body += f"<div class='cal-net {tone}'>{text}</div>"
+        elif day in holidays:
+            body += "<div class='cal-closed'>Closed</div>"
+        cells.append(f"<div class='{' '.join(classes)}'>{body}</div>")
+    dows = []
+    for label, weekend, saturday in (
+        ("Sun", True, False),
+        ("Mon", False, False),
+        ("Tue", False, False),
+        ("Wed", False, False),
+        ("Thu", False, False),
+        ("Fri", False, False),
+        ("Sat", True, True),
+    ):
+        classes = "cal-dow weekend" if weekend else "cal-dow"
+        if saturday:
+            classes += " sat"
+        dows.append(f"<div class='{classes}'>{label}</div>")
+    title = month_start.strftime("%B %Y")
     st.markdown(
         f"""
-        <div class="breadth-grid">
-          <div class="breadth-card">
-            <h3>Above moving averages</h3>
-            <div class="breadth-note">{html.escape(payload.get("note") or "")}</div>
-            {"".join(ma_rows)}
-          </div>
-          <div class="breadth-card">
-            <h3>New highs and lows</h3>
-            <div class="breadth-note">S&amp;P 500 stocks at a new high or new low for each window. Not a calendar.</div>
-            <div class="hl-chart">{"".join(columns)}</div>
-            <div class="hl-legend"><span class="hl-swatch up"></span>New highs<span class="hl-swatch down"></span>New lows</div>
-          </div>
+        <div class="cal-card">
+          <div class="cal-title">{html.escape(title)}</div>
+          <div class="cal-kicker">US stocks · net new 52-week highs</div>
+          <div class="cal-grid">{"".join(dows)}{"".join(cells)}</div>
         </div>
         """,
         unsafe_allow_html=True,
     )
     if payload.get("error"):
-        st.caption(f"Showing the last saved breadth reading. Latest fetch note: {payload['error']}")
+        st.caption(f"Showing the saved net-new-highs record. Latest fetch note: {payload['error']}")
+
+
+def render_sectors() -> None:
+    try:
+        payload = cached_sectors()
+    except Exception as exc:
+        st.warning(f"Industry performance is unavailable right now: {exc}")
+        return
+    blocks = []
+    for period in payload["periods"]:
+        scale = float(period["scale"] or 1)
+        rows = []
+        for row in period["rows"]:
+            change = float(row["change"])
+            width = min(86.0, max(0.8, abs(change) / scale * 86.0))
+            color = _sector_color(change, scale)
+            rows.append(
+                "<div class='sector-line'>"
+                f"<div class='sector-name'>{html.escape(row['name'])}</div>"
+                "<div class='sector-plot'>"
+                f"<div class='sector-bar' style='width:{width:.1f}%;background:{color}'></div>"
+                f"<div class='sector-val' style='left:{width + 1.2:.1f}%'>{change:+.2f}</div>"
+                "</div>"
+                "</div>"
+            )
+        ticks = [0.0, scale / 2.0, scale]
+        axis = "".join(f"<span>{tick:.0f}%</span>" if scale >= 2 else f"<span>{tick:.1f}%</span>" for tick in ticks)
+        blocks.append(
+            "<div class='sector-block'>"
+            f"<h3>{html.escape(period['title'])}</h3>"
+            f"{''.join(rows)}"
+            f"<div class='sector-axis'>{axis}</div>"
+            "</div>"
+        )
+    st.markdown(
+        f"<div class='sector-board'>{''.join(blocks)}</div>",
+        unsafe_allow_html=True,
+    )
 
 
 def render_naaim() -> None:
@@ -903,7 +1094,9 @@ def main() -> None:
     render_sidebar(watchlist)
 
     st.title("Market Monitor")
-    st.caption("Daily trend check for SPY and QQQ, plus breadth, NAAIM, AAII sentiment, and a live watchlist.")
+    st.caption(
+        "Daily trend check for SPY and QQQ, breadth, net new highs, industry leadership, NAAIM, AAII, and a live watchlist."
+    )
 
     st.subheader("Trend signals")
     cols = st.columns(2)
@@ -917,6 +1110,9 @@ def main() -> None:
 
     st.subheader("Market breadth")
     render_breadth()
+
+    st.subheader("Industry leadership")
+    render_sectors()
 
     st.subheader("NAAIM exposure")
     render_naaim()

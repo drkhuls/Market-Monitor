@@ -1,6 +1,6 @@
 # Market Monitor
 
-The full monitor is the Streamlit app in `market-monitor/`. It keeps the original watchlist, EMA trend signals, and NAAIM badge, and adds the one-year NAAIM table, the AAII survey bars, and charts that open on three months.
+The full monitor is the Streamlit app in `market-monitor/`. It keeps the original watchlist, EMA trend signals, and NAAIM badge, and adds the one-year NAAIM table, the AAII survey bars, breadth, a net-new-highs calendar, industry leadership, and charts that open on three months.
 
 ```bash
 cd market-monitor

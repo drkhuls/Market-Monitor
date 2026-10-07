@@ -1,0 +1,7009 @@
+{
+  "updatedAt": "2026-10-07T04:20:03.210988+00:00",
+  "series": "US net new 52-week highs",
+  "netSymbol": "INDEX:MADX",
+  "highsSymbol": "INDEX:MAHX",
+  "lowsSymbol": "INDEX:MALX",
+  "days": [
+    {
+      "date": "2022-10-14",
+      "net": -238,
+      "source": "tradingview",
+      "highs": 42,
+      "lows": 280
+    },
+    {
+      "date": "2022-10-17",
+      "net": -134,
+      "source": "tradingview",
+      "highs": 42,
+      "lows": 176
+    },
+    {
+      "date": "2022-10-18",
+      "net": -60,
+      "source": "tradingview",
+      "highs": 54,
+      "lows": 114
+    },
+    {
+      "date": "2022-10-19",
+      "net": -260,
+      "source": "tradingview",
+      "highs": 39,
+      "lows": 299
+    },
+    {
+      "date": "2022-10-20",
+      "net": -290,
+      "source": "tradingview",
+      "highs": 39,
+      "lows": 329
+    },
+    {
+      "date": "2022-10-21",
+      "net": -366,
+      "source": "tradingview",
+      "highs": 47,
+      "lows": 413
+    },
+    {
+      "date": "2022-10-24",
+      "net": -303,
+      "source": "tradingview",
+      "highs": 83,
+      "lows": 386
+    },
+    {
+      "date": "2022-10-25",
+      "net": -60,
+      "source": "tradingview",
+      "highs": 86,
+      "lows": 146
+    },
+    {
+      "date": "2022-10-26",
+      "net": 36,
+      "source": "tradingview",
+      "highs": 119,
+      "lows": 83
+    },
+    {
+      "date": "2022-10-27",
+      "net": -16,
+      "source": "tradingview",
+      "highs": 117,
+      "lows": 133
+    },
+    {
+      "date": "2022-10-28",
+      "net": 24,
+      "source": "tradingview",
+      "highs": 151,
+      "lows": 127
+    },
+    {
+      "date": "2022-10-31",
+      "net": 35,
+      "source": "tradingview",
+      "highs": 154,
+      "lows": 119
+    },
+    {
+      "date": "2022-11-01",
+      "net": 25,
+      "source": "tradingview",
+      "highs": 157,
+      "lows": 132
+    },
+    {
+      "date": "2022-11-02",
+      "net": -120,
+      "source": "tradingview",
+      "highs": 117,
+      "lows": 237
+    },
+    {
+      "date": "2022-11-03",
+      "net": -329,
+      "source": "tradingview",
+      "highs": 67,
+      "lows": 396
+    },
+    {
+      "date": "2022-11-04",
+      "net": -244,
+      "source": "tradingview",
+      "highs": 121,
+      "lows": 365
+    },
+    {
+      "date": "2022-11-07",
+      "net": -142,
+      "source": "tradingview",
+      "highs": 119,
+      "lows": 261
+    },
+    {
+      "date": "2022-11-08",
+      "net": -163,
+      "source": "tradingview",
+      "highs": 132,
+      "lows": 295
+    },
+    {
+      "date": "2022-11-09",
+      "net": -441,
+      "source": "tradingview",
+      "highs": 59,
+      "lows": 500
+    },
+    {
+      "date": "2022-11-10",
+      "net": -21,
+      "source": "tradingview",
+      "highs": 145,
+      "lows": 166
+    },
+    {
+      "date": "2022-11-11",
+      "net": 15,
+      "source": "tradingview",
+      "highs": 136,
+      "lows": 121
+    },
+    {
+      "date": "2022-11-14",
+      "net": -4,
+      "source": "tradingview",
+      "highs": 81,
+      "lows": 85
+    },
+    {
+      "date": "2022-11-15",
+      "net": 11,
+      "source": "tradingview",
+      "highs": 102,
+      "lows": 91
+    },
+    {
+      "date": "2022-11-16",
+      "net": -102,
+      "source": "tradingview",
+      "highs": 59,
+      "lows": 161
+    },
+    {
+      "date": "2022-11-17",
+      "net": -157,
+      "source": "tradingview",
+      "highs": 47,
+      "lows": 204
+    },
+    {
+      "date": "2022-11-18",
+      "net": -84,
+      "source": "tradingview",
+      "highs": 87,
+      "lows": 171
+    },
+    {
+      "date": "2022-11-21",
+      "net": -162,
+      "source": "tradingview",
+      "highs": 80,
+      "lows": 242
+    },
+    {
+      "date": "2022-11-22",
+      "net": -142,
+      "source": "tradingview",
+      "highs": 117,
+      "lows": 259
+    },
+    {
+      "date": "2022-11-23",
+      "net": -27,
+      "source": "tradingview",
+      "highs": 112,
+      "lows": 139
+    },
+    {
+      "date": "2022-11-25",
+      "net": -1,
+      "source": "tradingview",
+      "highs": 97,
+      "lows": 98
+    },
+    {
+      "date": "2022-11-28",
+      "net": -128,
+      "source": "tradingview",
+      "highs": 73,
+      "lows": 201
+    },
+    {
+      "date": "2022-11-29",
+      "net": -160,
+      "source": "tradingview",
+      "highs": 58,
+      "lows": 218
+    },
+    {
+      "date": "2022-11-30",
+      "net": -87,
+      "source": "tradingview",
+      "highs": 128,
+      "lows": 215
+    },
+    {
+      "date": "2022-12-01",
+      "net": 68,
+      "source": "tradingview",
+      "highs": 164,
+      "lows": 96
+    },
+    {
+      "date": "2022-12-02",
+      "net": -10,
+      "source": "tradingview",
+      "highs": 107,
+      "lows": 117
+    },
+    {
+      "date": "2022-12-05",
+      "net": -99,
+      "source": "tradingview",
+      "highs": 71,
+      "lows": 170
+    },
+    {
+      "date": "2022-12-06",
+      "net": -293,
+      "source": "tradingview",
+      "highs": 34,
+      "lows": 327
+    },
+    {
+      "date": "2022-12-07",
+      "net": -308,
+      "source": "tradingview",
+      "highs": 46,
+      "lows": 354
+    },
+    {
+      "date": "2022-12-08",
+      "net": -204,
+      "source": "tradingview",
+      "highs": 73,
+      "lows": 277
+    },
+    {
+      "date": "2022-12-09",
+      "net": -209,
+      "source": "tradingview",
+      "highs": 47,
+      "lows": 256
+    },
+    {
+      "date": "2022-12-12",
+      "net": -266,
+      "source": "tradingview",
+      "highs": 36,
+      "lows": 302
+    },
+    {
+      "date": "2022-12-13",
+      "net": -127,
+      "source": "tradingview",
+      "highs": 109,
+      "lows": 236
+    },
+    {
+      "date": "2022-12-14",
+      "net": -207,
+      "source": "tradingview",
+      "highs": 68,
+      "lows": 275
+    },
+    {
+      "date": "2022-12-15",
+      "net": -374,
+      "source": "tradingview",
+      "highs": 38,
+      "lows": 412
+    },
+    {
+      "date": "2022-12-16",
+      "net": -464,
+      "source": "tradingview",
+      "highs": 42,
+      "lows": 506
+    },
+    {
+      "date": "2022-12-19",
+      "net": -498,
+      "source": "tradingview",
+      "highs": 43,
+      "lows": 541
+    },
+    {
+      "date": "2022-12-20",
+      "net": -438,
+      "source": "tradingview",
+      "highs": 46,
+      "lows": 484
+    },
+    {
+      "date": "2022-12-21",
+      "net": -246,
+      "source": "tradingview",
+      "highs": 64,
+      "lows": 310
+    },
+    {
+      "date": "2022-12-22",
+      "net": -490,
+      "source": "tradingview",
+      "highs": 53,
+      "lows": 543
+    },
+    {
+      "date": "2022-12-23",
+      "net": -235,
+      "source": "tradingview",
+      "highs": 55,
+      "lows": 290
+    },
+    {
+      "date": "2022-12-27",
+      "net": -445,
+      "source": "tradingview",
+      "highs": 69,
+      "lows": 514
+    },
+    {
+      "date": "2022-12-28",
+      "net": -467,
+      "source": "tradingview",
+      "highs": 46,
+      "lows": 513
+    },
+    {
+      "date": "2022-12-29",
+      "net": -154,
+      "source": "tradingview",
+      "highs": 52,
+      "lows": 206
+    },
+    {
+      "date": "2022-12-30",
+      "net": -102,
+      "source": "tradingview",
+      "highs": 61,
+      "lows": 163
+    },
+    {
+      "date": "2023-01-03",
+      "net": -30,
+      "source": "tradingview",
+      "highs": 62,
+      "lows": 92
+    },
+    {
+      "date": "2023-01-04",
+      "net": 8,
+      "source": "tradingview",
+      "highs": 62,
+      "lows": 54
+    },
+    {
+      "date": "2023-01-05",
+      "net": -34,
+      "source": "tradingview",
+      "highs": 66,
+      "lows": 100
+    },
+    {
+      "date": "2023-01-06",
+      "net": 31,
+      "source": "tradingview",
+      "highs": 112,
+      "lows": 81
+    },
+    {
+      "date": "2023-01-09",
+      "net": 75,
+      "source": "tradingview",
+      "highs": 112,
+      "lows": 37
+    },
+    {
+      "date": "2023-01-10",
+      "net": 39,
+      "source": "tradingview",
+      "highs": 78,
+      "lows": 39
+    },
+    {
+      "date": "2023-01-11",
+      "net": 84,
+      "source": "tradingview",
+      "highs": 105,
+      "lows": 21
+    },
+    {
+      "date": "2023-01-12",
+      "net": 127,
+      "source": "tradingview",
+      "highs": 146,
+      "lows": 19
+    },
+    {
+      "date": "2023-01-13",
+      "net": 142,
+      "source": "tradingview",
+      "highs": 151,
+      "lows": 9
+    },
+    {
+      "date": "2023-01-17",
+      "net": 139,
+      "source": "tradingview",
+      "highs": 153,
+      "lows": 14
+    },
+    {
+      "date": "2023-01-18",
+      "net": 105,
+      "source": "tradingview",
+      "highs": 125,
+      "lows": 20
+    },
+    {
+      "date": "2023-01-19",
+      "net": -11,
+      "source": "tradingview",
+      "highs": 29,
+      "lows": 40
+    },
+    {
+      "date": "2023-01-20",
+      "net": 40,
+      "source": "tradingview",
+      "highs": 64,
+      "lows": 24
+    },
+    {
+      "date": "2023-01-23",
+      "net": 97,
+      "source": "tradingview",
+      "highs": 115,
+      "lows": 18
+    },
+    {
+      "date": "2023-01-24",
+      "net": 92,
+      "source": "tradingview",
+      "highs": 126,
+      "lows": 34
+    },
+    {
+      "date": "2023-01-25",
+      "net": 51,
+      "source": "tradingview",
+      "highs": 90,
+      "lows": 39
+    },
+    {
+      "date": "2023-01-26",
+      "net": 115,
+      "source": "tradingview",
+      "highs": 151,
+      "lows": 36
+    },
+    {
+      "date": "2023-01-27",
+      "net": 112,
+      "source": "tradingview",
+      "highs": 142,
+      "lows": 30
+    },
+    {
+      "date": "2023-01-30",
+      "net": 45,
+      "source": "tradingview",
+      "highs": 63,
+      "lows": 18
+    },
+    {
+      "date": "2023-01-31",
+      "net": 118,
+      "source": "tradingview",
+      "highs": 136,
+      "lows": 18
+    },
+    {
+      "date": "2023-02-01",
+      "net": 229,
+      "source": "tradingview",
+      "highs": 250,
+      "lows": 21
+    },
+    {
+      "date": "2023-02-02",
+      "net": 286,
+      "source": "tradingview",
+      "highs": 302,
+      "lows": 16
+    },
+    {
+      "date": "2023-02-03",
+      "net": 183,
+      "source": "tradingview",
+      "highs": 197,
+      "lows": 14
+    },
+    {
+      "date": "2023-02-06",
+      "net": 75,
+      "source": "tradingview",
+      "highs": 96,
+      "lows": 21
+    },
+    {
+      "date": "2023-02-07",
+      "net": 101,
+      "source": "tradingview",
+      "highs": 131,
+      "lows": 30
+    },
+    {
+      "date": "2023-02-08",
+      "net": 72,
+      "source": "tradingview",
+      "highs": 109,
+      "lows": 37
+    },
+    {
+      "date": "2023-02-09",
+      "net": 66,
+      "source": "tradingview",
+      "highs": 124,
+      "lows": 58
+    },
+    {
+      "date": "2023-02-10",
+      "net": -18,
+      "source": "tradingview",
+      "highs": 55,
+      "lows": 73
+    },
+    {
+      "date": "2023-02-13",
+      "net": 27,
+      "source": "tradingview",
+      "highs": 98,
+      "lows": 71
+    },
+    {
+      "date": "2023-02-14",
+      "net": 52,
+      "source": "tradingview",
+      "highs": 125,
+      "lows": 73
+    },
+    {
+      "date": "2023-02-15",
+      "net": 58,
+      "source": "tradingview",
+      "highs": 118,
+      "lows": 60
+    },
+    {
+      "date": "2023-02-16",
+      "net": 81,
+      "source": "tradingview",
+      "highs": 132,
+      "lows": 51
+    },
+    {
+      "date": "2023-02-17",
+      "net": 41,
+      "source": "tradingview",
+      "highs": 113,
+      "lows": 72
+    },
+    {
+      "date": "2023-02-21",
+      "net": -72,
+      "source": "tradingview",
+      "highs": 48,
+      "lows": 120
+    },
+    {
+      "date": "2023-02-22",
+      "net": -96,
+      "source": "tradingview",
+      "highs": 36,
+      "lows": 132
+    },
+    {
+      "date": "2023-02-23",
+      "net": -66,
+      "source": "tradingview",
+      "highs": 67,
+      "lows": 133
+    },
+    {
+      "date": "2023-02-24",
+      "net": -127,
+      "source": "tradingview",
+      "highs": 51,
+      "lows": 178
+    },
+    {
+      "date": "2023-02-27",
+      "net": -22,
+      "source": "tradingview",
+      "highs": 95,
+      "lows": 117
+    },
+    {
+      "date": "2023-02-28",
+      "net": 1,
+      "source": "tradingview",
+      "highs": 114,
+      "lows": 113
+    },
+    {
+      "date": "2023-03-01",
+      "net": -39,
+      "source": "tradingview",
+      "highs": 119,
+      "lows": 158
+    },
+    {
+      "date": "2023-03-02",
+      "net": -85,
+      "source": "tradingview",
+      "highs": 114,
+      "lows": 199
+    },
+    {
+      "date": "2023-03-03",
+      "net": 99,
+      "source": "tradingview",
+      "highs": 171,
+      "lows": 72
+    },
+    {
+      "date": "2023-03-06",
+      "net": 16,
+      "source": "tradingview",
+      "highs": 129,
+      "lows": 113
+    },
+    {
+      "date": "2023-03-07",
+      "net": -110,
+      "source": "tradingview",
+      "highs": 72,
+      "lows": 182
+    },
+    {
+      "date": "2023-03-08",
+      "net": -158,
+      "source": "tradingview",
+      "highs": 61,
+      "lows": 219
+    },
+    {
+      "date": "2023-03-09",
+      "net": -290,
+      "source": "tradingview",
+      "highs": 75,
+      "lows": 365
+    },
+    {
+      "date": "2023-03-10",
+      "net": -612,
+      "source": "tradingview",
+      "highs": 26,
+      "lows": 638
+    },
+    {
+      "date": "2023-03-13",
+      "net": -706,
+      "source": "tradingview",
+      "highs": 15,
+      "lows": 721
+    },
+    {
+      "date": "2023-03-14",
+      "net": -245,
+      "source": "tradingview",
+      "highs": 21,
+      "lows": 266
+    },
+    {
+      "date": "2023-03-15",
+      "net": -566,
+      "source": "tradingview",
+      "highs": 14,
+      "lows": 580
+    },
+    {
+      "date": "2023-03-16",
+      "net": -333,
+      "source": "tradingview",
+      "highs": 39,
+      "lows": 372
+    },
+    {
+      "date": "2023-03-17",
+      "net": -400,
+      "source": "tradingview",
+      "highs": 27,
+      "lows": 427
+    },
+    {
+      "date": "2023-03-20",
+      "net": -319,
+      "source": "tradingview",
+      "highs": 24,
+      "lows": 343
+    },
+    {
+      "date": "2023-03-21",
+      "net": -95,
+      "source": "tradingview",
+      "highs": 56,
+      "lows": 151
+    },
+    {
+      "date": "2023-03-22",
+      "net": -201,
+      "source": "tradingview",
+      "highs": 49,
+      "lows": 250
+    },
+    {
+      "date": "2023-03-23",
+      "net": -402,
+      "source": "tradingview",
+      "highs": 57,
+      "lows": 459
+    },
+    {
+      "date": "2023-03-24",
+      "net": -464,
+      "source": "tradingview",
+      "highs": 31,
+      "lows": 495
+    },
+    {
+      "date": "2023-03-27",
+      "net": -97,
+      "source": "tradingview",
+      "highs": 55,
+      "lows": 152
+    },
+    {
+      "date": "2023-03-28",
+      "net": -123,
+      "source": "tradingview",
+      "highs": 50,
+      "lows": 173
+    },
+    {
+      "date": "2023-03-29",
+      "net": -56,
+      "source": "tradingview",
+      "highs": 80,
+      "lows": 136
+    },
+    {
+      "date": "2023-03-30",
+      "net": -78,
+      "source": "tradingview",
+      "highs": 78,
+      "lows": 156
+    },
+    {
+      "date": "2023-03-31",
+      "net": -5,
+      "source": "tradingview",
+      "highs": 125,
+      "lows": 130
+    },
+    {
+      "date": "2023-04-03",
+      "net": 6,
+      "source": "tradingview",
+      "highs": 127,
+      "lows": 121
+    },
+    {
+      "date": "2023-04-04",
+      "net": -134,
+      "source": "tradingview",
+      "highs": 98,
+      "lows": 232
+    },
+    {
+      "date": "2023-04-05",
+      "net": -250,
+      "source": "tradingview",
+      "highs": 57,
+      "lows": 307
+    },
+    {
+      "date": "2023-04-06",
+      "net": -166,
+      "source": "tradingview",
+      "highs": 51,
+      "lows": 217
+    },
+    {
+      "date": "2023-04-10",
+      "net": -132,
+      "source": "tradingview",
+      "highs": 58,
+      "lows": 190
+    },
+    {
+      "date": "2023-04-11",
+      "net": -19,
+      "source": "tradingview",
+      "highs": 95,
+      "lows": 114
+    },
+    {
+      "date": "2023-04-12",
+      "net": -94,
+      "source": "tradingview",
+      "highs": 104,
+      "lows": 198
+    },
+    {
+      "date": "2023-04-13",
+      "net": -62,
+      "source": "tradingview",
+      "highs": 104,
+      "lows": 166
+    },
+    {
+      "date": "2023-04-14",
+      "net": -149,
+      "source": "tradingview",
+      "highs": 79,
+      "lows": 228
+    },
+    {
+      "date": "2023-04-17",
+      "net": -95,
+      "source": "tradingview",
+      "highs": 96,
+      "lows": 191
+    },
+    {
+      "date": "2023-04-18",
+      "net": -51,
+      "source": "tradingview",
+      "highs": 114,
+      "lows": 165
+    },
+    {
+      "date": "2023-04-19",
+      "net": -61,
+      "source": "tradingview",
+      "highs": 89,
+      "lows": 150
+    },
+    {
+      "date": "2023-04-20",
+      "net": -45,
+      "source": "tradingview",
+      "highs": 110,
+      "lows": 155
+    },
+    {
+      "date": "2023-04-21",
+      "net": -119,
+      "source": "tradingview",
+      "highs": 97,
+      "lows": 216
+    },
+    {
+      "date": "2023-04-24",
+      "net": -138,
+      "source": "tradingview",
+      "highs": 92,
+      "lows": 230
+    },
+    {
+      "date": "2023-04-25",
+      "net": -384,
+      "source": "tradingview",
+      "highs": 63,
+      "lows": 447
+    },
+    {
+      "date": "2023-04-26",
+      "net": -442,
+      "source": "tradingview",
+      "highs": 38,
+      "lows": 480
+    },
+    {
+      "date": "2023-04-27",
+      "net": -184,
+      "source": "tradingview",
+      "highs": 67,
+      "lows": 251
+    },
+    {
+      "date": "2023-04-28",
+      "net": -55,
+      "source": "tradingview",
+      "highs": 107,
+      "lows": 162
+    },
+    {
+      "date": "2023-05-01",
+      "net": -72,
+      "source": "tradingview",
+      "highs": 144,
+      "lows": 216
+    },
+    {
+      "date": "2023-05-02",
+      "net": -450,
+      "source": "tradingview",
+      "highs": 78,
+      "lows": 528
+    },
+    {
+      "date": "2023-05-03",
+      "net": -210,
+      "source": "tradingview",
+      "highs": 139,
+      "lows": 349
+    },
+    {
+      "date": "2023-05-04",
+      "net": -502,
+      "source": "tradingview",
+      "highs": 82,
+      "lows": 584
+    },
+    {
+      "date": "2023-05-05",
+      "net": -37,
+      "source": "tradingview",
+      "highs": 116,
+      "lows": 153
+    },
+    {
+      "date": "2023-05-08",
+      "net": -17,
+      "source": "tradingview",
+      "highs": 107,
+      "lows": 124
+    },
+    {
+      "date": "2023-05-09",
+      "net": -118,
+      "source": "tradingview",
+      "highs": 109,
+      "lows": 227
+    },
+    {
+      "date": "2023-05-10",
+      "net": -77,
+      "source": "tradingview",
+      "highs": 131,
+      "lows": 208
+    },
+    {
+      "date": "2023-05-11",
+      "net": -172,
+      "source": "tradingview",
+      "highs": 87,
+      "lows": 259
+    },
+    {
+      "date": "2023-05-12",
+      "net": -222,
+      "source": "tradingview",
+      "highs": 84,
+      "lows": 306
+    },
+    {
+      "date": "2023-05-15",
+      "net": -100,
+      "source": "tradingview",
+      "highs": 81,
+      "lows": 181
+    },
+    {
+      "date": "2023-05-16",
+      "net": -191,
+      "source": "tradingview",
+      "highs": 69,
+      "lows": 260
+    },
+    {
+      "date": "2023-05-17",
+      "net": -82,
+      "source": "tradingview",
+      "highs": 99,
+      "lows": 181
+    },
+    {
+      "date": "2023-05-18",
+      "net": 41,
+      "source": "tradingview",
+      "highs": 146,
+      "lows": 105
+    },
+    {
+      "date": "2023-05-19",
+      "net": 29,
+      "source": "tradingview",
+      "highs": 141,
+      "lows": 112
+    },
+    {
+      "date": "2023-05-22",
+      "net": 15,
+      "source": "tradingview",
+      "highs": 119,
+      "lows": 104
+    },
+    {
+      "date": "2023-05-23",
+      "net": 13,
+      "source": "tradingview",
+      "highs": 95,
+      "lows": 82
+    },
+    {
+      "date": "2023-05-24",
+      "net": -119,
+      "source": "tradingview",
+      "highs": 33,
+      "lows": 152
+    },
+    {
+      "date": "2023-05-25",
+      "net": -194,
+      "source": "tradingview",
+      "highs": 70,
+      "lows": 264
+    },
+    {
+      "date": "2023-05-26",
+      "net": -81,
+      "source": "tradingview",
+      "highs": 104,
+      "lows": 185
+    },
+    {
+      "date": "2023-05-30",
+      "net": -72,
+      "source": "tradingview",
+      "highs": 117,
+      "lows": 189
+    },
+    {
+      "date": "2023-05-31",
+      "net": -218,
+      "source": "tradingview",
+      "highs": 52,
+      "lows": 270
+    },
+    {
+      "date": "2023-06-01",
+      "net": -111,
+      "source": "tradingview",
+      "highs": 74,
+      "lows": 185
+    },
+    {
+      "date": "2023-06-02",
+      "net": 96,
+      "source": "tradingview",
+      "highs": 146,
+      "lows": 50
+    },
+    {
+      "date": "2023-06-05",
+      "net": 44,
+      "source": "tradingview",
+      "highs": 114,
+      "lows": 70
+    },
+    {
+      "date": "2023-06-06",
+      "net": 97,
+      "source": "tradingview",
+      "highs": 186,
+      "lows": 89
+    },
+    {
+      "date": "2023-06-07",
+      "net": 211,
+      "source": "tradingview",
+      "highs": 253,
+      "lows": 42
+    },
+    {
+      "date": "2023-06-08",
+      "net": 78,
+      "source": "tradingview",
+      "highs": 134,
+      "lows": 56
+    },
+    {
+      "date": "2023-06-09",
+      "net": 72,
+      "source": "tradingview",
+      "highs": 135,
+      "lows": 63
+    },
+    {
+      "date": "2023-06-12",
+      "net": 100,
+      "source": "tradingview",
+      "highs": 182,
+      "lows": 82
+    },
+    {
+      "date": "2023-06-13",
+      "net": 201,
+      "source": "tradingview",
+      "highs": 249,
+      "lows": 48
+    },
+    {
+      "date": "2023-06-14",
+      "net": 107,
+      "source": "tradingview",
+      "highs": 180,
+      "lows": 73
+    },
+    {
+      "date": "2023-06-15",
+      "net": 81,
+      "source": "tradingview",
+      "highs": 166,
+      "lows": 85
+    },
+    {
+      "date": "2023-06-16",
+      "net": 168,
+      "source": "tradingview",
+      "highs": 235,
+      "lows": 67
+    },
+    {
+      "date": "2023-06-20",
+      "net": 28,
+      "source": "tradingview",
+      "highs": 125,
+      "lows": 97
+    },
+    {
+      "date": "2023-06-21",
+      "net": 15,
+      "source": "tradingview",
+      "highs": 148,
+      "lows": 133
+    },
+    {
+      "date": "2023-06-22",
+      "net": -50,
+      "source": "tradingview",
+      "highs": 96,
+      "lows": 146
+    },
+    {
+      "date": "2023-06-23",
+      "net": -100,
+      "source": "tradingview",
+      "highs": 79,
+      "lows": 179
+    },
+    {
+      "date": "2023-06-26",
+      "net": -75,
+      "source": "tradingview",
+      "highs": 97,
+      "lows": 172
+    },
+    {
+      "date": "2023-06-27",
+      "net": -18,
+      "source": "tradingview",
+      "highs": 157,
+      "lows": 175
+    },
+    {
+      "date": "2023-06-28",
+      "net": 32,
+      "source": "tradingview",
+      "highs": 173,
+      "lows": 141
+    },
+    {
+      "date": "2023-06-29",
+      "net": 122,
+      "source": "tradingview",
+      "highs": 228,
+      "lows": 106
+    },
+    {
+      "date": "2023-06-30",
+      "net": 229,
+      "source": "tradingview",
+      "highs": 303,
+      "lows": 74
+    },
+    {
+      "date": "2023-07-03",
+      "net": 90,
+      "source": "tradingview",
+      "highs": 137,
+      "lows": 47
+    },
+    {
+      "date": "2023-07-05",
+      "net": 10,
+      "source": "tradingview",
+      "highs": 80,
+      "lows": 70
+    },
+    {
+      "date": "2023-07-06",
+      "net": -110,
+      "source": "tradingview",
+      "highs": 37,
+      "lows": 147
+    },
+    {
+      "date": "2023-07-07",
+      "net": 4,
+      "source": "tradingview",
+      "highs": 83,
+      "lows": 79
+    },
+    {
+      "date": "2023-07-10",
+      "net": 54,
+      "source": "tradingview",
+      "highs": 124,
+      "lows": 70
+    },
+    {
+      "date": "2023-07-11",
+      "net": 169,
+      "source": "tradingview",
+      "highs": 214,
+      "lows": 45
+    },
+    {
+      "date": "2023-07-12",
+      "net": 254,
+      "source": "tradingview",
+      "highs": 306,
+      "lows": 52
+    },
+    {
+      "date": "2023-07-13",
+      "net": 226,
+      "source": "tradingview",
+      "highs": 269,
+      "lows": 43
+    },
+    {
+      "date": "2023-07-14",
+      "net": 93,
+      "source": "tradingview",
+      "highs": 172,
+      "lows": 79
+    },
+    {
+      "date": "2023-07-17",
+      "net": 178,
+      "source": "tradingview",
+      "highs": 259,
+      "lows": 81
+    },
+    {
+      "date": "2023-07-18",
+      "net": 237,
+      "source": "tradingview",
+      "highs": 321,
+      "lows": 84
+    },
+    {
+      "date": "2023-07-19",
+      "net": 228,
+      "source": "tradingview",
+      "highs": 275,
+      "lows": 47
+    },
+    {
+      "date": "2023-07-20",
+      "net": 99,
+      "source": "tradingview",
+      "highs": 164,
+      "lows": 65
+    },
+    {
+      "date": "2023-07-21",
+      "net": 100,
+      "source": "tradingview",
+      "highs": 160,
+      "lows": 60
+    },
+    {
+      "date": "2023-07-24",
+      "net": 57,
+      "source": "tradingview",
+      "highs": 139,
+      "lows": 82
+    },
+    {
+      "date": "2023-07-25",
+      "net": 78,
+      "source": "tradingview",
+      "highs": 175,
+      "lows": 97
+    },
+    {
+      "date": "2023-07-26",
+      "net": 83,
+      "source": "tradingview",
+      "highs": 168,
+      "lows": 85
+    },
+    {
+      "date": "2023-07-27",
+      "net": 119,
+      "source": "tradingview",
+      "highs": 224,
+      "lows": 105
+    },
+    {
+      "date": "2023-07-28",
+      "net": 87,
+      "source": "tradingview",
+      "highs": 170,
+      "lows": 83
+    },
+    {
+      "date": "2023-07-31",
+      "net": 159,
+      "source": "tradingview",
+      "highs": 210,
+      "lows": 51
+    },
+    {
+      "date": "2023-08-01",
+      "net": 93,
+      "source": "tradingview",
+      "highs": 166,
+      "lows": 73
+    },
+    {
+      "date": "2023-08-02",
+      "net": -31,
+      "source": "tradingview",
+      "highs": 93,
+      "lows": 124
+    },
+    {
+      "date": "2023-08-03",
+      "net": 5,
+      "source": "tradingview",
+      "highs": 121,
+      "lows": 116
+    },
+    {
+      "date": "2023-08-04",
+      "net": 42,
+      "source": "tradingview",
+      "highs": 152,
+      "lows": 110
+    },
+    {
+      "date": "2023-08-07",
+      "net": -27,
+      "source": "tradingview",
+      "highs": 150,
+      "lows": 177
+    },
+    {
+      "date": "2023-08-08",
+      "net": -120,
+      "source": "tradingview",
+      "highs": 102,
+      "lows": 222
+    },
+    {
+      "date": "2023-08-09",
+      "net": -57,
+      "source": "tradingview",
+      "highs": 135,
+      "lows": 192
+    },
+    {
+      "date": "2023-08-10",
+      "net": -73,
+      "source": "tradingview",
+      "highs": 115,
+      "lows": 188
+    },
+    {
+      "date": "2023-08-11",
+      "net": -112,
+      "source": "tradingview",
+      "highs": 72,
+      "lows": 184
+    },
+    {
+      "date": "2023-08-14",
+      "net": -146,
+      "source": "tradingview",
+      "highs": 78,
+      "lows": 224
+    },
+    {
+      "date": "2023-08-15",
+      "net": -207,
+      "source": "tradingview",
+      "highs": 60,
+      "lows": 267
+    },
+    {
+      "date": "2023-08-16",
+      "net": -261,
+      "source": "tradingview",
+      "highs": 50,
+      "lows": 311
+    },
+    {
+      "date": "2023-08-17",
+      "net": -270,
+      "source": "tradingview",
+      "highs": 23,
+      "lows": 293
+    },
+    {
+      "date": "2023-08-18",
+      "net": -264,
+      "source": "tradingview",
+      "highs": 20,
+      "lows": 284
+    },
+    {
+      "date": "2023-08-21",
+      "net": -189,
+      "source": "tradingview",
+      "highs": 49,
+      "lows": 238
+    },
+    {
+      "date": "2023-08-22",
+      "net": -213,
+      "source": "tradingview",
+      "highs": 53,
+      "lows": 266
+    },
+    {
+      "date": "2023-08-23",
+      "net": -137,
+      "source": "tradingview",
+      "highs": 64,
+      "lows": 201
+    },
+    {
+      "date": "2023-08-24",
+      "net": -204,
+      "source": "tradingview",
+      "highs": 54,
+      "lows": 258
+    },
+    {
+      "date": "2023-08-25",
+      "net": -204,
+      "source": "tradingview",
+      "highs": 38,
+      "lows": 242
+    },
+    {
+      "date": "2023-08-28",
+      "net": -70,
+      "source": "tradingview",
+      "highs": 87,
+      "lows": 157
+    },
+    {
+      "date": "2023-08-29",
+      "net": -28,
+      "source": "tradingview",
+      "highs": 102,
+      "lows": 130
+    },
+    {
+      "date": "2023-08-30",
+      "net": 43,
+      "source": "tradingview",
+      "highs": 139,
+      "lows": 96
+    },
+    {
+      "date": "2023-08-31",
+      "net": 14,
+      "source": "tradingview",
+      "highs": 123,
+      "lows": 109
+    },
+    {
+      "date": "2023-09-01",
+      "net": 66,
+      "source": "tradingview",
+      "highs": 173,
+      "lows": 107
+    },
+    {
+      "date": "2023-09-05",
+      "net": -116,
+      "source": "tradingview",
+      "highs": 93,
+      "lows": 209
+    },
+    {
+      "date": "2023-09-06",
+      "net": -175,
+      "source": "tradingview",
+      "highs": 58,
+      "lows": 233
+    },
+    {
+      "date": "2023-09-07",
+      "net": -283,
+      "source": "tradingview",
+      "highs": 52,
+      "lows": 335
+    },
+    {
+      "date": "2023-09-08",
+      "net": -224,
+      "source": "tradingview",
+      "highs": 68,
+      "lows": 292
+    },
+    {
+      "date": "2023-09-11",
+      "net": -148,
+      "source": "tradingview",
+      "highs": 89,
+      "lows": 237
+    },
+    {
+      "date": "2023-09-12",
+      "net": -131,
+      "source": "tradingview",
+      "highs": 94,
+      "lows": 225
+    },
+    {
+      "date": "2023-09-13",
+      "net": -193,
+      "source": "tradingview",
+      "highs": 58,
+      "lows": 251
+    },
+    {
+      "date": "2023-09-14",
+      "net": -112,
+      "source": "tradingview",
+      "highs": 87,
+      "lows": 199
+    },
+    {
+      "date": "2023-09-15",
+      "net": -183,
+      "source": "tradingview",
+      "highs": 78,
+      "lows": 261
+    },
+    {
+      "date": "2023-09-18",
+      "net": -243,
+      "source": "tradingview",
+      "highs": 59,
+      "lows": 302
+    },
+    {
+      "date": "2023-09-19",
+      "net": -244,
+      "source": "tradingview",
+      "highs": 64,
+      "lows": 308
+    },
+    {
+      "date": "2023-09-20",
+      "net": -211,
+      "source": "tradingview",
+      "highs": 68,
+      "lows": 279
+    },
+    {
+      "date": "2023-09-21",
+      "net": -468,
+      "source": "tradingview",
+      "highs": 28,
+      "lows": 496
+    },
+    {
+      "date": "2023-09-22",
+      "net": -386,
+      "source": "tradingview",
+      "highs": 42,
+      "lows": 428
+    },
+    {
+      "date": "2023-09-25",
+      "net": -447,
+      "source": "tradingview",
+      "highs": 51,
+      "lows": 498
+    },
+    {
+      "date": "2023-09-26",
+      "net": -410,
+      "source": "tradingview",
+      "highs": 37,
+      "lows": 447
+    },
+    {
+      "date": "2023-09-27",
+      "net": -368,
+      "source": "tradingview",
+      "highs": 49,
+      "lows": 417
+    },
+    {
+      "date": "2023-09-28",
+      "net": -279,
+      "source": "tradingview",
+      "highs": 63,
+      "lows": 342
+    },
+    {
+      "date": "2023-09-29",
+      "net": -152,
+      "source": "tradingview",
+      "highs": 51,
+      "lows": 203
+    },
+    {
+      "date": "2023-10-02",
+      "net": -456,
+      "source": "tradingview",
+      "highs": 28,
+      "lows": 484
+    },
+    {
+      "date": "2023-10-03",
+      "net": -672,
+      "source": "tradingview",
+      "highs": 17,
+      "lows": 689
+    },
+    {
+      "date": "2023-10-04",
+      "net": -554,
+      "source": "tradingview",
+      "highs": 22,
+      "lows": 576
+    },
+    {
+      "date": "2023-10-05",
+      "net": -407,
+      "source": "tradingview",
+      "highs": 31,
+      "lows": 438
+    },
+    {
+      "date": "2023-10-06",
+      "net": -368,
+      "source": "tradingview",
+      "highs": 49,
+      "lows": 417
+    },
+    {
+      "date": "2023-10-09",
+      "net": -309,
+      "source": "tradingview",
+      "highs": 57,
+      "lows": 366
+    },
+    {
+      "date": "2023-10-10",
+      "net": -84,
+      "source": "tradingview",
+      "highs": 89,
+      "lows": 173
+    },
+    {
+      "date": "2023-10-11",
+      "net": -148,
+      "source": "tradingview",
+      "highs": 74,
+      "lows": 222
+    },
+    {
+      "date": "2023-10-12",
+      "net": -362,
+      "source": "tradingview",
+      "highs": 68,
+      "lows": 430
+    },
+    {
+      "date": "2023-10-13",
+      "net": -386,
+      "source": "tradingview",
+      "highs": 48,
+      "lows": 434
+    },
+    {
+      "date": "2023-10-16",
+      "net": -187,
+      "source": "tradingview",
+      "highs": 59,
+      "lows": 246
+    },
+    {
+      "date": "2023-10-17",
+      "net": -68,
+      "source": "tradingview",
+      "highs": 88,
+      "lows": 156
+    },
+    {
+      "date": "2023-10-18",
+      "net": -261,
+      "source": "tradingview",
+      "highs": 44,
+      "lows": 305
+    },
+    {
+      "date": "2023-10-19",
+      "net": -453,
+      "source": "tradingview",
+      "highs": 26,
+      "lows": 479
+    },
+    {
+      "date": "2023-10-20",
+      "net": -542,
+      "source": "tradingview",
+      "highs": 7,
+      "lows": 549
+    },
+    {
+      "date": "2023-10-23",
+      "net": -700,
+      "source": "tradingview",
+      "highs": 13,
+      "lows": 713
+    },
+    {
+      "date": "2023-10-24",
+      "net": -428,
+      "source": "tradingview",
+      "highs": 19,
+      "lows": 447
+    },
+    {
+      "date": "2023-10-25",
+      "net": -698,
+      "source": "tradingview",
+      "highs": 21,
+      "lows": 719
+    },
+    {
+      "date": "2023-10-26",
+      "net": -543,
+      "source": "tradingview",
+      "highs": 22,
+      "lows": 565
+    },
+    {
+      "date": "2023-10-27",
+      "net": -663,
+      "source": "tradingview",
+      "highs": 27,
+      "lows": 690
+    },
+    {
+      "date": "2023-10-30",
+      "net": -498,
+      "source": "tradingview",
+      "highs": 17,
+      "lows": 515
+    },
+    {
+      "date": "2023-10-31",
+      "net": -299,
+      "source": "tradingview",
+      "highs": 21,
+      "lows": 320
+    },
+    {
+      "date": "2023-11-01",
+      "net": -356,
+      "source": "tradingview",
+      "highs": 49,
+      "lows": 405
+    },
+    {
+      "date": "2023-11-02",
+      "net": -111,
+      "source": "tradingview",
+      "highs": 83,
+      "lows": 194
+    },
+    {
+      "date": "2023-11-03",
+      "net": 35,
+      "source": "tradingview",
+      "highs": 117,
+      "lows": 82
+    },
+    {
+      "date": "2023-11-06",
+      "net": -44,
+      "source": "tradingview",
+      "highs": 60,
+      "lows": 104
+    },
+    {
+      "date": "2023-11-07",
+      "net": -83,
+      "source": "tradingview",
+      "highs": 66,
+      "lows": 149
+    },
+    {
+      "date": "2023-11-08",
+      "net": -160,
+      "source": "tradingview",
+      "highs": 68,
+      "lows": 228
+    },
+    {
+      "date": "2023-11-09",
+      "net": -272,
+      "source": "tradingview",
+      "highs": 71,
+      "lows": 343
+    },
+    {
+      "date": "2023-11-10",
+      "net": -306,
+      "source": "tradingview",
+      "highs": 85,
+      "lows": 391
+    },
+    {
+      "date": "2023-11-13",
+      "net": -179,
+      "source": "tradingview",
+      "highs": 97,
+      "lows": 276
+    },
+    {
+      "date": "2023-11-14",
+      "net": 86,
+      "source": "tradingview",
+      "highs": 213,
+      "lows": 127
+    },
+    {
+      "date": "2023-11-15",
+      "net": 99,
+      "source": "tradingview",
+      "highs": 187,
+      "lows": 88
+    },
+    {
+      "date": "2023-11-16",
+      "net": -44,
+      "source": "tradingview",
+      "highs": 74,
+      "lows": 118
+    },
+    {
+      "date": "2023-11-17",
+      "net": 18,
+      "source": "tradingview",
+      "highs": 112,
+      "lows": 94
+    },
+    {
+      "date": "2023-11-20",
+      "net": 63,
+      "source": "tradingview",
+      "highs": 151,
+      "lows": 88
+    },
+    {
+      "date": "2023-11-21",
+      "net": -12,
+      "source": "tradingview",
+      "highs": 116,
+      "lows": 128
+    },
+    {
+      "date": "2023-11-22",
+      "net": 48,
+      "source": "tradingview",
+      "highs": 158,
+      "lows": 110
+    },
+    {
+      "date": "2023-11-24",
+      "net": 103,
+      "source": "tradingview",
+      "highs": 161,
+      "lows": 58
+    },
+    {
+      "date": "2023-11-27",
+      "net": 71,
+      "source": "tradingview",
+      "highs": 168,
+      "lows": 97
+    },
+    {
+      "date": "2023-11-28",
+      "net": -6,
+      "source": "tradingview",
+      "highs": 118,
+      "lows": 124
+    },
+    {
+      "date": "2023-11-29",
+      "net": 48,
+      "source": "tradingview",
+      "highs": 157,
+      "lows": 109
+    },
+    {
+      "date": "2023-11-30",
+      "net": 35,
+      "source": "tradingview",
+      "highs": 157,
+      "lows": 122
+    },
+    {
+      "date": "2023-12-01",
+      "net": 165,
+      "source": "tradingview",
+      "highs": 249,
+      "lows": 84
+    },
+    {
+      "date": "2023-12-04",
+      "net": 210,
+      "source": "tradingview",
+      "highs": 269,
+      "lows": 59
+    },
+    {
+      "date": "2023-12-05",
+      "net": 81,
+      "source": "tradingview",
+      "highs": 158,
+      "lows": 77
+    },
+    {
+      "date": "2023-12-06",
+      "net": 119,
+      "source": "tradingview",
+      "highs": 211,
+      "lows": 92
+    },
+    {
+      "date": "2023-12-07",
+      "net": 8,
+      "source": "tradingview",
+      "highs": 113,
+      "lows": 105
+    },
+    {
+      "date": "2023-12-08",
+      "net": 93,
+      "source": "tradingview",
+      "highs": 185,
+      "lows": 92
+    },
+    {
+      "date": "2023-12-11",
+      "net": 86,
+      "source": "tradingview",
+      "highs": 214,
+      "lows": 128
+    },
+    {
+      "date": "2023-12-12",
+      "net": 65,
+      "source": "tradingview",
+      "highs": 238,
+      "lows": 173
+    },
+    {
+      "date": "2023-12-13",
+      "net": 242,
+      "source": "tradingview",
+      "highs": 394,
+      "lows": 152
+    },
+    {
+      "date": "2023-12-14",
+      "net": 511,
+      "source": "tradingview",
+      "highs": 559,
+      "lows": 48
+    },
+    {
+      "date": "2023-12-15",
+      "net": 246,
+      "source": "tradingview",
+      "highs": 316,
+      "lows": 70
+    },
+    {
+      "date": "2023-12-18",
+      "net": 134,
+      "source": "tradingview",
+      "highs": 214,
+      "lows": 80
+    },
+    {
+      "date": "2023-12-19",
+      "net": 304,
+      "source": "tradingview",
+      "highs": 370,
+      "lows": 66
+    },
+    {
+      "date": "2023-12-20",
+      "net": 309,
+      "source": "tradingview",
+      "highs": 381,
+      "lows": 72
+    },
+    {
+      "date": "2023-12-21",
+      "net": 90,
+      "source": "tradingview",
+      "highs": 148,
+      "lows": 58
+    },
+    {
+      "date": "2023-12-22",
+      "net": 279,
+      "source": "tradingview",
+      "highs": 326,
+      "lows": 47
+    },
+    {
+      "date": "2023-12-26",
+      "net": 346,
+      "source": "tradingview",
+      "highs": 387,
+      "lows": 41
+    },
+    {
+      "date": "2023-12-27",
+      "net": 371,
+      "source": "tradingview",
+      "highs": 405,
+      "lows": 34
+    },
+    {
+      "date": "2023-12-28",
+      "net": 196,
+      "source": "tradingview",
+      "highs": 231,
+      "lows": 35
+    },
+    {
+      "date": "2023-12-29",
+      "net": 96,
+      "source": "tradingview",
+      "highs": 137,
+      "lows": 41
+    },
+    {
+      "date": "2024-01-02",
+      "net": 58,
+      "source": "tradingview",
+      "highs": 101,
+      "lows": 43
+    },
+    {
+      "date": "2024-01-03",
+      "net": 8,
+      "source": "tradingview",
+      "highs": 72,
+      "lows": 64
+    },
+    {
+      "date": "2024-01-04",
+      "net": 31,
+      "source": "tradingview",
+      "highs": 101,
+      "lows": 70
+    },
+    {
+      "date": "2024-01-05",
+      "net": 13,
+      "source": "tradingview",
+      "highs": 81,
+      "lows": 68
+    },
+    {
+      "date": "2024-01-08",
+      "net": 31,
+      "source": "tradingview",
+      "highs": 110,
+      "lows": 79
+    },
+    {
+      "date": "2024-01-09",
+      "net": 6,
+      "source": "tradingview",
+      "highs": 89,
+      "lows": 83
+    },
+    {
+      "date": "2024-01-10",
+      "net": 14,
+      "source": "tradingview",
+      "highs": 117,
+      "lows": 103
+    },
+    {
+      "date": "2024-01-11",
+      "net": -24,
+      "source": "tradingview",
+      "highs": 103,
+      "lows": 127
+    },
+    {
+      "date": "2024-01-12",
+      "net": 46,
+      "source": "tradingview",
+      "highs": 147,
+      "lows": 101
+    },
+    {
+      "date": "2024-01-16",
+      "net": -110,
+      "source": "tradingview",
+      "highs": 104,
+      "lows": 214
+    },
+    {
+      "date": "2024-01-17",
+      "net": -191,
+      "source": "tradingview",
+      "highs": 74,
+      "lows": 265
+    },
+    {
+      "date": "2024-01-18",
+      "net": -102,
+      "source": "tradingview",
+      "highs": 105,
+      "lows": 207
+    },
+    {
+      "date": "2024-01-19",
+      "net": -32,
+      "source": "tradingview",
+      "highs": 179,
+      "lows": 211
+    },
+    {
+      "date": "2024-01-22",
+      "net": 172,
+      "source": "tradingview",
+      "highs": 307,
+      "lows": 135
+    },
+    {
+      "date": "2024-01-23",
+      "net": 101,
+      "source": "tradingview",
+      "highs": 173,
+      "lows": 72
+    },
+    {
+      "date": "2024-01-24",
+      "net": 154,
+      "source": "tradingview",
+      "highs": 227,
+      "lows": 73
+    },
+    {
+      "date": "2024-01-25",
+      "net": 54,
+      "source": "tradingview",
+      "highs": 163,
+      "lows": 109
+    },
+    {
+      "date": "2024-01-26",
+      "net": 106,
+      "source": "tradingview",
+      "highs": 177,
+      "lows": 71
+    },
+    {
+      "date": "2024-01-29",
+      "net": 134,
+      "source": "tradingview",
+      "highs": 215,
+      "lows": 81
+    },
+    {
+      "date": "2024-01-30",
+      "net": 202,
+      "source": "tradingview",
+      "highs": 275,
+      "lows": 73
+    },
+    {
+      "date": "2024-01-31",
+      "net": 83,
+      "source": "tradingview",
+      "highs": 193,
+      "lows": 110
+    },
+    {
+      "date": "2024-02-01",
+      "net": 44,
+      "source": "tradingview",
+      "highs": 175,
+      "lows": 131
+    },
+    {
+      "date": "2024-02-02",
+      "net": 30,
+      "source": "tradingview",
+      "highs": 203,
+      "lows": 173
+    },
+    {
+      "date": "2024-02-05",
+      "net": -128,
+      "source": "tradingview",
+      "highs": 117,
+      "lows": 245
+    },
+    {
+      "date": "2024-02-06",
+      "net": 1,
+      "source": "tradingview",
+      "highs": 146,
+      "lows": 145
+    },
+    {
+      "date": "2024-02-07",
+      "net": 107,
+      "source": "tradingview",
+      "highs": 237,
+      "lows": 130
+    },
+    {
+      "date": "2024-02-08",
+      "net": 135,
+      "source": "tradingview",
+      "highs": 241,
+      "lows": 106
+    },
+    {
+      "date": "2024-02-09",
+      "net": 230,
+      "source": "tradingview",
+      "highs": 304,
+      "lows": 74
+    },
+    {
+      "date": "2024-02-12",
+      "net": 319,
+      "source": "tradingview",
+      "highs": 363,
+      "lows": 44
+    },
+    {
+      "date": "2024-02-13",
+      "net": -81,
+      "source": "tradingview",
+      "highs": 59,
+      "lows": 140
+    },
+    {
+      "date": "2024-02-14",
+      "net": 52,
+      "source": "tradingview",
+      "highs": 155,
+      "lows": 103
+    },
+    {
+      "date": "2024-02-15",
+      "net": 252,
+      "source": "tradingview",
+      "highs": 314,
+      "lows": 62
+    },
+    {
+      "date": "2024-02-16",
+      "net": 242,
+      "source": "tradingview",
+      "highs": 303,
+      "lows": 61
+    },
+    {
+      "date": "2024-02-20",
+      "net": 58,
+      "source": "tradingview",
+      "highs": 156,
+      "lows": 98
+    },
+    {
+      "date": "2024-02-21",
+      "net": 8,
+      "source": "tradingview",
+      "highs": 115,
+      "lows": 107
+    },
+    {
+      "date": "2024-02-22",
+      "net": 146,
+      "source": "tradingview",
+      "highs": 272,
+      "lows": 126
+    },
+    {
+      "date": "2024-02-23",
+      "net": 164,
+      "source": "tradingview",
+      "highs": 309,
+      "lows": 145
+    },
+    {
+      "date": "2024-02-26",
+      "net": 182,
+      "source": "tradingview",
+      "highs": 299,
+      "lows": 117
+    },
+    {
+      "date": "2024-02-27",
+      "net": 227,
+      "source": "tradingview",
+      "highs": 301,
+      "lows": 74
+    },
+    {
+      "date": "2024-02-28",
+      "net": 152,
+      "source": "tradingview",
+      "highs": 259,
+      "lows": 107
+    },
+    {
+      "date": "2024-02-29",
+      "net": 212,
+      "source": "tradingview",
+      "highs": 293,
+      "lows": 81
+    },
+    {
+      "date": "2024-03-01",
+      "net": 283,
+      "source": "tradingview",
+      "highs": 365,
+      "lows": 82
+    },
+    {
+      "date": "2024-03-04",
+      "net": 296,
+      "source": "tradingview",
+      "highs": 417,
+      "lows": 121
+    },
+    {
+      "date": "2024-03-05",
+      "net": 79,
+      "source": "tradingview",
+      "highs": 214,
+      "lows": 135
+    },
+    {
+      "date": "2024-03-06",
+      "net": 131,
+      "source": "tradingview",
+      "highs": 259,
+      "lows": 128
+    },
+    {
+      "date": "2024-03-07",
+      "net": 239,
+      "source": "tradingview",
+      "highs": 329,
+      "lows": 90
+    },
+    {
+      "date": "2024-03-08",
+      "net": 247,
+      "source": "tradingview",
+      "highs": 318,
+      "lows": 71
+    },
+    {
+      "date": "2024-03-11",
+      "net": 37,
+      "source": "tradingview",
+      "highs": 126,
+      "lows": 89
+    },
+    {
+      "date": "2024-03-12",
+      "net": 40,
+      "source": "tradingview",
+      "highs": 157,
+      "lows": 117
+    },
+    {
+      "date": "2024-03-13",
+      "net": 149,
+      "source": "tradingview",
+      "highs": 265,
+      "lows": 116
+    },
+    {
+      "date": "2024-03-14",
+      "net": -59,
+      "source": "tradingview",
+      "highs": 153,
+      "lows": 212
+    },
+    {
+      "date": "2024-03-15",
+      "net": -31,
+      "source": "tradingview",
+      "highs": 145,
+      "lows": 176
+    },
+    {
+      "date": "2024-03-18",
+      "net": 26,
+      "source": "tradingview",
+      "highs": 166,
+      "lows": 140
+    },
+    {
+      "date": "2024-03-19",
+      "net": 26,
+      "source": "tradingview",
+      "highs": 169,
+      "lows": 143
+    },
+    {
+      "date": "2024-03-20",
+      "net": 173,
+      "source": "tradingview",
+      "highs": 289,
+      "lows": 116
+    },
+    {
+      "date": "2024-03-21",
+      "net": 397,
+      "source": "tradingview",
+      "highs": 452,
+      "lows": 55
+    },
+    {
+      "date": "2024-03-22",
+      "net": 141,
+      "source": "tradingview",
+      "highs": 242,
+      "lows": 101
+    },
+    {
+      "date": "2024-03-25",
+      "net": 111,
+      "source": "tradingview",
+      "highs": 232,
+      "lows": 121
+    },
+    {
+      "date": "2024-03-26",
+      "net": 43,
+      "source": "tradingview",
+      "highs": 178,
+      "lows": 135
+    },
+    {
+      "date": "2024-03-27",
+      "net": 186,
+      "source": "tradingview",
+      "highs": 261,
+      "lows": 75
+    },
+    {
+      "date": "2024-03-28",
+      "net": 351,
+      "source": "tradingview",
+      "highs": 389,
+      "lows": 38
+    },
+    {
+      "date": "2024-04-01",
+      "net": 154,
+      "source": "tradingview",
+      "highs": 230,
+      "lows": 76
+    },
+    {
+      "date": "2024-04-02",
+      "net": -15,
+      "source": "tradingview",
+      "highs": 133,
+      "lows": 148
+    },
+    {
+      "date": "2024-04-03",
+      "net": 84,
+      "source": "tradingview",
+      "highs": 231,
+      "lows": 147
+    },
+    {
+      "date": "2024-04-04",
+      "net": 191,
+      "source": "tradingview",
+      "highs": 286,
+      "lows": 95
+    },
+    {
+      "date": "2024-04-05",
+      "net": -2,
+      "source": "tradingview",
+      "highs": 147,
+      "lows": 149
+    },
+    {
+      "date": "2024-04-08",
+      "net": 81,
+      "source": "tradingview",
+      "highs": 175,
+      "lows": 94
+    },
+    {
+      "date": "2024-04-09",
+      "net": 55,
+      "source": "tradingview",
+      "highs": 132,
+      "lows": 77
+    },
+    {
+      "date": "2024-04-10",
+      "net": -162,
+      "source": "tradingview",
+      "highs": 46,
+      "lows": 208
+    },
+    {
+      "date": "2024-04-11",
+      "net": -81,
+      "source": "tradingview",
+      "highs": 72,
+      "lows": 153
+    },
+    {
+      "date": "2024-04-12",
+      "net": -162,
+      "source": "tradingview",
+      "highs": 84,
+      "lows": 246
+    },
+    {
+      "date": "2024-04-15",
+      "net": -341,
+      "source": "tradingview",
+      "highs": 33,
+      "lows": 374
+    },
+    {
+      "date": "2024-04-16",
+      "net": -398,
+      "source": "tradingview",
+      "highs": 18,
+      "lows": 416
+    },
+    {
+      "date": "2024-04-17",
+      "net": -252,
+      "source": "tradingview",
+      "highs": 22,
+      "lows": 274
+    },
+    {
+      "date": "2024-04-18",
+      "net": -252,
+      "source": "tradingview",
+      "highs": 19,
+      "lows": 271
+    },
+    {
+      "date": "2024-04-19",
+      "net": -190,
+      "source": "tradingview",
+      "highs": 26,
+      "lows": 216
+    },
+    {
+      "date": "2024-04-22",
+      "net": -158,
+      "source": "tradingview",
+      "highs": 54,
+      "lows": 212
+    },
+    {
+      "date": "2024-04-23",
+      "net": -6,
+      "source": "tradingview",
+      "highs": 90,
+      "lows": 96
+    },
+    {
+      "date": "2024-04-24",
+      "net": -50,
+      "source": "tradingview",
+      "highs": 88,
+      "lows": 138
+    },
+    {
+      "date": "2024-04-25",
+      "net": -159,
+      "source": "tradingview",
+      "highs": 63,
+      "lows": 222
+    },
+    {
+      "date": "2024-04-26",
+      "net": 13,
+      "source": "tradingview",
+      "highs": 119,
+      "lows": 106
+    },
+    {
+      "date": "2024-04-29",
+      "net": 63,
+      "source": "tradingview",
+      "highs": 125,
+      "lows": 62
+    },
+    {
+      "date": "2024-04-30",
+      "net": -42,
+      "source": "tradingview",
+      "highs": 93,
+      "lows": 135
+    },
+    {
+      "date": "2024-05-01",
+      "net": -20,
+      "source": "tradingview",
+      "highs": 102,
+      "lows": 122
+    },
+    {
+      "date": "2024-05-02",
+      "net": 35,
+      "source": "tradingview",
+      "highs": 133,
+      "lows": 98
+    },
+    {
+      "date": "2024-05-03",
+      "net": 136,
+      "source": "tradingview",
+      "highs": 200,
+      "lows": 64
+    },
+    {
+      "date": "2024-05-06",
+      "net": 177,
+      "source": "tradingview",
+      "highs": 237,
+      "lows": 60
+    },
+    {
+      "date": "2024-05-07",
+      "net": 211,
+      "source": "tradingview",
+      "highs": 276,
+      "lows": 65
+    },
+    {
+      "date": "2024-05-08",
+      "net": 77,
+      "source": "tradingview",
+      "highs": 183,
+      "lows": 106
+    },
+    {
+      "date": "2024-05-09",
+      "net": 162,
+      "source": "tradingview",
+      "highs": 256,
+      "lows": 94
+    },
+    {
+      "date": "2024-05-10",
+      "net": 173,
+      "source": "tradingview",
+      "highs": 285,
+      "lows": 112
+    },
+    {
+      "date": "2024-05-13",
+      "net": 124,
+      "source": "tradingview",
+      "highs": 217,
+      "lows": 93
+    },
+    {
+      "date": "2024-05-14",
+      "net": 146,
+      "source": "tradingview",
+      "highs": 222,
+      "lows": 76
+    },
+    {
+      "date": "2024-05-15",
+      "net": 270,
+      "source": "tradingview",
+      "highs": 344,
+      "lows": 74
+    },
+    {
+      "date": "2024-05-16",
+      "net": 187,
+      "source": "tradingview",
+      "highs": 244,
+      "lows": 57
+    },
+    {
+      "date": "2024-05-17",
+      "net": 141,
+      "source": "tradingview",
+      "highs": 225,
+      "lows": 84
+    },
+    {
+      "date": "2024-05-20",
+      "net": 177,
+      "source": "tradingview",
+      "highs": 293,
+      "lows": 116
+    },
+    {
+      "date": "2024-05-21",
+      "net": 96,
+      "source": "tradingview",
+      "highs": 223,
+      "lows": 127
+    },
+    {
+      "date": "2024-05-22",
+      "net": 24,
+      "source": "tradingview",
+      "highs": 162,
+      "lows": 138
+    },
+    {
+      "date": "2024-05-23",
+      "net": -80,
+      "source": "tradingview",
+      "highs": 121,
+      "lows": 201
+    },
+    {
+      "date": "2024-05-24",
+      "net": -12,
+      "source": "tradingview",
+      "highs": 134,
+      "lows": 146
+    },
+    {
+      "date": "2024-05-28",
+      "net": 15,
+      "source": "tradingview",
+      "highs": 165,
+      "lows": 150
+    },
+    {
+      "date": "2024-05-29",
+      "net": -155,
+      "source": "tradingview",
+      "highs": 66,
+      "lows": 221
+    },
+    {
+      "date": "2024-05-30",
+      "net": -19,
+      "source": "tradingview",
+      "highs": 107,
+      "lows": 126
+    },
+    {
+      "date": "2024-05-31",
+      "net": 16,
+      "source": "tradingview",
+      "highs": 131,
+      "lows": 115
+    },
+    {
+      "date": "2024-06-03",
+      "net": 46,
+      "source": "tradingview",
+      "highs": 180,
+      "lows": 134
+    },
+    {
+      "date": "2024-06-04",
+      "net": -100,
+      "source": "tradingview",
+      "highs": 69,
+      "lows": 169
+    },
+    {
+      "date": "2024-06-05",
+      "net": -26,
+      "source": "tradingview",
+      "highs": 119,
+      "lows": 145
+    },
+    {
+      "date": "2024-06-06",
+      "net": -21,
+      "source": "tradingview",
+      "highs": 107,
+      "lows": 128
+    },
+    {
+      "date": "2024-06-07",
+      "net": -125,
+      "source": "tradingview",
+      "highs": 59,
+      "lows": 184
+    },
+    {
+      "date": "2024-06-10",
+      "net": -147,
+      "source": "tradingview",
+      "highs": 81,
+      "lows": 228
+    },
+    {
+      "date": "2024-06-11",
+      "net": -104,
+      "source": "tradingview",
+      "highs": 66,
+      "lows": 170
+    },
+    {
+      "date": "2024-06-12",
+      "net": 81,
+      "source": "tradingview",
+      "highs": 175,
+      "lows": 94
+    },
+    {
+      "date": "2024-06-13",
+      "net": -118,
+      "source": "tradingview",
+      "highs": 73,
+      "lows": 191
+    },
+    {
+      "date": "2024-06-14",
+      "net": -242,
+      "source": "tradingview",
+      "highs": 40,
+      "lows": 282
+    },
+    {
+      "date": "2024-06-17",
+      "net": -180,
+      "source": "tradingview",
+      "highs": 96,
+      "lows": 276
+    },
+    {
+      "date": "2024-06-18",
+      "net": -141,
+      "source": "tradingview",
+      "highs": 119,
+      "lows": 260
+    },
+    {
+      "date": "2024-06-20",
+      "net": -209,
+      "source": "tradingview",
+      "highs": 82,
+      "lows": 291
+    },
+    {
+      "date": "2024-06-21",
+      "net": -177,
+      "source": "tradingview",
+      "highs": 52,
+      "lows": 229
+    },
+    {
+      "date": "2024-06-24",
+      "net": -52,
+      "source": "tradingview",
+      "highs": 101,
+      "lows": 153
+    },
+    {
+      "date": "2024-06-25",
+      "net": -154,
+      "source": "tradingview",
+      "highs": 79,
+      "lows": 233
+    },
+    {
+      "date": "2024-06-26",
+      "net": -164,
+      "source": "tradingview",
+      "highs": 59,
+      "lows": 223
+    },
+    {
+      "date": "2024-06-27",
+      "net": -84,
+      "source": "tradingview",
+      "highs": 81,
+      "lows": 165
+    },
+    {
+      "date": "2024-06-28",
+      "net": -62,
+      "source": "tradingview",
+      "highs": 116,
+      "lows": 178
+    },
+    {
+      "date": "2024-07-01",
+      "net": -103,
+      "source": "tradingview",
+      "highs": 92,
+      "lows": 195
+    },
+    {
+      "date": "2024-07-02",
+      "net": -146,
+      "source": "tradingview",
+      "highs": 92,
+      "lows": 238
+    },
+    {
+      "date": "2024-07-03",
+      "net": -19,
+      "source": "tradingview",
+      "highs": 106,
+      "lows": 125
+    },
+    {
+      "date": "2024-07-05",
+      "net": -110,
+      "source": "tradingview",
+      "highs": 91,
+      "lows": 201
+    },
+    {
+      "date": "2024-07-08",
+      "net": -17,
+      "source": "tradingview",
+      "highs": 126,
+      "lows": 143
+    },
+    {
+      "date": "2024-07-09",
+      "net": -113,
+      "source": "tradingview",
+      "highs": 110,
+      "lows": 223
+    },
+    {
+      "date": "2024-07-10",
+      "net": -44,
+      "source": "tradingview",
+      "highs": 125,
+      "lows": 169
+    },
+    {
+      "date": "2024-07-11",
+      "net": 242,
+      "source": "tradingview",
+      "highs": 293,
+      "lows": 51
+    },
+    {
+      "date": "2024-07-12",
+      "net": 310,
+      "source": "tradingview",
+      "highs": 344,
+      "lows": 34
+    },
+    {
+      "date": "2024-07-15",
+      "net": 402,
+      "source": "tradingview",
+      "highs": 429,
+      "lows": 27
+    },
+    {
+      "date": "2024-07-16",
+      "net": 581,
+      "source": "tradingview",
+      "highs": 609,
+      "lows": 28
+    },
+    {
+      "date": "2024-07-17",
+      "net": 480,
+      "source": "tradingview",
+      "highs": 516,
+      "lows": 36
+    },
+    {
+      "date": "2024-07-18",
+      "net": 311,
+      "source": "tradingview",
+      "highs": 374,
+      "lows": 63
+    },
+    {
+      "date": "2024-07-19",
+      "net": -23,
+      "source": "tradingview",
+      "highs": 73,
+      "lows": 96
+    },
+    {
+      "date": "2024-07-22",
+      "net": 74,
+      "source": "tradingview",
+      "highs": 163,
+      "lows": 89
+    },
+    {
+      "date": "2024-07-23",
+      "net": 325,
+      "source": "tradingview",
+      "highs": 400,
+      "lows": 75
+    },
+    {
+      "date": "2024-07-24",
+      "net": 157,
+      "source": "tradingview",
+      "highs": 259,
+      "lows": 102
+    },
+    {
+      "date": "2024-07-25",
+      "net": 250,
+      "source": "tradingview",
+      "highs": 344,
+      "lows": 94
+    },
+    {
+      "date": "2024-07-26",
+      "net": 307,
+      "source": "tradingview",
+      "highs": 371,
+      "lows": 64
+    },
+    {
+      "date": "2024-07-29",
+      "net": 189,
+      "source": "tradingview",
+      "highs": 272,
+      "lows": 83
+    },
+    {
+      "date": "2024-07-30",
+      "net": 184,
+      "source": "tradingview",
+      "highs": 302,
+      "lows": 118
+    },
+    {
+      "date": "2024-07-31",
+      "net": 340,
+      "source": "tradingview",
+      "highs": 432,
+      "lows": 92
+    },
+    {
+      "date": "2024-08-01",
+      "net": -6,
+      "source": "tradingview",
+      "highs": 195,
+      "lows": 201
+    },
+    {
+      "date": "2024-08-02",
+      "net": -231,
+      "source": "tradingview",
+      "highs": 119,
+      "lows": 350
+    },
+    {
+      "date": "2024-08-05",
+      "net": -640,
+      "source": "tradingview",
+      "highs": 28,
+      "lows": 668
+    },
+    {
+      "date": "2024-08-06",
+      "net": -143,
+      "source": "tradingview",
+      "highs": 42,
+      "lows": 185
+    },
+    {
+      "date": "2024-08-07",
+      "net": -171,
+      "source": "tradingview",
+      "highs": 64,
+      "lows": 235
+    },
+    {
+      "date": "2024-08-08",
+      "net": -174,
+      "source": "tradingview",
+      "highs": 45,
+      "lows": 219
+    },
+    {
+      "date": "2024-08-09",
+      "net": -122,
+      "source": "tradingview",
+      "highs": 70,
+      "lows": 192
+    },
+    {
+      "date": "2024-08-12",
+      "net": -155,
+      "source": "tradingview",
+      "highs": 74,
+      "lows": 229
+    },
+    {
+      "date": "2024-08-13",
+      "net": -59,
+      "source": "tradingview",
+      "highs": 89,
+      "lows": 148
+    },
+    {
+      "date": "2024-08-14",
+      "net": -57,
+      "source": "tradingview",
+      "highs": 114,
+      "lows": 171
+    },
+    {
+      "date": "2024-08-15",
+      "net": 80,
+      "source": "tradingview",
+      "highs": 163,
+      "lows": 83
+    },
+    {
+      "date": "2024-08-16",
+      "net": 47,
+      "source": "tradingview",
+      "highs": 138,
+      "lows": 91
+    },
+    {
+      "date": "2024-08-19",
+      "net": 139,
+      "source": "tradingview",
+      "highs": 194,
+      "lows": 55
+    },
+    {
+      "date": "2024-08-20",
+      "net": 58,
+      "source": "tradingview",
+      "highs": 146,
+      "lows": 88
+    },
+    {
+      "date": "2024-08-21",
+      "net": 100,
+      "source": "tradingview",
+      "highs": 171,
+      "lows": 71
+    },
+    {
+      "date": "2024-08-22",
+      "net": 107,
+      "source": "tradingview",
+      "highs": 177,
+      "lows": 70
+    },
+    {
+      "date": "2024-08-23",
+      "net": 282,
+      "source": "tradingview",
+      "highs": 332,
+      "lows": 50
+    },
+    {
+      "date": "2024-08-26",
+      "net": 314,
+      "source": "tradingview",
+      "highs": 363,
+      "lows": 49
+    },
+    {
+      "date": "2024-08-27",
+      "net": 84,
+      "source": "tradingview",
+      "highs": 149,
+      "lows": 65
+    },
+    {
+      "date": "2024-08-28",
+      "net": 74,
+      "source": "tradingview",
+      "highs": 188,
+      "lows": 114
+    },
+    {
+      "date": "2024-08-29",
+      "net": 133,
+      "source": "tradingview",
+      "highs": 221,
+      "lows": 88
+    },
+    {
+      "date": "2024-08-30",
+      "net": 154,
+      "source": "tradingview",
+      "highs": 239,
+      "lows": 85
+    },
+    {
+      "date": "2024-09-03",
+      "net": 15,
+      "source": "tradingview",
+      "highs": 192,
+      "lows": 177
+    },
+    {
+      "date": "2024-09-04",
+      "net": -39,
+      "source": "tradingview",
+      "highs": 156,
+      "lows": 195
+    },
+    {
+      "date": "2024-09-05",
+      "net": -45,
+      "source": "tradingview",
+      "highs": 149,
+      "lows": 194
+    },
+    {
+      "date": "2024-09-06",
+      "net": -206,
+      "source": "tradingview",
+      "highs": 70,
+      "lows": 276
+    },
+    {
+      "date": "2024-09-09",
+      "net": -137,
+      "source": "tradingview",
+      "highs": 98,
+      "lows": 235
+    },
+    {
+      "date": "2024-09-10",
+      "net": -127,
+      "source": "tradingview",
+      "highs": 118,
+      "lows": 245
+    },
+    {
+      "date": "2024-09-11",
+      "net": -125,
+      "source": "tradingview",
+      "highs": 83,
+      "lows": 208
+    },
+    {
+      "date": "2024-09-12",
+      "net": 70,
+      "source": "tradingview",
+      "highs": 157,
+      "lows": 87
+    },
+    {
+      "date": "2024-09-13",
+      "net": 225,
+      "source": "tradingview",
+      "highs": 278,
+      "lows": 53
+    },
+    {
+      "date": "2024-09-16",
+      "net": 268,
+      "source": "tradingview",
+      "highs": 345,
+      "lows": 77
+    },
+    {
+      "date": "2024-09-17",
+      "net": 261,
+      "source": "tradingview",
+      "highs": 318,
+      "lows": 57
+    },
+    {
+      "date": "2024-09-18",
+      "net": 321,
+      "source": "tradingview",
+      "highs": 388,
+      "lows": 67
+    },
+    {
+      "date": "2024-09-19",
+      "net": 281,
+      "source": "tradingview",
+      "highs": 353,
+      "lows": 72
+    },
+    {
+      "date": "2024-09-20",
+      "net": 114,
+      "source": "tradingview",
+      "highs": 228,
+      "lows": 114
+    },
+    {
+      "date": "2024-09-23",
+      "net": 106,
+      "source": "tradingview",
+      "highs": 229,
+      "lows": 123
+    },
+    {
+      "date": "2024-09-24",
+      "net": 142,
+      "source": "tradingview",
+      "highs": 238,
+      "lows": 96
+    },
+    {
+      "date": "2024-09-25",
+      "net": 54,
+      "source": "tradingview",
+      "highs": 170,
+      "lows": 116
+    },
+    {
+      "date": "2024-09-26",
+      "net": 127,
+      "source": "tradingview",
+      "highs": 233,
+      "lows": 106
+    },
+    {
+      "date": "2024-09-27",
+      "net": 124,
+      "source": "tradingview",
+      "highs": 180,
+      "lows": 56
+    },
+    {
+      "date": "2024-09-30",
+      "net": 93,
+      "source": "tradingview",
+      "highs": 165,
+      "lows": 72
+    },
+    {
+      "date": "2024-10-01",
+      "net": 30,
+      "source": "tradingview",
+      "highs": 158,
+      "lows": 128
+    },
+    {
+      "date": "2024-10-02",
+      "net": 23,
+      "source": "tradingview",
+      "highs": 153,
+      "lows": 130
+    },
+    {
+      "date": "2024-10-03",
+      "net": 0,
+      "source": "tradingview",
+      "highs": 119,
+      "lows": 119
+    },
+    {
+      "date": "2024-10-04",
+      "net": 125,
+      "source": "tradingview",
+      "highs": 208,
+      "lows": 83
+    },
+    {
+      "date": "2024-10-07",
+      "net": 47,
+      "source": "tradingview",
+      "highs": 163,
+      "lows": 116
+    },
+    {
+      "date": "2024-10-08",
+      "net": 7,
+      "source": "tradingview",
+      "highs": 126,
+      "lows": 119
+    },
+    {
+      "date": "2024-10-09",
+      "net": 57,
+      "source": "tradingview",
+      "highs": 192,
+      "lows": 135
+    },
+    {
+      "date": "2024-10-10",
+      "net": -49,
+      "source": "tradingview",
+      "highs": 114,
+      "lows": 163
+    },
+    {
+      "date": "2024-10-11",
+      "net": 194,
+      "source": "tradingview",
+      "highs": 278,
+      "lows": 84
+    },
+    {
+      "date": "2024-10-14",
+      "net": 253,
+      "source": "tradingview",
+      "highs": 318,
+      "lows": 65
+    },
+    {
+      "date": "2024-10-15",
+      "net": 322,
+      "source": "tradingview",
+      "highs": 402,
+      "lows": 80
+    },
+    {
+      "date": "2024-10-16",
+      "net": 349,
+      "source": "tradingview",
+      "highs": 395,
+      "lows": 46
+    },
+    {
+      "date": "2024-10-17",
+      "net": 296,
+      "source": "tradingview",
+      "highs": 354,
+      "lows": 58
+    },
+    {
+      "date": "2024-10-18",
+      "net": 255,
+      "source": "tradingview",
+      "highs": 305,
+      "lows": 50
+    },
+    {
+      "date": "2024-10-21",
+      "net": 131,
+      "source": "tradingview",
+      "highs": 205,
+      "lows": 74
+    },
+    {
+      "date": "2024-10-22",
+      "net": 39,
+      "source": "tradingview",
+      "highs": 126,
+      "lows": 87
+    },
+    {
+      "date": "2024-10-23",
+      "net": -8,
+      "source": "tradingview",
+      "highs": 113,
+      "lows": 121
+    },
+    {
+      "date": "2024-10-24",
+      "net": 41,
+      "source": "tradingview",
+      "highs": 156,
+      "lows": 115
+    },
+    {
+      "date": "2024-10-25",
+      "net": 63,
+      "source": "tradingview",
+      "highs": 151,
+      "lows": 88
+    },
+    {
+      "date": "2024-10-28",
+      "net": 93,
+      "source": "tradingview",
+      "highs": 159,
+      "lows": 66
+    },
+    {
+      "date": "2024-10-29",
+      "net": 49,
+      "source": "tradingview",
+      "highs": 144,
+      "lows": 95
+    },
+    {
+      "date": "2024-10-30",
+      "net": 115,
+      "source": "tradingview",
+      "highs": 236,
+      "lows": 121
+    },
+    {
+      "date": "2024-10-31",
+      "net": -85,
+      "source": "tradingview",
+      "highs": 116,
+      "lows": 201
+    },
+    {
+      "date": "2024-11-01",
+      "net": -74,
+      "source": "tradingview",
+      "highs": 109,
+      "lows": 183
+    },
+    {
+      "date": "2024-11-04",
+      "net": -32,
+      "source": "tradingview",
+      "highs": 109,
+      "lows": 141
+    },
+    {
+      "date": "2024-11-05",
+      "net": 72,
+      "source": "tradingview",
+      "highs": 208,
+      "lows": 136
+    },
+    {
+      "date": "2024-11-06",
+      "net": 701,
+      "source": "tradingview",
+      "highs": 847,
+      "lows": 146
+    },
+    {
+      "date": "2024-11-07",
+      "net": 288,
+      "source": "tradingview",
+      "highs": 376,
+      "lows": 88
+    },
+    {
+      "date": "2024-11-08",
+      "net": 255,
+      "source": "tradingview",
+      "highs": 399,
+      "lows": 144
+    },
+    {
+      "date": "2024-11-11",
+      "net": 547,
+      "source": "tradingview",
+      "highs": 664,
+      "lows": 117
+    },
+    {
+      "date": "2024-11-12",
+      "net": 163,
+      "source": "tradingview",
+      "highs": 344,
+      "lows": 181
+    },
+    {
+      "date": "2024-11-13",
+      "net": 137,
+      "source": "tradingview",
+      "highs": 350,
+      "lows": 213
+    },
+    {
+      "date": "2024-11-14",
+      "net": -67,
+      "source": "tradingview",
+      "highs": 164,
+      "lows": 231
+    },
+    {
+      "date": "2024-11-15",
+      "net": -221,
+      "source": "tradingview",
+      "highs": 92,
+      "lows": 313
+    },
+    {
+      "date": "2024-11-18",
+      "net": -141,
+      "source": "tradingview",
+      "highs": 146,
+      "lows": 287
+    },
+    {
+      "date": "2024-11-19",
+      "net": -132,
+      "source": "tradingview",
+      "highs": 140,
+      "lows": 272
+    },
+    {
+      "date": "2024-11-20",
+      "net": -28,
+      "source": "tradingview",
+      "highs": 182,
+      "lows": 210
+    },
+    {
+      "date": "2024-11-21",
+      "net": 164,
+      "source": "tradingview",
+      "highs": 332,
+      "lows": 168
+    },
+    {
+      "date": "2024-11-22",
+      "net": 340,
+      "source": "tradingview",
+      "highs": 424,
+      "lows": 84
+    },
+    {
+      "date": "2024-11-25",
+      "net": 661,
+      "source": "tradingview",
+      "highs": 730,
+      "lows": 69
+    },
+    {
+      "date": "2024-11-26",
+      "net": 132,
+      "source": "tradingview",
+      "highs": 241,
+      "lows": 109
+    },
+    {
+      "date": "2024-11-27",
+      "net": 226,
+      "source": "tradingview",
+      "highs": 313,
+      "lows": 87
+    },
+    {
+      "date": "2024-11-29",
+      "net": 168,
+      "source": "tradingview",
+      "highs": 229,
+      "lows": 61
+    },
+    {
+      "date": "2024-12-02",
+      "net": 117,
+      "source": "tradingview",
+      "highs": 213,
+      "lows": 96
+    },
+    {
+      "date": "2024-12-03",
+      "net": 109,
+      "source": "tradingview",
+      "highs": 204,
+      "lows": 95
+    },
+    {
+      "date": "2024-12-04",
+      "net": 98,
+      "source": "tradingview",
+      "highs": 218,
+      "lows": 120
+    },
+    {
+      "date": "2024-12-05",
+      "net": 81,
+      "source": "tradingview",
+      "highs": 231,
+      "lows": 150
+    },
+    {
+      "date": "2024-12-06",
+      "net": 27,
+      "source": "tradingview",
+      "highs": 180,
+      "lows": 153
+    },
+    {
+      "date": "2024-12-09",
+      "net": 134,
+      "source": "tradingview",
+      "highs": 201,
+      "lows": 67
+    },
+    {
+      "date": "2024-12-10",
+      "net": 20,
+      "source": "tradingview",
+      "highs": 124,
+      "lows": 104
+    },
+    {
+      "date": "2024-12-11",
+      "net": 33,
+      "source": "tradingview",
+      "highs": 187,
+      "lows": 154
+    },
+    {
+      "date": "2024-12-12",
+      "net": -81,
+      "source": "tradingview",
+      "highs": 121,
+      "lows": 202
+    },
+    {
+      "date": "2024-12-13",
+      "net": -190,
+      "source": "tradingview",
+      "highs": 87,
+      "lows": 277
+    },
+    {
+      "date": "2024-12-16",
+      "net": -132,
+      "source": "tradingview",
+      "highs": 157,
+      "lows": 289
+    },
+    {
+      "date": "2024-12-17",
+      "net": -200,
+      "source": "tradingview",
+      "highs": 112,
+      "lows": 312
+    },
+    {
+      "date": "2024-12-18",
+      "net": -313,
+      "source": "tradingview",
+      "highs": 103,
+      "lows": 416
+    },
+    {
+      "date": "2024-12-19",
+      "net": -395,
+      "source": "tradingview",
+      "highs": 33,
+      "lows": 428
+    },
+    {
+      "date": "2024-12-20",
+      "net": -287,
+      "source": "tradingview",
+      "highs": 58,
+      "lows": 345
+    },
+    {
+      "date": "2024-12-23",
+      "net": -163,
+      "source": "tradingview",
+      "highs": 53,
+      "lows": 216
+    },
+    {
+      "date": "2024-12-24",
+      "net": -60,
+      "source": "tradingview",
+      "highs": 56,
+      "lows": 116
+    },
+    {
+      "date": "2024-12-26",
+      "net": 6,
+      "source": "tradingview",
+      "highs": 93,
+      "lows": 87
+    },
+    {
+      "date": "2024-12-27",
+      "net": -39,
+      "source": "tradingview",
+      "highs": 75,
+      "lows": 114
+    },
+    {
+      "date": "2024-12-30",
+      "net": -156,
+      "source": "tradingview",
+      "highs": 75,
+      "lows": 231
+    },
+    {
+      "date": "2024-12-31",
+      "net": -27,
+      "source": "tradingview",
+      "highs": 56,
+      "lows": 83
+    },
+    {
+      "date": "2025-01-02",
+      "net": 11,
+      "source": "tradingview",
+      "highs": 81,
+      "lows": 70
+    },
+    {
+      "date": "2025-01-03",
+      "net": 8,
+      "source": "tradingview",
+      "highs": 91,
+      "lows": 83
+    },
+    {
+      "date": "2025-01-06",
+      "net": 101,
+      "source": "tradingview",
+      "highs": 155,
+      "lows": 54
+    },
+    {
+      "date": "2025-01-07",
+      "net": -7,
+      "source": "tradingview",
+      "highs": 100,
+      "lows": 107
+    },
+    {
+      "date": "2025-01-08",
+      "net": -163,
+      "source": "tradingview",
+      "highs": 54,
+      "lows": 217
+    },
+    {
+      "date": "2025-01-10",
+      "net": -287,
+      "source": "tradingview",
+      "highs": 60,
+      "lows": 347
+    },
+    {
+      "date": "2025-01-13",
+      "net": -316,
+      "source": "tradingview",
+      "highs": 30,
+      "lows": 346
+    },
+    {
+      "date": "2025-01-14",
+      "net": -84,
+      "source": "tradingview",
+      "highs": 65,
+      "lows": 149
+    },
+    {
+      "date": "2025-01-15",
+      "net": 37,
+      "source": "tradingview",
+      "highs": 124,
+      "lows": 87
+    },
+    {
+      "date": "2025-01-16",
+      "net": 7,
+      "source": "tradingview",
+      "highs": 123,
+      "lows": 116
+    },
+    {
+      "date": "2025-01-17",
+      "net": 76,
+      "source": "tradingview",
+      "highs": 147,
+      "lows": 71
+    },
+    {
+      "date": "2025-01-21",
+      "net": 160,
+      "source": "tradingview",
+      "highs": 236,
+      "lows": 76
+    },
+    {
+      "date": "2025-01-22",
+      "net": 106,
+      "source": "tradingview",
+      "highs": 209,
+      "lows": 103
+    },
+    {
+      "date": "2025-01-23",
+      "net": 38,
+      "source": "tradingview",
+      "highs": 152,
+      "lows": 114
+    },
+    {
+      "date": "2025-01-24",
+      "net": 95,
+      "source": "tradingview",
+      "highs": 157,
+      "lows": 62
+    },
+    {
+      "date": "2025-01-27",
+      "net": 8,
+      "source": "tradingview",
+      "highs": 117,
+      "lows": 109
+    },
+    {
+      "date": "2025-01-28",
+      "net": 38,
+      "source": "tradingview",
+      "highs": 179,
+      "lows": 141
+    },
+    {
+      "date": "2025-01-29",
+      "net": 25,
+      "source": "tradingview",
+      "highs": 157,
+      "lows": 132
+    },
+    {
+      "date": "2025-01-30",
+      "net": 110,
+      "source": "tradingview",
+      "highs": 225,
+      "lows": 115
+    },
+    {
+      "date": "2025-01-31",
+      "net": 45,
+      "source": "tradingview",
+      "highs": 150,
+      "lows": 105
+    },
+    {
+      "date": "2025-02-03",
+      "net": -212,
+      "source": "tradingview",
+      "highs": 66,
+      "lows": 278
+    },
+    {
+      "date": "2025-02-04",
+      "net": -3,
+      "source": "tradingview",
+      "highs": 129,
+      "lows": 132
+    },
+    {
+      "date": "2025-02-05",
+      "net": 78,
+      "source": "tradingview",
+      "highs": 187,
+      "lows": 109
+    },
+    {
+      "date": "2025-02-06",
+      "net": 104,
+      "source": "tradingview",
+      "highs": 215,
+      "lows": 111
+    },
+    {
+      "date": "2025-02-07",
+      "net": -43,
+      "source": "tradingview",
+      "highs": 164,
+      "lows": 207
+    },
+    {
+      "date": "2025-02-10",
+      "net": -62,
+      "source": "tradingview",
+      "highs": 157,
+      "lows": 219
+    },
+    {
+      "date": "2025-02-11",
+      "net": -138,
+      "source": "tradingview",
+      "highs": 115,
+      "lows": 253
+    },
+    {
+      "date": "2025-02-12",
+      "net": -150,
+      "source": "tradingview",
+      "highs": 126,
+      "lows": 276
+    },
+    {
+      "date": "2025-02-13",
+      "net": 61,
+      "source": "tradingview",
+      "highs": 197,
+      "lows": 136
+    },
+    {
+      "date": "2025-02-14",
+      "net": 117,
+      "source": "tradingview",
+      "highs": 217,
+      "lows": 100
+    },
+    {
+      "date": "2025-02-18",
+      "net": 65,
+      "source": "tradingview",
+      "highs": 199,
+      "lows": 134
+    },
+    {
+      "date": "2025-02-19",
+      "net": -7,
+      "source": "tradingview",
+      "highs": 153,
+      "lows": 160
+    },
+    {
+      "date": "2025-02-20",
+      "net": -66,
+      "source": "tradingview",
+      "highs": 106,
+      "lows": 172
+    },
+    {
+      "date": "2025-02-21",
+      "net": -95,
+      "source": "tradingview",
+      "highs": 112,
+      "lows": 207
+    },
+    {
+      "date": "2025-02-24",
+      "net": -232,
+      "source": "tradingview",
+      "highs": 62,
+      "lows": 294
+    },
+    {
+      "date": "2025-02-25",
+      "net": -272,
+      "source": "tradingview",
+      "highs": 78,
+      "lows": 350
+    },
+    {
+      "date": "2025-02-26",
+      "net": -175,
+      "source": "tradingview",
+      "highs": 71,
+      "lows": 246
+    },
+    {
+      "date": "2025-02-27",
+      "net": -297,
+      "source": "tradingview",
+      "highs": 68,
+      "lows": 365
+    },
+    {
+      "date": "2025-02-28",
+      "net": -356,
+      "source": "tradingview",
+      "highs": 87,
+      "lows": 443
+    },
+    {
+      "date": "2025-03-03",
+      "net": -448,
+      "source": "tradingview",
+      "highs": 143,
+      "lows": 591
+    },
+    {
+      "date": "2025-03-04",
+      "net": -735,
+      "source": "tradingview",
+      "highs": 63,
+      "lows": 798
+    },
+    {
+      "date": "2025-03-05",
+      "net": -177,
+      "source": "tradingview",
+      "highs": 55,
+      "lows": 232
+    },
+    {
+      "date": "2025-03-06",
+      "net": -164,
+      "source": "tradingview",
+      "highs": 40,
+      "lows": 204
+    },
+    {
+      "date": "2025-03-07",
+      "net": -155,
+      "source": "tradingview",
+      "highs": 45,
+      "lows": 200
+    },
+    {
+      "date": "2025-03-10",
+      "net": -304,
+      "source": "tradingview",
+      "highs": 58,
+      "lows": 362
+    },
+    {
+      "date": "2025-03-11",
+      "net": -421,
+      "source": "tradingview",
+      "highs": 28,
+      "lows": 449
+    },
+    {
+      "date": "2025-03-12",
+      "net": -275,
+      "source": "tradingview",
+      "highs": 20,
+      "lows": 295
+    },
+    {
+      "date": "2025-03-13",
+      "net": -405,
+      "source": "tradingview",
+      "highs": 31,
+      "lows": 436
+    },
+    {
+      "date": "2025-03-14",
+      "net": -151,
+      "source": "tradingview",
+      "highs": 48,
+      "lows": 199
+    },
+    {
+      "date": "2025-03-17",
+      "net": -24,
+      "source": "tradingview",
+      "highs": 85,
+      "lows": 109
+    },
+    {
+      "date": "2025-03-18",
+      "net": -69,
+      "source": "tradingview",
+      "highs": 74,
+      "lows": 143
+    },
+    {
+      "date": "2025-03-19",
+      "net": -68,
+      "source": "tradingview",
+      "highs": 56,
+      "lows": 124
+    },
+    {
+      "date": "2025-03-20",
+      "net": -62,
+      "source": "tradingview",
+      "highs": 52,
+      "lows": 114
+    },
+    {
+      "date": "2025-03-21",
+      "net": -188,
+      "source": "tradingview",
+      "highs": 45,
+      "lows": 233
+    },
+    {
+      "date": "2025-03-24",
+      "net": -46,
+      "source": "tradingview",
+      "highs": 50,
+      "lows": 96
+    },
+    {
+      "date": "2025-03-25",
+      "net": -107,
+      "source": "tradingview",
+      "highs": 66,
+      "lows": 173
+    },
+    {
+      "date": "2025-03-26",
+      "net": -153,
+      "source": "tradingview",
+      "highs": 70,
+      "lows": 223
+    },
+    {
+      "date": "2025-03-27",
+      "net": -159,
+      "source": "tradingview",
+      "highs": 61,
+      "lows": 220
+    },
+    {
+      "date": "2025-03-28",
+      "net": -356,
+      "source": "tradingview",
+      "highs": 60,
+      "lows": 416
+    },
+    {
+      "date": "2025-03-31",
+      "net": -638,
+      "source": "tradingview",
+      "highs": 67,
+      "lows": 705
+    },
+    {
+      "date": "2025-04-01",
+      "net": -435,
+      "source": "tradingview",
+      "highs": 53,
+      "lows": 488
+    },
+    {
+      "date": "2025-04-02",
+      "net": -280,
+      "source": "tradingview",
+      "highs": 56,
+      "lows": 336
+    },
+    {
+      "date": "2025-04-03",
+      "net": -916,
+      "source": "tradingview",
+      "highs": 75,
+      "lows": 991
+    },
+    {
+      "date": "2025-04-04",
+      "net": -1646,
+      "source": "tradingview",
+      "highs": 20,
+      "lows": 1666
+    },
+    {
+      "date": "2025-04-07",
+      "net": -1643,
+      "source": "tradingview",
+      "highs": 5,
+      "lows": 1648
+    },
+    {
+      "date": "2025-04-08",
+      "net": -961,
+      "source": "tradingview",
+      "highs": 7,
+      "lows": 968
+    },
+    {
+      "date": "2025-04-09",
+      "net": -1089,
+      "source": "tradingview",
+      "highs": 16,
+      "lows": 1105
+    },
+    {
+      "date": "2025-04-10",
+      "net": -169,
+      "source": "tradingview",
+      "highs": 25,
+      "lows": 194
+    },
+    {
+      "date": "2025-04-11",
+      "net": -159,
+      "source": "tradingview",
+      "highs": 39,
+      "lows": 198
+    },
+    {
+      "date": "2025-04-14",
+      "net": -71,
+      "source": "tradingview",
+      "highs": 40,
+      "lows": 111
+    },
+    {
+      "date": "2025-04-15",
+      "net": -63,
+      "source": "tradingview",
+      "highs": 45,
+      "lows": 108
+    },
+    {
+      "date": "2025-04-16",
+      "net": -141,
+      "source": "tradingview",
+      "highs": 57,
+      "lows": 198
+    },
+    {
+      "date": "2025-04-17",
+      "net": -114,
+      "source": "tradingview",
+      "highs": 33,
+      "lows": 147
+    },
+    {
+      "date": "2025-04-21",
+      "net": -170,
+      "source": "tradingview",
+      "highs": 48,
+      "lows": 218
+    },
+    {
+      "date": "2025-04-22",
+      "net": -28,
+      "source": "tradingview",
+      "highs": 46,
+      "lows": 74
+    },
+    {
+      "date": "2025-04-23",
+      "net": 9,
+      "source": "tradingview",
+      "highs": 45,
+      "lows": 36
+    },
+    {
+      "date": "2025-04-24",
+      "net": -3,
+      "source": "tradingview",
+      "highs": 47,
+      "lows": 50
+    },
+    {
+      "date": "2025-04-25",
+      "net": -10,
+      "source": "tradingview",
+      "highs": 40,
+      "lows": 50
+    },
+    {
+      "date": "2025-04-28",
+      "net": -2,
+      "source": "tradingview",
+      "highs": 48,
+      "lows": 50
+    },
+    {
+      "date": "2025-04-29",
+      "net": -6,
+      "source": "tradingview",
+      "highs": 51,
+      "lows": 57
+    },
+    {
+      "date": "2025-04-30",
+      "net": -53,
+      "source": "tradingview",
+      "highs": 54,
+      "lows": 107
+    },
+    {
+      "date": "2025-05-01",
+      "net": -31,
+      "source": "tradingview",
+      "highs": 45,
+      "lows": 76
+    },
+    {
+      "date": "2025-05-02",
+      "net": 31,
+      "source": "tradingview",
+      "highs": 83,
+      "lows": 52
+    },
+    {
+      "date": "2025-05-05",
+      "net": 18,
+      "source": "tradingview",
+      "highs": 87,
+      "lows": 69
+    },
+    {
+      "date": "2025-05-06",
+      "net": -82,
+      "source": "tradingview",
+      "highs": 53,
+      "lows": 135
+    },
+    {
+      "date": "2025-05-07",
+      "net": -46,
+      "source": "tradingview",
+      "highs": 102,
+      "lows": 148
+    },
+    {
+      "date": "2025-05-08",
+      "net": -1,
+      "source": "tradingview",
+      "highs": 111,
+      "lows": 112
+    },
+    {
+      "date": "2025-05-09",
+      "net": -18,
+      "source": "tradingview",
+      "highs": 85,
+      "lows": 103
+    },
+    {
+      "date": "2025-05-12",
+      "net": 99,
+      "source": "tradingview",
+      "highs": 144,
+      "lows": 45
+    },
+    {
+      "date": "2025-05-13",
+      "net": 39,
+      "source": "tradingview",
+      "highs": 121,
+      "lows": 82
+    },
+    {
+      "date": "2025-05-14",
+      "net": -17,
+      "source": "tradingview",
+      "highs": 87,
+      "lows": 104
+    },
+    {
+      "date": "2025-05-15",
+      "net": -1,
+      "source": "tradingview",
+      "highs": 103,
+      "lows": 104
+    },
+    {
+      "date": "2025-05-16",
+      "net": 62,
+      "source": "tradingview",
+      "highs": 133,
+      "lows": 71
+    },
+    {
+      "date": "2025-05-19",
+      "net": 56,
+      "source": "tradingview",
+      "highs": 119,
+      "lows": 63
+    },
+    {
+      "date": "2025-05-20",
+      "net": 80,
+      "source": "tradingview",
+      "highs": 126,
+      "lows": 46
+    },
+    {
+      "date": "2025-05-21",
+      "net": -19,
+      "source": "tradingview",
+      "highs": 96,
+      "lows": 115
+    },
+    {
+      "date": "2025-05-22",
+      "net": -79,
+      "source": "tradingview",
+      "highs": 62,
+      "lows": 141
+    },
+    {
+      "date": "2025-05-23",
+      "net": -43,
+      "source": "tradingview",
+      "highs": 74,
+      "lows": 117
+    },
+    {
+      "date": "2025-05-26",
+      "net": 0,
+      "source": "tradingview",
+      "highs": 0,
+      "lows": 0
+    },
+    {
+      "date": "2025-05-27",
+      "net": 96,
+      "source": "tradingview",
+      "highs": 160,
+      "lows": 64
+    },
+    {
+      "date": "2025-05-28",
+      "net": 35,
+      "source": "tradingview",
+      "highs": 111,
+      "lows": 76
+    },
+    {
+      "date": "2025-05-29",
+      "net": 18,
+      "source": "tradingview",
+      "highs": 100,
+      "lows": 82
+    },
+    {
+      "date": "2025-05-30",
+      "net": 1,
+      "source": "tradingview",
+      "highs": 93,
+      "lows": 92
+    },
+    {
+      "date": "2025-06-02",
+      "net": 34,
+      "source": "tradingview",
+      "highs": 146,
+      "lows": 112
+    },
+    {
+      "date": "2025-06-03",
+      "net": 82,
+      "source": "tradingview",
+      "highs": 153,
+      "lows": 71
+    },
+    {
+      "date": "2025-06-04",
+      "net": 107,
+      "source": "tradingview",
+      "highs": 140,
+      "lows": 33
+    },
+    {
+      "date": "2025-06-05",
+      "net": 78,
+      "source": "tradingview",
+      "highs": 123,
+      "lows": 45
+    },
+    {
+      "date": "2025-06-06",
+      "net": 109,
+      "source": "tradingview",
+      "highs": 140,
+      "lows": 31
+    },
+    {
+      "date": "2025-06-09",
+      "net": 99,
+      "source": "tradingview",
+      "highs": 141,
+      "lows": 42
+    },
+    {
+      "date": "2025-06-10",
+      "net": 69,
+      "source": "tradingview",
+      "highs": 104,
+      "lows": 35
+    },
+    {
+      "date": "2025-06-11",
+      "net": 66,
+      "source": "tradingview",
+      "highs": 107,
+      "lows": 41
+    },
+    {
+      "date": "2025-06-12",
+      "net": 54,
+      "source": "tradingview",
+      "highs": 104,
+      "lows": 50
+    },
+    {
+      "date": "2025-06-13",
+      "net": -53,
+      "source": "tradingview",
+      "highs": 72,
+      "lows": 125
+    },
+    {
+      "date": "2025-06-16",
+      "net": 20,
+      "source": "tradingview",
+      "highs": 141,
+      "lows": 121
+    },
+    {
+      "date": "2025-06-17",
+      "net": -30,
+      "source": "tradingview",
+      "highs": 87,
+      "lows": 117
+    },
+    {
+      "date": "2025-06-18",
+      "net": 8,
+      "source": "tradingview",
+      "highs": 109,
+      "lows": 101
+    },
+    {
+      "date": "2025-06-19",
+      "net": 0,
+      "source": "tradingview",
+      "highs": 0,
+      "lows": 0
+    },
+    {
+      "date": "2025-06-20",
+      "net": 4,
+      "source": "tradingview",
+      "highs": 109,
+      "lows": 105
+    },
+    {
+      "date": "2025-06-23",
+      "net": -13,
+      "source": "tradingview",
+      "highs": 119,
+      "lows": 132
+    },
+    {
+      "date": "2025-06-24",
+      "net": 110,
+      "source": "tradingview",
+      "highs": 165,
+      "lows": 55
+    },
+    {
+      "date": "2025-06-25",
+      "net": 50,
+      "source": "tradingview",
+      "highs": 117,
+      "lows": 67
+    },
+    {
+      "date": "2025-06-26",
+      "net": 86,
+      "source": "tradingview",
+      "highs": 150,
+      "lows": 64
+    },
+    {
+      "date": "2025-06-27",
+      "net": 114,
+      "source": "tradingview",
+      "highs": 178,
+      "lows": 64
+    },
+    {
+      "date": "2025-06-30",
+      "net": 101,
+      "source": "tradingview",
+      "highs": 171,
+      "lows": 70
+    },
+    {
+      "date": "2025-07-01",
+      "net": 130,
+      "source": "tradingview",
+      "highs": 184,
+      "lows": 54
+    },
+    {
+      "date": "2025-07-02",
+      "net": 138,
+      "source": "tradingview",
+      "highs": 172,
+      "lows": 34
+    },
+    {
+      "date": "2025-07-03",
+      "net": 253,
+      "source": "tradingview",
+      "highs": 265,
+      "lows": 12
+    },
+    {
+      "date": "2025-07-04",
+      "net": 0,
+      "source": "tradingview",
+      "highs": 0,
+      "lows": 0
+    },
+    {
+      "date": "2025-07-07",
+      "net": 164,
+      "source": "tradingview",
+      "highs": 209,
+      "lows": 45
+    },
+    {
+      "date": "2025-07-08",
+      "net": 129,
+      "source": "tradingview",
+      "highs": 162,
+      "lows": 33
+    },
+    {
+      "date": "2025-07-09",
+      "net": 94,
+      "source": "tradingview",
+      "highs": 127,
+      "lows": 33
+    },
+    {
+      "date": "2025-07-10",
+      "net": 162,
+      "source": "tradingview",
+      "highs": 189,
+      "lows": 27
+    },
+    {
+      "date": "2025-07-11",
+      "net": 64,
+      "source": "tradingview",
+      "highs": 105,
+      "lows": 41
+    },
+    {
+      "date": "2025-07-14",
+      "net": 99,
+      "source": "tradingview",
+      "highs": 157,
+      "lows": 58
+    },
+    {
+      "date": "2025-07-15",
+      "net": 72,
+      "source": "tradingview",
+      "highs": 145,
+      "lows": 73
+    },
+    {
+      "date": "2025-07-16",
+      "net": 29,
+      "source": "tradingview",
+      "highs": 98,
+      "lows": 69
+    },
+    {
+      "date": "2025-07-17",
+      "net": 151,
+      "source": "tradingview",
+      "highs": 177,
+      "lows": 26
+    },
+    {
+      "date": "2025-07-18",
+      "net": 130,
+      "source": "tradingview",
+      "highs": 189,
+      "lows": 59
+    },
+    {
+      "date": "2025-07-21",
+      "net": 103,
+      "source": "tradingview",
+      "highs": 162,
+      "lows": 59
+    },
+    {
+      "date": "2025-07-22",
+      "net": 109,
+      "source": "tradingview",
+      "highs": 137,
+      "lows": 28
+    },
+    {
+      "date": "2025-07-23",
+      "net": 199,
+      "source": "tradingview",
+      "highs": 211,
+      "lows": 12
+    },
+    {
+      "date": "2025-07-24",
+      "net": 127,
+      "source": "tradingview",
+      "highs": 168,
+      "lows": 41
+    },
+    {
+      "date": "2025-07-25",
+      "net": 90,
+      "source": "tradingview",
+      "highs": 146,
+      "lows": 56
+    },
+    {
+      "date": "2025-07-28",
+      "net": 87,
+      "source": "tradingview",
+      "highs": 136,
+      "lows": 49
+    },
+    {
+      "date": "2025-07-29",
+      "net": 66,
+      "source": "tradingview",
+      "highs": 143,
+      "lows": 77
+    },
+    {
+      "date": "2025-07-30",
+      "net": 27,
+      "source": "tradingview",
+      "highs": 136,
+      "lows": 109
+    },
+    {
+      "date": "2025-07-31",
+      "net": -46,
+      "source": "tradingview",
+      "highs": 123,
+      "lows": 169
+    },
+    {
+      "date": "2025-08-01",
+      "net": -195,
+      "source": "tradingview",
+      "highs": 52,
+      "lows": 247
+    },
+    {
+      "date": "2025-08-04",
+      "net": 36,
+      "source": "tradingview",
+      "highs": 129,
+      "lows": 93
+    },
+    {
+      "date": "2025-08-05",
+      "net": 39,
+      "source": "tradingview",
+      "highs": 142,
+      "lows": 103
+    },
+    {
+      "date": "2025-08-06",
+      "net": -6,
+      "source": "tradingview",
+      "highs": 119,
+      "lows": 125
+    },
+    {
+      "date": "2025-08-07",
+      "net": 23,
+      "source": "tradingview",
+      "highs": 159,
+      "lows": 136
+    },
+    {
+      "date": "2025-08-08",
+      "net": 8,
+      "source": "tradingview",
+      "highs": 149,
+      "lows": 141
+    },
+    {
+      "date": "2025-08-11",
+      "net": -28,
+      "source": "tradingview",
+      "highs": 127,
+      "lows": 155
+    },
+    {
+      "date": "2025-08-12",
+      "net": 124,
+      "source": "tradingview",
+      "highs": 210,
+      "lows": 86
+    },
+    {
+      "date": "2025-08-13",
+      "net": 232,
+      "source": "tradingview",
+      "highs": 294,
+      "lows": 62
+    },
+    {
+      "date": "2025-08-14",
+      "net": 74,
+      "source": "tradingview",
+      "highs": 143,
+      "lows": 69
+    },
+    {
+      "date": "2025-08-15",
+      "net": 52,
+      "source": "tradingview",
+      "highs": 127,
+      "lows": 75
+    },
+    {
+      "date": "2025-08-18",
+      "net": 58,
+      "source": "tradingview",
+      "highs": 118,
+      "lows": 60
+    },
+    {
+      "date": "2025-08-19",
+      "net": 24,
+      "source": "tradingview",
+      "highs": 101,
+      "lows": 77
+    },
+    {
+      "date": "2025-08-20",
+      "net": -27,
+      "source": "tradingview",
+      "highs": 79,
+      "lows": 106
+    },
+    {
+      "date": "2025-08-21",
+      "net": -2,
+      "source": "tradingview",
+      "highs": 91,
+      "lows": 93
+    },
+    {
+      "date": "2025-08-22",
+      "net": 280,
+      "source": "tradingview",
+      "highs": 310,
+      "lows": 30
+    },
+    {
+      "date": "2025-08-25",
+      "net": 172,
+      "source": "tradingview",
+      "highs": 206,
+      "lows": 34
+    },
+    {
+      "date": "2025-08-26",
+      "net": 184,
+      "source": "tradingview",
+      "highs": 231,
+      "lows": 47
+    },
+    {
+      "date": "2025-08-27",
+      "net": 201,
+      "source": "tradingview",
+      "highs": 229,
+      "lows": 28
+    },
+    {
+      "date": "2025-08-28",
+      "net": 186,
+      "source": "tradingview",
+      "highs": 236,
+      "lows": 50
+    },
+    {
+      "date": "2025-08-29",
+      "net": 120,
+      "source": "tradingview",
+      "highs": 169,
+      "lows": 49
+    },
+    {
+      "date": "2025-09-02",
+      "net": 61,
+      "source": "tradingview",
+      "highs": 158,
+      "lows": 97
+    },
+    {
+      "date": "2025-09-03",
+      "net": 87,
+      "source": "tradingview",
+      "highs": 182,
+      "lows": 95
+    },
+    {
+      "date": "2025-09-04",
+      "net": 70,
+      "source": "tradingview",
+      "highs": 176,
+      "lows": 106
+    },
+    {
+      "date": "2025-09-05",
+      "net": 221,
+      "source": "tradingview",
+      "highs": 293,
+      "lows": 72
+    },
+    {
+      "date": "2025-09-08",
+      "net": 160,
+      "source": "tradingview",
+      "highs": 248,
+      "lows": 88
+    },
+    {
+      "date": "2025-09-09",
+      "net": 112,
+      "source": "tradingview",
+      "highs": 178,
+      "lows": 66
+    },
+    {
+      "date": "2025-09-10",
+      "net": 115,
+      "source": "tradingview",
+      "highs": 203,
+      "lows": 88
+    },
+    {
+      "date": "2025-09-11",
+      "net": 254,
+      "source": "tradingview",
+      "highs": 300,
+      "lows": 46
+    },
+    {
+      "date": "2025-09-12",
+      "net": 146,
+      "source": "tradingview",
+      "highs": 196,
+      "lows": 50
+    },
+    {
+      "date": "2025-09-15",
+      "net": 151,
+      "source": "tradingview",
+      "highs": 239,
+      "lows": 88
+    },
+    {
+      "date": "2025-09-16",
+      "net": 98,
+      "source": "tradingview",
+      "highs": 172,
+      "lows": 74
+    },
+    {
+      "date": "2025-09-17",
+      "net": 169,
+      "source": "tradingview",
+      "highs": 225,
+      "lows": 56
+    },
+    {
+      "date": "2025-09-18",
+      "net": 193,
+      "source": "tradingview",
+      "highs": 249,
+      "lows": 56
+    },
+    {
+      "date": "2025-09-19",
+      "net": 185,
+      "source": "tradingview",
+      "highs": 273,
+      "lows": 88
+    },
+    {
+      "date": "2025-09-22",
+      "net": 162,
+      "source": "tradingview",
+      "highs": 249,
+      "lows": 87
+    },
+    {
+      "date": "2025-09-23",
+      "net": 242,
+      "source": "tradingview",
+      "highs": 330,
+      "lows": 88
+    },
+    {
+      "date": "2025-09-24",
+      "net": 49,
+      "source": "tradingview",
+      "highs": 138,
+      "lows": 89
+    },
+    {
+      "date": "2025-09-25",
+      "net": -61,
+      "source": "tradingview",
+      "highs": 81,
+      "lows": 142
+    },
+    {
+      "date": "2025-09-26",
+      "net": 83,
+      "source": "tradingview",
+      "highs": 152,
+      "lows": 69
+    },
+    {
+      "date": "2025-09-29",
+      "net": 126,
+      "source": "tradingview",
+      "highs": 226,
+      "lows": 100
+    },
+    {
+      "date": "2025-09-30",
+      "net": 92,
+      "source": "tradingview",
+      "highs": 202,
+      "lows": 110
+    },
+    {
+      "date": "2025-10-01",
+      "net": 138,
+      "source": "tradingview",
+      "highs": 227,
+      "lows": 89
+    },
+    {
+      "date": "2025-10-02",
+      "net": 138,
+      "source": "tradingview",
+      "highs": 230,
+      "lows": 92
+    },
+    {
+      "date": "2025-10-03",
+      "net": 228,
+      "source": "tradingview",
+      "highs": 264,
+      "lows": 36
+    },
+    {
+      "date": "2025-10-06",
+      "net": 243,
+      "source": "tradingview",
+      "highs": 329,
+      "lows": 86
+    },
+    {
+      "date": "2025-10-07",
+      "net": 92,
+      "source": "tradingview",
+      "highs": 199,
+      "lows": 107
+    },
+    {
+      "date": "2025-10-08",
+      "net": 134,
+      "source": "tradingview",
+      "highs": 229,
+      "lows": 95
+    },
+    {
+      "date": "2025-10-09",
+      "net": 110,
+      "source": "tradingview",
+      "highs": 219,
+      "lows": 109
+    },
+    {
+      "date": "2025-10-10",
+      "net": -99,
+      "source": "tradingview",
+      "highs": 139,
+      "lows": 238
+    },
+    {
+      "date": "2025-10-13",
+      "net": -34,
+      "source": "tradingview",
+      "highs": 136,
+      "lows": 170
+    },
+    {
+      "date": "2025-10-14",
+      "net": 39,
+      "source": "tradingview",
+      "highs": 178,
+      "lows": 139
+    },
+    {
+      "date": "2025-10-15",
+      "net": 212,
+      "source": "tradingview",
+      "highs": 269,
+      "lows": 57
+    },
+    {
+      "date": "2025-10-16",
+      "net": 88,
+      "source": "tradingview",
+      "highs": 223,
+      "lows": 135
+    },
+    {
+      "date": "2025-10-17",
+      "net": -73,
+      "source": "tradingview",
+      "highs": 52,
+      "lows": 125
+    },
+    {
+      "date": "2025-10-20",
+      "net": 62,
+      "source": "tradingview",
+      "highs": 134,
+      "lows": 72
+    },
+    {
+      "date": "2025-10-21",
+      "net": 34,
+      "source": "tradingview",
+      "highs": 97,
+      "lows": 63
+    },
+    {
+      "date": "2025-10-22",
+      "net": -28,
+      "source": "tradingview",
+      "highs": 74,
+      "lows": 102
+    },
+    {
+      "date": "2025-10-23",
+      "net": 57,
+      "source": "tradingview",
+      "highs": 136,
+      "lows": 79
+    },
+    {
+      "date": "2025-10-24",
+      "net": 171,
+      "source": "tradingview",
+      "highs": 215,
+      "lows": 44
+    },
+    {
+      "date": "2025-10-27",
+      "net": 145,
+      "source": "tradingview",
+      "highs": 214,
+      "lows": 69
+    },
+    {
+      "date": "2025-10-28",
+      "net": 51,
+      "source": "tradingview",
+      "highs": 170,
+      "lows": 119
+    },
+    {
+      "date": "2025-10-29",
+      "net": -24,
+      "source": "tradingview",
+      "highs": 217,
+      "lows": 241
+    },
+    {
+      "date": "2025-10-30",
+      "net": -119,
+      "source": "tradingview",
+      "highs": 163,
+      "lows": 282
+    },
+    {
+      "date": "2025-10-31",
+      "net": -133,
+      "source": "tradingview",
+      "highs": 109,
+      "lows": 242
+    },
+    {
+      "date": "2025-11-03",
+      "net": -113,
+      "source": "tradingview",
+      "highs": 129,
+      "lows": 242
+    },
+    {
+      "date": "2025-11-04",
+      "net": -228,
+      "source": "tradingview",
+      "highs": 74,
+      "lows": 302
+    },
+    {
+      "date": "2025-11-05",
+      "net": -101,
+      "source": "tradingview",
+      "highs": 136,
+      "lows": 237
+    },
+    {
+      "date": "2025-11-06",
+      "net": -188,
+      "source": "tradingview",
+      "highs": 146,
+      "lows": 334
+    },
+    {
+      "date": "2025-11-07",
+      "net": -292,
+      "source": "tradingview",
+      "highs": 98,
+      "lows": 390
+    },
+    {
+      "date": "2025-11-10",
+      "net": 70,
+      "source": "tradingview",
+      "highs": 227,
+      "lows": 157
+    },
+    {
+      "date": "2025-11-11",
+      "net": 72,
+      "source": "tradingview",
+      "highs": 216,
+      "lows": 144
+    },
+    {
+      "date": "2025-11-12",
+      "net": 117,
+      "source": "tradingview",
+      "highs": 228,
+      "lows": 111
+    },
+    {
+      "date": "2025-11-13",
+      "net": -132,
+      "source": "tradingview",
+      "highs": 131,
+      "lows": 263
+    },
+    {
+      "date": "2025-11-14",
+      "net": -277,
+      "source": "tradingview",
+      "highs": 86,
+      "lows": 363
+    },
+    {
+      "date": "2025-11-17",
+      "net": -320,
+      "source": "tradingview",
+      "highs": 98,
+      "lows": 418
+    },
+    {
+      "date": "2025-11-18",
+      "net": -372,
+      "source": "tradingview",
+      "highs": 76,
+      "lows": 448
+    },
+    {
+      "date": "2025-11-19",
+      "net": -334,
+      "source": "tradingview",
+      "highs": 71,
+      "lows": 405
+    },
+    {
+      "date": "2025-11-20",
+      "net": -332,
+      "source": "tradingview",
+      "highs": 110,
+      "lows": 442
+    },
+    {
+      "date": "2025-11-21",
+      "net": -289,
+      "source": "tradingview",
+      "highs": 75,
+      "lows": 364
+    },
+    {
+      "date": "2025-11-24",
+      "net": 5,
+      "source": "tradingview",
+      "highs": 147,
+      "lows": 142
+    },
+    {
+      "date": "2025-11-25",
+      "net": 163,
+      "source": "tradingview",
+      "highs": 238,
+      "lows": 75
+    },
+    {
+      "date": "2025-11-26",
+      "net": 210,
+      "source": "tradingview",
+      "highs": 252,
+      "lows": 42
+    },
+    {
+      "date": "2025-11-28",
+      "net": 143,
+      "source": "tradingview",
+      "highs": 171,
+      "lows": 28
+    },
+    {
+      "date": "2025-12-01",
+      "net": 82,
+      "source": "tradingview",
+      "highs": 146,
+      "lows": 64
+    },
+    {
+      "date": "2025-12-02",
+      "net": 42,
+      "source": "tradingview",
+      "highs": 135,
+      "lows": 93
+    },
+    {
+      "date": "2025-12-03",
+      "net": 119,
+      "source": "tradingview",
+      "highs": 205,
+      "lows": 86
+    },
+    {
+      "date": "2025-12-04",
+      "net": 167,
+      "source": "tradingview",
+      "highs": 220,
+      "lows": 53
+    },
+    {
+      "date": "2025-12-05",
+      "net": 138,
+      "source": "tradingview",
+      "highs": 209,
+      "lows": 71
+    },
+    {
+      "date": "2025-12-08",
+      "net": 109,
+      "source": "tradingview",
+      "highs": 204,
+      "lows": 95
+    },
+    {
+      "date": "2025-12-09",
+      "net": 88,
+      "source": "tradingview",
+      "highs": 174,
+      "lows": 86
+    },
+    {
+      "date": "2025-12-10",
+      "net": 246,
+      "source": "tradingview",
+      "highs": 317,
+      "lows": 71
+    },
+    {
+      "date": "2025-12-11",
+      "net": 336,
+      "source": "tradingview",
+      "highs": 401,
+      "lows": 65
+    },
+    {
+      "date": "2025-12-12",
+      "net": 215,
+      "source": "tradingview",
+      "highs": 294,
+      "lows": 79
+    },
+    {
+      "date": "2025-12-15",
+      "net": 52,
+      "source": "tradingview",
+      "highs": 240,
+      "lows": 188
+    },
+    {
+      "date": "2025-12-16",
+      "net": -51,
+      "source": "tradingview",
+      "highs": 135,
+      "lows": 186
+    },
+    {
+      "date": "2025-12-17",
+      "net": -15,
+      "source": "tradingview",
+      "highs": 138,
+      "lows": 153
+    },
+    {
+      "date": "2025-12-18",
+      "net": 34,
+      "source": "tradingview",
+      "highs": 190,
+      "lows": 156
+    },
+    {
+      "date": "2025-12-19",
+      "net": 20,
+      "source": "tradingview",
+      "highs": 175,
+      "lows": 155
+    },
+    {
+      "date": "2025-12-22",
+      "net": 133,
+      "source": "tradingview",
+      "highs": 257,
+      "lows": 124
+    },
+    {
+      "date": "2025-12-23",
+      "net": 21,
+      "source": "tradingview",
+      "highs": 188,
+      "lows": 167
+    },
+    {
+      "date": "2025-12-24",
+      "net": -33,
+      "source": "tradingview",
+      "highs": 122,
+      "lows": 155
+    },
+    {
+      "date": "2025-12-26",
+      "net": -31,
+      "source": "tradingview",
+      "highs": 115,
+      "lows": 146
+    },
+    {
+      "date": "2025-12-29",
+      "net": -163,
+      "source": "tradingview",
+      "highs": 62,
+      "lows": 225
+    },
+    {
+      "date": "2025-12-30",
+      "net": -136,
+      "source": "tradingview",
+      "highs": 60,
+      "lows": 196
+    },
+    {
+      "date": "2025-12-31",
+      "net": -174,
+      "source": "tradingview",
+      "highs": 31,
+      "lows": 205
+    },
+    {
+      "date": "2026-01-02",
+      "net": -2,
+      "source": "tradingview",
+      "highs": 103,
+      "lows": 105
+    },
+    {
+      "date": "2026-01-05",
+      "net": 205,
+      "source": "tradingview",
+      "highs": 275,
+      "lows": 70
+    },
+    {
+      "date": "2026-01-06",
+      "net": 236,
+      "source": "tradingview",
+      "highs": 300,
+      "lows": 64
+    },
+    {
+      "date": "2026-01-07",
+      "net": 109,
+      "source": "tradingview",
+      "highs": 199,
+      "lows": 90
+    },
+    {
+      "date": "2026-01-08",
+      "net": 198,
+      "source": "tradingview",
+      "highs": 269,
+      "lows": 71
+    },
+    {
+      "date": "2026-01-09",
+      "net": 218,
+      "source": "tradingview",
+      "highs": 288,
+      "lows": 70
+    },
+    {
+      "date": "2026-01-12",
+      "net": 218,
+      "source": "tradingview",
+      "highs": 289,
+      "lows": 71
+    },
+    {
+      "date": "2026-01-13",
+      "net": 223,
+      "source": "tradingview",
+      "highs": 329,
+      "lows": 106
+    },
+    {
+      "date": "2026-01-14",
+      "net": 188,
+      "source": "tradingview",
+      "highs": 289,
+      "lows": 101
+    },
+    {
+      "date": "2026-01-15",
+      "net": 294,
+      "source": "tradingview",
+      "highs": 378,
+      "lows": 84
+    },
+    {
+      "date": "2026-01-16",
+      "net": 180,
+      "source": "tradingview",
+      "highs": 280,
+      "lows": 100
+    },
+    {
+      "date": "2026-01-20",
+      "net": 23,
+      "source": "tradingview",
+      "highs": 187,
+      "lows": 164
+    },
+    {
+      "date": "2026-01-21",
+      "net": 267,
+      "source": "tradingview",
+      "highs": 409,
+      "lows": 142
+    },
+    {
+      "date": "2026-01-22",
+      "net": 464,
+      "source": "tradingview",
+      "highs": 520,
+      "lows": 56
+    },
+    {
+      "date": "2026-01-23",
+      "net": 174,
+      "source": "tradingview",
+      "highs": 239,
+      "lows": 65
+    },
+    {
+      "date": "2026-01-26",
+      "net": 150,
+      "source": "tradingview",
+      "highs": 246,
+      "lows": 96
+    },
+    {
+      "date": "2026-01-27",
+      "net": 102,
+      "source": "tradingview",
+      "highs": 259,
+      "lows": 157
+    },
+    {
+      "date": "2026-01-28",
+      "net": 118,
+      "source": "tradingview",
+      "highs": 274,
+      "lows": 156
+    },
+    {
+      "date": "2026-01-29",
+      "net": 43,
+      "source": "tradingview",
+      "highs": 296,
+      "lows": 253
+    },
+    {
+      "date": "2026-01-30",
+      "net": -77,
+      "source": "tradingview",
+      "highs": 145,
+      "lows": 222
+    },
+    {
+      "date": "2026-02-02",
+      "net": 30,
+      "source": "tradingview",
+      "highs": 272,
+      "lows": 242
+    },
+    {
+      "date": "2026-02-03",
+      "net": 40,
+      "source": "tradingview",
+      "highs": 426,
+      "lows": 386
+    },
+    {
+      "date": "2026-02-04",
+      "net": 118,
+      "source": "tradingview",
+      "highs": 481,
+      "lows": 363
+    },
+    {
+      "date": "2026-02-05",
+      "net": -183,
+      "source": "tradingview",
+      "highs": 261,
+      "lows": 444
+    },
+    {
+      "date": "2026-02-06",
+      "net": 280,
+      "source": "tradingview",
+      "highs": 497,
+      "lows": 217
+    },
+    {
+      "date": "2026-02-09",
+      "net": 216,
+      "source": "tradingview",
+      "highs": 390,
+      "lows": 174
+    },
+    {
+      "date": "2026-02-10",
+      "net": 208,
+      "source": "tradingview",
+      "highs": 322,
+      "lows": 114
+    },
+    {
+      "date": "2026-02-11",
+      "net": 195,
+      "source": "tradingview",
+      "highs": 456,
+      "lows": 261
+    },
+    {
+      "date": "2026-02-12",
+      "net": 41,
+      "source": "tradingview",
+      "highs": 418,
+      "lows": 377
+    },
+    {
+      "date": "2026-02-13",
+      "net": 16,
+      "source": "tradingview",
+      "highs": 189,
+      "lows": 173
+    },
+    {
+      "date": "2026-02-17",
+      "net": -31,
+      "source": "tradingview",
+      "highs": 219,
+      "lows": 250
+    },
+    {
+      "date": "2026-02-18",
+      "net": 77,
+      "source": "tradingview",
+      "highs": 217,
+      "lows": 140
+    },
+    {
+      "date": "2026-02-19",
+      "net": -4,
+      "source": "tradingview",
+      "highs": 155,
+      "lows": 159
+    },
+    {
+      "date": "2026-02-20",
+      "net": 42,
+      "source": "tradingview",
+      "highs": 213,
+      "lows": 171
+    },
+    {
+      "date": "2026-02-23",
+      "net": -122,
+      "source": "tradingview",
+      "highs": 201,
+      "lows": 323
+    },
+    {
+      "date": "2026-02-24",
+      "net": 10,
+      "source": "tradingview",
+      "highs": 231,
+      "lows": 221
+    },
+    {
+      "date": "2026-02-25",
+      "net": 135,
+      "source": "tradingview",
+      "highs": 276,
+      "lows": 141
+    },
+    {
+      "date": "2026-02-26",
+      "net": 143,
+      "source": "tradingview",
+      "highs": 238,
+      "lows": 95
+    },
+    {
+      "date": "2026-02-27",
+      "net": 78,
+      "source": "tradingview",
+      "highs": 230,
+      "lows": 152
+    },
+    {
+      "date": "2026-03-02",
+      "net": 78,
+      "source": "tradingview",
+      "highs": 280,
+      "lows": 202
+    },
+    {
+      "date": "2026-03-03",
+      "net": -108,
+      "source": "tradingview",
+      "highs": 112,
+      "lows": 220
+    },
+    {
+      "date": "2026-03-04",
+      "net": 63,
+      "source": "tradingview",
+      "highs": 134,
+      "lows": 71
+    },
+    {
+      "date": "2026-03-05",
+      "net": -11,
+      "source": "tradingview",
+      "highs": 89,
+      "lows": 100
+    },
+    {
+      "date": "2026-03-06",
+      "net": -90,
+      "source": "tradingview",
+      "highs": 85,
+      "lows": 175
+    },
+    {
+      "date": "2026-03-09",
+      "net": -174,
+      "source": "tradingview",
+      "highs": 96,
+      "lows": 270
+    },
+    {
+      "date": "2026-03-10",
+      "net": -34,
+      "source": "tradingview",
+      "highs": 84,
+      "lows": 118
+    },
+    {
+      "date": "2026-03-11",
+      "net": -93,
+      "source": "tradingview",
+      "highs": 73,
+      "lows": 166
+    },
+    {
+      "date": "2026-03-12",
+      "net": -159,
+      "source": "tradingview",
+      "highs": 92,
+      "lows": 251
+    },
+    {
+      "date": "2026-03-13",
+      "net": -162,
+      "source": "tradingview",
+      "highs": 75,
+      "lows": 237
+    },
+    {
+      "date": "2026-03-16",
+      "net": -85,
+      "source": "tradingview",
+      "highs": 99,
+      "lows": 184
+    },
+    {
+      "date": "2026-03-17",
+      "net": -32,
+      "source": "tradingview",
+      "highs": 115,
+      "lows": 147
+    },
+    {
+      "date": "2026-03-18",
+      "net": -185,
+      "source": "tradingview",
+      "highs": 89,
+      "lows": 274
+    },
+    {
+      "date": "2026-03-19",
+      "net": -259,
+      "source": "tradingview",
+      "highs": 98,
+      "lows": 357
+    },
+    {
+      "date": "2026-03-20",
+      "net": -299,
+      "source": "tradingview",
+      "highs": 72,
+      "lows": 371
+    },
+    {
+      "date": "2026-03-23",
+      "net": -116,
+      "source": "tradingview",
+      "highs": 52,
+      "lows": 168
+    },
+    {
+      "date": "2026-03-24",
+      "net": -125,
+      "source": "tradingview",
+      "highs": 115,
+      "lows": 240
+    },
+    {
+      "date": "2026-03-25",
+      "net": -86,
+      "source": "tradingview",
+      "highs": 121,
+      "lows": 207
+    },
+    {
+      "date": "2026-03-26",
+      "net": -102,
+      "source": "tradingview",
+      "highs": 110,
+      "lows": 212
+    },
+    {
+      "date": "2026-03-27",
+      "net": -345,
+      "source": "tradingview",
+      "highs": 92,
+      "lows": 437
+    },
+    {
+      "date": "2026-03-30",
+      "net": -283,
+      "source": "tradingview",
+      "highs": 105,
+      "lows": 388
+    },
+    {
+      "date": "2026-03-31",
+      "net": -84,
+      "source": "tradingview",
+      "highs": 81,
+      "lows": 165
+    },
+    {
+      "date": "2026-04-01",
+      "net": -84,
+      "source": "tradingview",
+      "highs": 81,
+      "lows": 165
+    },
+    {
+      "date": "2026-04-02",
+      "net": -80,
+      "source": "tradingview",
+      "highs": 90,
+      "lows": 170
+    },
+    {
+      "date": "2026-04-06",
+      "net": 42,
+      "source": "tradingview",
+      "highs": 100,
+      "lows": 58
+    },
+    {
+      "date": "2026-04-07",
+      "net": -27,
+      "source": "tradingview",
+      "highs": 95,
+      "lows": 122
+    },
+    {
+      "date": "2026-04-08",
+      "net": 161,
+      "source": "tradingview",
+      "highs": 221,
+      "lows": 60
+    },
+    {
+      "date": "2026-04-09",
+      "net": 101,
+      "source": "tradingview",
+      "highs": 261,
+      "lows": 160
+    },
+    {
+      "date": "2026-04-10",
+      "net": 3,
+      "source": "tradingview",
+      "highs": 182,
+      "lows": 179
+    },
+    {
+      "date": "2026-04-13",
+      "net": 45,
+      "source": "tradingview",
+      "highs": 159,
+      "lows": 114
+    },
+    {
+      "date": "2026-04-14",
+      "net": 176,
+      "source": "tradingview",
+      "highs": 220,
+      "lows": 44
+    },
+    {
+      "date": "2026-04-15",
+      "net": 97,
+      "source": "tradingview",
+      "highs": 140,
+      "lows": 43
+    },
+    {
+      "date": "2026-04-16",
+      "net": 129,
+      "source": "tradingview",
+      "highs": 167,
+      "lows": 38
+    },
+    {
+      "date": "2026-04-17",
+      "net": 345,
+      "source": "tradingview",
+      "highs": 375,
+      "lows": 30
+    },
+    {
+      "date": "2026-04-20",
+      "net": 239,
+      "source": "tradingview",
+      "highs": 274,
+      "lows": 35
+    },
+    {
+      "date": "2026-04-21",
+      "net": 214,
+      "source": "tradingview",
+      "highs": 270,
+      "lows": 56
+    },
+    {
+      "date": "2026-04-22",
+      "net": 135,
+      "source": "tradingview",
+      "highs": 190,
+      "lows": 55
+    },
+    {
+      "date": "2026-04-23",
+      "net": 112,
+      "source": "tradingview",
+      "highs": 221,
+      "lows": 109
+    },
+    {
+      "date": "2026-04-24",
+      "net": 120,
+      "source": "tradingview",
+      "highs": 207,
+      "lows": 87
+    },
+    {
+      "date": "2026-04-27",
+      "net": 106,
+      "source": "tradingview",
+      "highs": 195,
+      "lows": 89
+    },
+    {
+      "date": "2026-04-28",
+      "net": 52,
+      "source": "tradingview",
+      "highs": 150,
+      "lows": 98
+    },
+    {
+      "date": "2026-04-29",
+      "net": -10,
+      "source": "tradingview",
+      "highs": 135,
+      "lows": 145
+    },
+    {
+      "date": "2026-04-30",
+      "net": 86,
+      "source": "tradingview",
+      "highs": 204,
+      "lows": 118
+    },
+    {
+      "date": "2026-05-01",
+      "net": 178,
+      "source": "tradingview",
+      "highs": 250,
+      "lows": 72
+    },
+    {
+      "date": "2026-05-04",
+      "net": 95,
+      "source": "tradingview",
+      "highs": 201,
+      "lows": 106
+    },
+    {
+      "date": "2026-05-05",
+      "net": 198,
+      "source": "tradingview",
+      "highs": 305,
+      "lows": 107
+    },
+    {
+      "date": "2026-05-06",
+      "net": 208,
+      "source": "tradingview",
+      "highs": 325,
+      "lows": 117
+    },
+    {
+      "date": "2026-05-07",
+      "net": 107,
+      "source": "tradingview",
+      "highs": 216,
+      "lows": 109
+    },
+    {
+      "date": "2026-05-08",
+      "net": 54,
+      "source": "tradingview",
+      "highs": 207,
+      "lows": 153
+    },
+    {
+      "date": "2026-05-11",
+      "net": 13,
+      "source": "tradingview",
+      "highs": 242,
+      "lows": 229
+    },
+    {
+      "date": "2026-05-12",
+      "net": -115,
+      "source": "tradingview",
+      "highs": 103,
+      "lows": 218
+    },
+    {
+      "date": "2026-05-13",
+      "net": -94,
+      "source": "tradingview",
+      "highs": 182,
+      "lows": 276
+    },
+    {
+      "date": "2026-05-14",
+      "net": 40,
+      "source": "tradingview",
+      "highs": 187,
+      "lows": 147
+    },
+    {
+      "date": "2026-05-15",
+      "net": -135,
+      "source": "tradingview",
+      "highs": 77,
+      "lows": 212
+    },
+    {
+      "date": "2026-05-18",
+      "net": -56,
+      "source": "tradingview",
+      "highs": 137,
+      "lows": 193
+    },
+    {
+      "date": "2026-05-19",
+      "net": -134,
+      "source": "tradingview",
+      "highs": 98,
+      "lows": 232
+    },
+    {
+      "date": "2026-05-20",
+      "net": -50,
+      "source": "tradingview",
+      "highs": 130,
+      "lows": 180
+    },
+    {
+      "date": "2026-05-21",
+      "net": 13,
+      "source": "tradingview",
+      "highs": 128,
+      "lows": 115
+    },
+    {
+      "date": "2026-05-22",
+      "net": 96,
+      "source": "tradingview",
+      "highs": 174,
+      "lows": 78
+    },
+    {
+      "date": "2026-05-26",
+      "net": 214,
+      "source": "tradingview",
+      "highs": 280,
+      "lows": 66
+    },
+    {
+      "date": "2026-05-27",
+      "net": 162,
+      "source": "tradingview",
+      "highs": 254,
+      "lows": 92
+    },
+    {
+      "date": "2026-05-28",
+      "net": 96,
+      "source": "tradingview",
+      "highs": 177,
+      "lows": 81
+    },
+    {
+      "date": "2026-05-29",
+      "net": 102,
+      "source": "tradingview",
+      "highs": 164,
+      "lows": 62
+    },
+    {
+      "date": "2026-06-01",
+      "net": 71,
+      "source": "tradingview",
+      "highs": 170,
+      "lows": 99
+    },
+    {
+      "date": "2026-06-02",
+      "net": 96,
+      "source": "tradingview",
+      "highs": 211,
+      "lows": 115
+    },
+    {
+      "date": "2026-06-03",
+      "net": -28,
+      "source": "tradingview",
+      "highs": 144,
+      "lows": 172
+    },
+    {
+      "date": "2026-06-04",
+      "net": 47,
+      "source": "tradingview",
+      "highs": 167,
+      "lows": 120
+    },
+    {
+      "date": "2026-06-05",
+      "net": -40,
+      "source": "tradingview",
+      "highs": 148,
+      "lows": 188
+    },
+    {
+      "date": "2026-06-08",
+      "net": -10,
+      "source": "tradingview",
+      "highs": 166,
+      "lows": 176
+    },
+    {
+      "date": "2026-06-09",
+      "net": 55,
+      "source": "tradingview",
+      "highs": 254,
+      "lows": 199
+    },
+    {
+      "date": "2026-06-10",
+      "net": 56,
+      "source": "tradingview",
+      "highs": 226,
+      "lows": 170
+    },
+    {
+      "date": "2026-06-11",
+      "net": 72,
+      "source": "tradingview",
+      "highs": 260,
+      "lows": 188
+    },
+    {
+      "date": "2026-06-12",
+      "net": 204,
+      "source": "tradingview",
+      "highs": 318,
+      "lows": 114
+    },
+    {
+      "date": "2026-06-15",
+      "net": 208,
+      "source": "tradingview",
+      "highs": 299,
+      "lows": 91
+    },
+    {
+      "date": "2026-06-16",
+      "net": 30,
+      "source": "tradingview",
+      "highs": 155,
+      "lows": 125
+    },
+    {
+      "date": "2026-06-17",
+      "net": 8,
+      "source": "tradingview",
+      "highs": 168,
+      "lows": 160
+    },
+    {
+      "date": "2026-06-18",
+      "net": 11,
+      "source": "tradingview",
+      "highs": 214,
+      "lows": 203
+    },
+    {
+      "date": "2026-06-22",
+      "net": -12,
+      "source": "tradingview",
+      "highs": 225,
+      "lows": 237
+    },
+    {
+      "date": "2026-06-23",
+      "net": -49,
+      "source": "tradingview",
+      "highs": 160,
+      "lows": 209
+    },
+    {
+      "date": "2026-06-24",
+      "net": 82,
+      "source": "tradingview",
+      "highs": 277,
+      "lows": 195
+    },
+    {
+      "date": "2026-06-25",
+      "net": 77,
+      "source": "tradingview",
+      "highs": 361,
+      "lows": 284
+    },
+    {
+      "date": "2026-06-26",
+      "net": 180,
+      "source": "tradingview",
+      "highs": 381,
+      "lows": 201
+    },
+    {
+      "date": "2026-06-29",
+      "net": 135,
+      "source": "tradingview",
+      "highs": 287,
+      "lows": 152
+    },
+    {
+      "date": "2026-06-30",
+      "net": 135,
+      "source": "tradingview",
+      "highs": 281,
+      "lows": 146
+    },
+    {
+      "date": "2026-07-01",
+      "net": 309,
+      "source": "tradingview",
+      "highs": 377,
+      "lows": 68
+    },
+    {
+      "date": "2026-07-02",
+      "net": 278,
+      "source": "tradingview",
+      "highs": 326,
+      "lows": 48
+    },
+    {
+      "date": "2026-07-06",
+      "net": 126,
+      "source": "tradingview",
+      "highs": 205,
+      "lows": 79
+    },
+    {
+      "date": "2026-07-07",
+      "net": 107,
+      "source": "tradingview",
+      "highs": 217,
+      "lows": 110
+    },
+    {
+      "date": "2026-07-08",
+      "net": -99,
+      "source": "tradingview",
+      "highs": 58,
+      "lows": 157
+    },
+    {
+      "date": "2026-07-09",
+      "net": 22,
+      "source": "tradingview",
+      "highs": 108,
+      "lows": 86
+    },
+    {
+      "date": "2026-07-10",
+      "net": 21,
+      "source": "tradingview",
+      "highs": 105,
+      "lows": 84
+    },
+    {
+      "date": "2026-07-13",
+      "net": -45,
+      "source": "tradingview",
+      "highs": 109,
+      "lows": 154
+    },
+    {
+      "date": "2026-07-14",
+      "net": -12,
+      "source": "tradingview",
+      "highs": 126,
+      "lows": 138
+    },
+    {
+      "date": "2026-07-15",
+      "net": 35,
+      "source": "tradingview",
+      "highs": 157,
+      "lows": 122
+    },
+    {
+      "date": "2026-07-16",
+      "net": 160,
+      "source": "tradingview",
+      "highs": 319,
+      "lows": 159
+    },
+    {
+      "date": "2026-07-17",
+      "net": 15,
+      "source": "tradingview",
+      "highs": 222,
+      "lows": 207
+    },
+    {
+      "date": "2026-07-20",
+      "net": -102,
+      "source": "tradingview",
+      "highs": 93,
+      "lows": 195
+    },
+    {
+      "date": "2026-07-21",
+      "net": -32,
+      "source": "tradingview",
+      "highs": 92,
+      "lows": 124
+    },
+    {
+      "date": "2026-07-22",
+      "net": -33,
+      "source": "tradingview",
+      "highs": 94,
+      "lows": 127
+    },
+    {
+      "date": "2026-07-23",
+      "net": -143,
+      "source": "tradingview",
+      "highs": 78,
+      "lows": 221
+    },
+    {
+      "date": "2026-07-24",
+      "net": -72,
+      "source": "tradingview",
+      "highs": 147,
+      "lows": 219
+    },
+    {
+      "date": "2026-07-27",
+      "net": 13,
+      "source": "tradingview",
+      "highs": 177,
+      "lows": 164
+    },
+    {
+      "date": "2026-07-28",
+      "net": 100,
+      "source": "tradingview",
+      "highs": 296,
+      "lows": 196
+    },
+    {
+      "date": "2026-07-29",
+      "net": -23,
+      "source": "tradingview",
+      "highs": 218,
+      "lows": 241
+    },
+    {
+      "date": "2026-07-30",
+      "net": -25,
+      "source": "tradingview",
+      "highs": 122,
+      "lows": 147
+    },
+    {
+      "date": "2026-07-31",
+      "net": -59,
+      "source": "tradingview",
+      "highs": 87,
+      "lows": 146
+    },
+    {
+      "date": "2026-08-03",
+      "net": 82,
+      "source": "tradingview",
+      "highs": 179,
+      "lows": 97
+    },
+    {
+      "date": "2026-08-04",
+      "net": 143,
+      "source": "tradingview",
+      "highs": 213,
+      "lows": 70
+    },
+    {
+      "date": "2026-08-05",
+      "net": 115,
+      "source": "tradingview",
+      "highs": 204,
+      "lows": 89
+    },
+    {
+      "date": "2026-08-06",
+      "net": 94,
+      "source": "tradingview",
+      "highs": 193,
+      "lows": 99
+    },
+    {
+      "date": "2026-08-07",
+      "net": 65,
+      "source": "tradingview",
+      "highs": 154,
+      "lows": 89
+    },
+    {
+      "date": "2026-08-10",
+      "net": 50,
+      "source": "tradingview",
+      "highs": 138,
+      "lows": 88
+    },
+    {
+      "date": "2026-08-11",
+      "net": 63,
+      "source": "tradingview",
+      "highs": 152,
+      "lows": 89
+    },
+    {
+      "date": "2026-08-12",
+      "net": 49,
+      "source": "tradingview",
+      "highs": 151,
+      "lows": 102
+    },
+    {
+      "date": "2026-08-13",
+      "net": 125,
+      "source": "tradingview",
+      "highs": 219,
+      "lows": 94
+    },
+    {
+      "date": "2026-08-14",
+      "net": 64,
+      "source": "tradingview",
+      "highs": 153,
+      "lows": 89
+    },
+    {
+      "date": "2026-08-17",
+      "net": 9,
+      "source": "tradingview",
+      "highs": 143,
+      "lows": 134
+    },
+    {
+      "date": "2026-08-18",
+      "net": -33,
+      "source": "tradingview",
+      "highs": 108,
+      "lows": 141
+    },
+    {
+      "date": "2026-08-19",
+      "net": 67,
+      "source": "tradingview",
+      "highs": 164,
+      "lows": 97
+    },
+    {
+      "date": "2026-08-20",
+      "net": -23,
+      "source": "tradingview",
+      "highs": 101,
+      "lows": 124
+    },
+    {
+      "date": "2026-08-21",
+      "net": 44,
+      "source": "tradingview",
+      "highs": 120,
+      "lows": 76
+    },
+    {
+      "date": "2026-08-24",
+      "net": 8,
+      "source": "tradingview",
+      "highs": 121,
+      "lows": 113
+    },
+    {
+      "date": "2026-08-25",
+      "net": 27,
+      "source": "tradingview",
+      "highs": 132,
+      "lows": 105
+    },
+    {
+      "date": "2026-08-26",
+      "net": 1,
+      "source": "tradingview",
+      "highs": 86,
+      "lows": 85
+    },
+    {
+      "date": "2026-08-27",
+      "net": -15,
+      "source": "tradingview",
+      "highs": 92,
+      "lows": 107
+    },
+    {
+      "date": "2026-08-28",
+      "net": -39,
+      "source": "tradingview",
+      "highs": 82,
+      "lows": 121
+    },
+    {
+      "date": "2026-08-31",
+      "net": -132,
+      "source": "tradingview",
+      "highs": 48,
+      "lows": 180
+    },
+    {
+      "date": "2026-09-01",
+      "net": -160,
+      "source": "tradingview",
+      "highs": 57,
+      "lows": 217
+    },
+    {
+      "date": "2026-09-02",
+      "net": -72,
+      "source": "tradingview",
+      "highs": 99,
+      "lows": 171
+    },
+    {
+      "date": "2026-09-03",
+      "net": -10,
+      "source": "tradingview",
+      "highs": 130,
+      "lows": 140
+    },
+    {
+      "date": "2026-09-04",
+      "net": -28,
+      "source": "tradingview",
+      "highs": 84,
+      "lows": 112
+    },
+    {
+      "date": "2026-09-08",
+      "net": -91,
+      "source": "tradingview",
+      "highs": 75,
+      "lows": 166
+    },
+    {
+      "date": "2026-09-09",
+      "net": -196,
+      "source": "tradingview",
+      "highs": 57,
+      "lows": 253
+    },
+    {
+      "date": "2026-09-10",
+      "net": -244,
+      "source": "tradingview",
+      "highs": 67,
+      "lows": 311
+    },
+    {
+      "date": "2026-09-11",
+      "net": -161,
+      "source": "tradingview",
+      "highs": 69,
+      "lows": 230
+    },
+    {
+      "date": "2026-09-14",
+      "net": -183,
+      "source": "tradingview",
+      "highs": 84,
+      "lows": 267
+    },
+    {
+      "date": "2026-09-15",
+      "net": -250,
+      "source": "tradingview",
+      "highs": 92,
+      "lows": 342
+    },
+    {
+      "date": "2026-09-16",
+      "net": -247,
+      "source": "tradingview",
+      "highs": 84,
+      "lows": 331
+    },
+    {
+      "date": "2026-09-17",
+      "net": -95,
+      "source": "tradingview",
+      "highs": 99,
+      "lows": 194
+    },
+    {
+      "date": "2026-09-18",
+      "net": -225,
+      "source": "tradingview",
+      "highs": 54,
+      "lows": 279
+    },
+    {
+      "date": "2026-09-21",
+      "net": -155,
+      "source": "tradingview",
+      "highs": 56,
+      "lows": 211
+    },
+    {
+      "date": "2026-09-22",
+      "net": -93,
+      "source": "tradingview",
+      "highs": 64,
+      "lows": 157
+    },
+    {
+      "date": "2026-09-23",
+      "net": -224,
+      "source": "tradingview",
+      "highs": 61,
+      "lows": 285
+    },
+    {
+      "date": "2026-09-24",
+      "net": -314,
+      "source": "tradingview",
+      "highs": 61,
+      "lows": 375
+    },
+    {
+      "date": "2026-09-25",
+      "net": -212,
+      "source": "tradingview",
+      "highs": 52,
+      "lows": 264
+    },
+    {
+      "date": "2026-09-28",
+      "net": -329,
+      "source": "tradingview",
+      "highs": 40,
+      "lows": 369
+    },
+    {
+      "date": "2026-09-29",
+      "net": -310,
+      "source": "tradingview",
+      "highs": 47,
+      "lows": 357
+    },
+    {
+      "date": "2026-09-30",
+      "net": -269,
+      "source": "tradingview",
+      "highs": 51,
+      "lows": 320
+    },
+    {
+      "date": "2026-10-01",
+      "net": -439,
+      "source": "tradingview",
+      "highs": 38,
+      "lows": 477
+    },
+    {
+      "date": "2026-10-02",
+      "net": -214,
+      "source": "tradingview",
+      "highs": 70,
+      "lows": 284
+    },
+    {
+      "date": "2026-10-05",
+      "net": -231,
+      "source": "tradingview",
+      "highs": 91,
+      "lows": 322
+    },
+    {
+      "date": "2026-10-06",
+      "net": -117,
+      "source": "tradingview",
+      "highs": 92,
+      "lows": 209
+    }
+  ]
+}
