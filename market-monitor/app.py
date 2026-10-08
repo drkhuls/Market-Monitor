@@ -12,6 +12,7 @@ import yfinance as yf
 
 from aaii import aaii_view, ensure_poller, refresh_aaii
 from breadth import calendar_days, holiday_set, load_breadth, load_net_highs, ma_bar_color
+from prices import last_two_closes, repair_daily_frame
 from naaim import (
     STOCKCHARTS_CHART as STOCKCHARTS_CHART_URL,
     backfill_naaim_history,
@@ -112,6 +113,9 @@ def fetch_history(symbol: str, period: str = "6mo") -> pd.DataFrame:
     missing = required - set(frame.columns)
     if missing:
         raise ValueError(f"Incomplete OHLC data for {symbol}: missing {missing}")
+    frame = repair_daily_frame(frame, symbol)
+    if frame.empty:
+        raise ValueError(f"No price data returned for {symbol}.")
     close = frame["Close"]
     frame["EMA10"] = close.ewm(span=10, adjust=False).mean()
     frame["EMA20"] = close.ewm(span=20, adjust=False).mean()
@@ -135,11 +139,11 @@ def fetch_watchlist_quotes(symbols: tuple[str, ...]) -> pd.DataFrame:
     rows = []
     for symbol in symbols:
         close = extract_close_series(raw, symbol, len(symbols))
-        if close is None or close.dropna().shape[0] < 2:
+        pair = None if close is None else last_two_closes(close, symbol)
+        if pair is None:
             rows.append({"Ticker": symbol, "Last": None, "Change %": None})
             continue
-        last = float(close.iloc[-1])
-        prev = float(close.iloc[-2])
+        last, prev = pair
         change_pct = ((last / prev) - 1.0) * 100 if prev else None
         rows.append({"Ticker": symbol, "Last": last, "Change %": change_pct})
     return pd.DataFrame(rows)
@@ -150,15 +154,15 @@ def extract_close_series(raw: pd.DataFrame, symbol: str, symbol_count: int) -> p
         return None
     if symbol_count == 1:
         if "Close" in raw.columns:
-            return raw["Close"].dropna()
+            return raw["Close"]
         return None
     if isinstance(raw.columns, pd.MultiIndex):
         if (symbol, "Close") in raw.columns:
-            return raw[(symbol, "Close")].dropna()
+            return raw[(symbol, "Close")]
         if ("Close", symbol) in raw.columns:
-            return raw[("Close", symbol)].dropna()
+            return raw[("Close", symbol)]
     if "Close" in raw.columns and symbol in getattr(raw["Close"], "columns", []):
-        return raw["Close"][symbol].dropna()
+        return raw["Close"][symbol]
     return None
 
 
@@ -166,6 +170,12 @@ def classify_trend(row: pd.Series) -> tuple[str, str, dict[str, bool]]:
     price = float(row["Close"])
     ema10 = float(row["EMA10"])
     ema20 = float(row["EMA20"])
+    if any(pd.isna(item) for item in (price, ema10, ema20)):
+        return "Use caution", "orange", {
+            "Price above 10 EMA": False,
+            "Price above 20 EMA": False,
+            "10 EMA above 20 EMA": False,
+        }
     above_10 = price > ema10
     above_20 = price > ema20
     ema10_above_ema20 = ema10 > ema20
@@ -191,14 +201,18 @@ def classify_naaim(value: float | None) -> tuple[str, str]:
     return "Neutral", "green"
 
 
+def _missing(value: float | None) -> bool:
+    return value is None or pd.isna(value)
+
+
 def format_price(value: float | None) -> str:
-    if value is None:
+    if _missing(value):
         return "—"
     return f"{value:,.2f}"
 
 
 def format_pct(value: float | None) -> str:
-    if value is None:
+    if _missing(value):
         return "—"
     return f"{value:+.2f}%"
 
@@ -1114,6 +1128,7 @@ def main() -> None:
     render_breadth()
 
     st.subheader("Industry leadership")
+    st.caption("Finviz sector groups. Today, one week, one month, and one quarter.")
     render_sectors()
 
     st.subheader("NAAIM exposure")

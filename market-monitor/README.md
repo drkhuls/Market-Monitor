@@ -2,7 +2,7 @@
 
 Daily trend check for SPY and QQQ, a live watchlist, market breadth, industry leadership, the NAAIM Exposure Index, and the AAII Investor Sentiment Survey.
 
-Prices for SPY, QQQ, the watchlist, and the sector ETFs come from Yahoo Finance. The latest daily bar is the current session, so the 1-day industry chart moves through the day. Yahoo is usually about 15 minutes behind the tape.
+Prices for SPY, QQQ, and the watchlist come from Yahoo Finance. If today's daily bar is blank, the monitor fills it from the live quote so the card and the candle use today's session instead of yesterday. Industry leadership uses the Finviz sector groups: today's change, the week, the month, and the quarter.
 
 The percent of S&P 500 stocks above the 5, 20, 50, and 200 day averages comes from TradingView. Bars are blue from 25% through 75%, and red below 25% or above 75%.
 
