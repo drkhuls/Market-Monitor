@@ -33,7 +33,11 @@ TREND_SYMBOLS = [
     ("QQQ", "QQQ"),
 ]
 RIGHT_BLANK_RATIO = 0.23
-CHART_PERIODS = {"1M": "1mo", "3M": "3mo", "6M": "6mo", "1Y": "1y"}
+CHART_RANGES = {"1M": 1, "3M": 3, "6M": 6, "1Y": 12}
+# Two years leaves a full 50-session window before the one-month view starts.
+CHART_HISTORY_PERIOD = "2y"
+LEFT_CHART_PRESETS = [("SPY", "SPY"), ("RSP", "RSP")]
+RIGHT_CHART_PRESETS = [("QQQ", "QQQ"), ("QQE", "QQQE")]
 
 
 def ensure_data_dir() -> None:
@@ -119,7 +123,19 @@ def fetch_history(symbol: str, period: str = "6mo") -> pd.DataFrame:
     close = frame["Close"]
     frame["EMA10"] = close.ewm(span=10, adjust=False).mean()
     frame["EMA20"] = close.ewm(span=20, adjust=False).mean()
+    frame["SMA50"] = close.rolling(window=50, min_periods=50).mean()
     return frame
+
+
+def slice_chart_window(frame: pd.DataFrame, range_label: str) -> pd.DataFrame:
+    months = CHART_RANGES[range_label]
+    start = frame.index[-1] - pd.DateOffset(months=months)
+    visible = frame.loc[frame.index >= start]
+    return visible if not visible.empty else frame
+
+
+def load_chart_frame(symbol: str, range_label: str) -> pd.DataFrame:
+    return slice_chart_window(fetch_history(symbol, CHART_HISTORY_PERIOD), range_label)
 
 
 @st.cache_data(ttl=180, show_spinner=False)
@@ -255,8 +271,8 @@ def tradingview_candles(frame: pd.DataFrame, title: str) -> go.Figure:
             low=frame["Low"],
             close=frame["Close"],
             name=title,
-            increasing={"line": {"color": "#089981"}, "fillcolor": "#089981"},
-            decreasing={"line": {"color": "#f23645"}, "fillcolor": "#f23645"},
+            increasing={"line": {"color": "#000000", "width": 1}, "fillcolor": "rgba(0,0,0,0)"},
+            decreasing={"line": {"color": "#000000", "width": 1}, "fillcolor": "#000000"},
         )
     )
     fig.add_trace(
@@ -275,6 +291,15 @@ def tradingview_candles(frame: pd.DataFrame, title: str) -> go.Figure:
             name="EMA 20",
             mode="lines",
             line={"color": "#2962ff", "width": 1.6},
+        )
+    )
+    fig.add_trace(
+        go.Scatter(
+            x=frame.index,
+            y=frame["SMA50"],
+            name="SMA 50",
+            mode="lines",
+            line={"color": "#16a34a", "width": 1.6},
         )
     )
     xaxis: dict = {"rangeslider": {"visible": False}, "showgrid": True, "gridcolor": "#ececec"}
@@ -1089,6 +1114,39 @@ def render_aaii() -> None:
     )
 
 
+def render_price_chart(side: str, presets: list[tuple[str, str]], default_symbol: str) -> None:
+    ticker_key = f"{side}_ticker"
+    if ticker_key not in st.session_state:
+        st.session_state[ticker_key] = default_symbol
+
+    button_row = st.columns([1, 1, 3])
+    for column, (label, yahoo_symbol) in zip(button_row, presets):
+        if column.button(label, key=f"{side}_preset_{label}", width="stretch"):
+            st.session_state[ticker_key] = yahoo_symbol
+            st.rerun()
+    symbol = button_row[2].text_input(
+        "Ticker",
+        key=ticker_key,
+        placeholder="Ticker",
+        autocomplete="off",
+    ).strip().upper()
+    range_label = st.radio(
+        "Range",
+        list(CHART_RANGES),
+        index=1,
+        horizontal=True,
+        key=f"{side}_range",
+    )
+    if not symbol:
+        st.info("Enter a ticker.")
+        return
+    try:
+        frame = load_chart_frame(symbol, range_label)
+        st.plotly_chart(tradingview_candles(frame, symbol), width="stretch", key=f"{side}_figure")
+    except Exception as exc:
+        st.error(f"Could not draw {symbol}: {exc}")
+
+
 def main() -> None:
     st.set_page_config(page_title="Market Monitor", layout="wide")
     inject_css()
@@ -1135,18 +1193,15 @@ def main() -> None:
     render_naaim()
     render_aaii()
 
-    st.subheader("SPY and QQQ charts")
-    st.caption("White TradingView-style candles with 10 EMA in red and 20 EMA in blue. Charts open on 3 months.")
-    period_label = st.radio("Chart range", list(CHART_PERIODS.keys()), index=1, horizontal=True)
-    period = CHART_PERIODS[period_label]
+    st.subheader("Price charts")
+    st.caption(
+        "Each chart has its own range and ticker. Up candles are hollow with a black outline, down candles are solid black, the 10 EMA is red, the 20 EMA is blue, and the 50-day average is green."
+    )
     left, right = st.columns(2)
-    for column, symbol in zip((left, right), ("SPY", "QQQ")):
-        with column:
-            try:
-                frame = fetch_history(symbol, period)
-                st.plotly_chart(tradingview_candles(frame, symbol), width="stretch")
-            except Exception as exc:
-                st.error(f"Could not draw {symbol}: {exc}")
+    with left:
+        render_price_chart("left", LEFT_CHART_PRESETS, "SPY")
+    with right:
+        render_price_chart("right", RIGHT_CHART_PRESETS, "QQQ")
 
 
 if __name__ == "__main__":
