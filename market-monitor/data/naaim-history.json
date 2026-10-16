@@ -1,7 +1,7 @@
 {
   "notes": "Permanent archive of NAAIM Exposure Index readings. The monitor table shows only the last 12 months. Do not delete rows when they age off the table.",
   "source": "https://index.naaim.org/embeddable/table",
-  "updatedAt": "2026-09-27T20:53:29.851483+00:00",
+  "updatedAt": "2026-10-16T03:06:24.405067+00:00",
   "readings": [
     {
       "date": "2023-12-27",
@@ -1442,6 +1442,39 @@
       "quartile3": 100.0,
       "mostBullish": 200.0,
       "deviation": 43.91,
+      "source": "naaim.org"
+    },
+    {
+      "date": "2026-07-01",
+      "exposure": 84.69,
+      "mostBearish": 0.0,
+      "quartile1": 63.75,
+      "median": 96.5,
+      "quartile3": 100.0,
+      "mostBullish": 200.0,
+      "deviation": 54.64,
+      "source": "naaim.org"
+    },
+    {
+      "date": "2026-07-08",
+      "exposure": 82.95,
+      "mostBearish": -50.0,
+      "quartile1": 67.5,
+      "median": 98.0,
+      "quartile3": 100.0,
+      "mostBullish": 200.0,
+      "deviation": 58.71,
+      "source": "naaim.org"
+    },
+    {
+      "date": "2026-07-15",
+      "exposure": 95.64,
+      "mostBearish": -25.0,
+      "quartile1": 90.0,
+      "median": 100.0,
+      "quartile3": 100.0,
+      "mostBullish": 200.0,
+      "deviation": 47.97,
       "source": "naaim.org"
     }
   ]

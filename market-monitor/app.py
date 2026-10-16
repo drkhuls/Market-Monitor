@@ -37,7 +37,7 @@ CHART_RANGES = {"1M": 1, "3M": 3, "6M": 6, "1Y": 12}
 # Two years leaves a full 50-session window before the one-month view starts.
 CHART_HISTORY_PERIOD = "2y"
 LEFT_CHART_PRESETS = [("SPY", "SPY"), ("RSP", "RSP")]
-RIGHT_CHART_PRESETS = [("QQQ", "QQQ"), ("QQE", "QQQE")]
+RIGHT_CHART_PRESETS = [("QQQ", "QQQ"), ("QQQE", "QQQE")]
 
 
 def ensure_data_dir() -> None:

@@ -18,6 +18,10 @@ CSV_FIELDS = ["date", "value", "source", "fetched_at"]
 
 STOCKCHARTS_HTML = "https://stockcharts.com/freecharts/symbolsummary.html?s=!NAAIM"
 STOCKCHARTS_JSON = "https://stockcharts.com/j-sum/sum?cmd=symsum&symbol=!NAAIM"
+STOCKCHARTS_SYMBOL = (
+    "https://stockcharts.com/json/data?cmd=get-symbol-data&symbols=!NAAIM"
+    "&optionalFields=symbolsummary&src=freecharts-symbol-summary"
+)
 STOCKCHARTS_CHART = "https://stockcharts.com/h-sc/ui?s=!NAAIM"
 MACROMICRO_HTML = (
     "https://en.macromicro.me/collections/9/us-stock-relative/447/us-naaim-exposure-index"
@@ -136,6 +140,45 @@ def scrape_stockcharts_html(session: requests.Session | None = None) -> dict[str
     return _valid_reading(value, as_of, "stockcharts_html")
 
 
+def scrape_stockcharts_symbol(session: requests.Session | None = None) -> dict[str, Any] | None:
+    """Read the symbol summary the StockCharts !NAAIM page loads."""
+    session = session or _session()
+    response = session.get(
+        STOCKCHARTS_SYMBOL,
+        timeout=20,
+        headers={"Referer": STOCKCHARTS_HTML},
+    )
+    response.raise_for_status()
+    payload = response.json()
+    symbols = payload.get("symbols") if isinstance(payload, dict) else None
+    if not symbols:
+        return None
+    quote = (symbols[0].get("perfSummaryQuote") or {}) if isinstance(symbols[0], dict) else {}
+    current = quote.get("endOfDay") or quote.get("now") or {}
+    reading = _valid_reading(
+        _parse_number(current.get("price")),
+        _parse_date(str(current.get("date") or "")[:10]),
+        "stockcharts",
+    )
+    if reading is None:
+        return None
+    previous = quote.get("oneWeek") or {}
+    previous_date = _parse_date(str(previous.get("date") or "")[:10])
+    previous_reading = _valid_reading(
+        _parse_number(previous.get("price")),
+        previous_date,
+        "stockcharts",
+    )
+    if (
+        previous_reading
+        and previous_date is not None
+        and previous_date.weekday() == 3
+        and previous_reading["date"] != reading["date"]
+    ):
+        reading["prior"] = previous_reading
+    return reading
+
+
 def scrape_stockcharts_quote(session: requests.Session | None = None) -> dict[str, Any] | None:
     """Read the public StockCharts quote used by the !NAAIM tracking page."""
     session = session or _session()
@@ -181,8 +224,9 @@ def fetch_latest_naaim() -> dict[str, Any]:
     session = _session()
     errors: list[str] = []
     scrapers = (
-        scrape_stockcharts_html,
+        scrape_stockcharts_symbol,
         scrape_stockcharts_quote,
+        scrape_stockcharts_html,
         scrape_macromicro_html,
     )
     for scraper in scrapers:
@@ -253,6 +297,9 @@ def refresh_sentiment(force: bool = False, path: Path = SENTIMENT_CSV) -> dict[s
         if latest:
             return latest
     reading = fetch_latest_naaim()
+    prior = reading.pop("prior", None)
+    if isinstance(prior, dict):
+        save_sentiment_reading(prior, path)
     return save_sentiment_reading(reading, path)
 
 
